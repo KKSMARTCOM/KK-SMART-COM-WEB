@@ -1,0 +1,386 @@
+.article-text-content .simple-text h6:first-child {
+  margin-top: 0;
+}
+
+.article-text-content .simple-text a {
+  color: #FF0062;
+}
+.article-text-content .simple-text a:hover {
+  text-decoration: underline;
+}
+
+.article_tag a.tag:hover {
+  opacity: 1 !important;
+  background: #1F2122 !important;
+  color: white !important;
+}
+
+.btn-arrow-block-container {
+  margin-top: 34px;
+  margin-bottom: -45px;
+}
+
+.btn-with-arrow-wrap {
+  position: relative;
+}
+.btn-with-arrow-wrap:before {
+  content: "";
+  width: 150px;
+  height: 40px;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/anar.svg") no-repeat right;
+  background-size: contain;
+  position: absolute;
+  right: 100%;
+  top: calc(100% - 40px);
+}
+.btn-with-arrow-wrap .circle-btn {
+  width: 184px;
+  height: 184px;
+  overflow: unset;
+}
+.btn-with-arrow-wrap .circle-btn.lime {
+  background: #FBBC05;
+  border-color: transparent;
+  border: none;
+}
+.btn-with-arrow-wrap .circle-btn.lime:hover {
+  border-color: transparent;
+  border: none;
+}
+
+.share-block p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.article-section {
+  padding: 160px 0 120px;
+}
+.article-section .article-content-wrap {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+}
+.article-section .article-content-wrap .article-sticky-content {
+  width: calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+}
+.article-section .article-content-wrap .article-sticky-content .top-bar {
+  position: sticky;
+  top: 100px;
+  margin-bottom: 364px;
+  transition: 0.2s;
+}
+.article-section .article-content-wrap .article-sticky-content .top-bar.btm {
+  margin-bottom: 200px;
+}
+.article-section .article-content-wrap .article-sticky-content .article-authors-wrap {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.article-section .article-content-wrap .article-sticky-content .separator {
+  height: 1px;
+  background: #D9D9D9;
+  margin: 20px 0;
+}
+.article-section .article-content-wrap .article-text-content {
+  width: calc(50% - 20px);
+}
+.article-section .article-content-wrap .article-text-content .simple-text p {
+  margin: 9px 0;
+}
+.article-section .article-content-wrap .article-text-content .simple-text h6 + p {
+  margin-top: 14px;
+}
+.article-section .article-content-wrap .article-text-content img {
+  height: auto;
+  width: 100%;
+}
+
+.article-text-content picture, .article-text-content video {
+  width: 100%;
+}
+
+.article-text-content picture + picture, .article-text-content video + video, .article-text-content picture + video, .article-text-content video + picture {
+  margin-top: 24px;
+}
+
+.article-text-content .simple-text {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.article-text-content .simple-text:last-of-type {
+  margin-bottom: 0;
+}
+
+.article-text-content .simple-text .section-title {
+  margin-bottom: 24px;
+}
+
+.article-text-content .simple-text h6 {
+  margin-top: 40px;
+}
+
+.article-cta {
+  padding: 32px 40px;
+  position: relative;
+}
+
+.article-cta img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: unset !important;
+}
+
+.article-cta .main-btn {
+  background: #FBBC05;
+  color: black;
+  margin-top: 24px;
+}
+
+.article-cta .section-title b {
+  position: relative;
+}
+
+.article-cta .section-title b:after {
+  content: "";
+  width: 30px;
+  height: 40px;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/awards/v.svg") no-repeat center right;
+  background-size: contain;
+  position: absolute;
+  top: -20px;
+  left: 100%;
+}
+
+.article-cta .section-title strong {
+  color: #FBBC05;
+  position: relative;
+}
+.article-cta .section-title strong:after {
+  content: "";
+  width: 100%;
+  top: 85%;
+  left: 0;
+  position: absolute;
+  height: 10px;
+  background: url("../img/awards/line-lime.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.share-buttons .socs-wrap .socs {
+  margin-top: 5px;
+}
+
+.share-buttons .socs-wrap .socs a {
+  border: 1px solid black;
+  background: transparent;
+  margin-right: 0;
+}
+
+.share-buttons .socs-wrap .socs a img {
+  filter: invert(1);
+  transition: 0.2s;
+  width: 20px;
+  height: 20px;
+}
+
+.share-buttons .socs-wrap .socs a:hover img {
+  filter: invert(0);
+}
+
+@media (min-width: 992px) {
+  .screen2 .flex-cases {
+    margin-top: 32px !important;
+  }
+}
+@media (max-width: 1330px) {
+  .article-section .article-content-wrap .article-sticky-content .top-bar {
+    margin-bottom: 80px;
+  }
+
+  .btn-with-arrow-wrap:before {
+    content: "";
+    width: 150px;
+    height: 40px;
+    background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/va.svg") no-repeat left;
+    background-size: contain;
+    position: absolute;
+    right: unset;
+    left: 184px;
+    top: calc(100% - 40px);
+  }
+  .btn-with-arrow-wrap .circle-btn {
+    width: 184px;
+    height: 184px;
+  }
+}
+@media (max-width: 1110px) {
+  .simple-text p {
+    line-height: 171% !important;
+  }
+
+  .article-content-wrap {
+    padding-bottom: 228px;
+    position: relative;
+  }
+  .article-content-wrap .btn-arrow-block-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+  }
+
+  .btn-with-arrow-wrap {
+    margin-top: 0;
+  }
+  .btn-with-arrow-wrap:before {
+    content: "";
+    width: 150px;
+    height: 40px;
+    background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/va.svg") no-repeat left;
+    background-size: contain;
+    position: absolute;
+    right: unset;
+    left: 184px;
+    top: calc(100% - 40px);
+  }
+  .btn-with-arrow-wrap .circle-btn {
+    width: 184px;
+    height: 184px;
+  }
+
+  .article-section {
+    padding: 142px 0 64px;
+    position: static !important;
+  }
+  .article-section .article-content-wrap {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article-section .article-content-wrap .article-sticky-content {
+    width: 100%;
+    display: block;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article-section .article-content-wrap .article-sticky-content .top-bar {
+    position: sticky;
+    top: 100px;
+    margin-bottom: 0;
+  }
+  .article-section .article-content-wrap .article-sticky-content .top-bar.btm {
+    margin-bottom: 0;
+  }
+  .article-section .article-content-wrap .article-sticky-content .article-authors-wrap {
+    margin-top: 0;
+    margin-bottom: 18px;
+  }
+  .article-section .article-content-wrap .article-sticky-content .separator {
+    height: 1px;
+    background: #D9D9D9;
+    margin: 20px 0;
+  }
+  .article-section .article-content-wrap .article-text-content {
+    width: 100%;
+    margin-top: 40px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .article-text-content picture, .article-text-content video {
+    width: 100%;
+  }
+
+  .article-text-content .video-wrap1 {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    max-width: unset;
+  }
+
+  .article-section .article-content-wrap .article-text-content picture img {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    max-width: unset;
+  }
+
+  .article-text-content picture + picture, .article-text-content video + video, .article-text-content picture + video, .article-text-content video + picture {
+    margin-top: 24px;
+  }
+
+  .article-text-content .simple-text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .article-text-content .simple-text:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .article-text-content .simple-text .section-title {
+    margin-bottom: 24px;
+  }
+
+  .article-text-content .simple-text h6 {
+    margin-top: 40px;
+  }
+
+  .article-cta {
+    padding: 20px;
+    position: relative;
+  }
+
+  .article-cta img {
+    height: auto;
+    position: static;
+    width: calc(100% + 40px) !important;
+    margin-left: -20px;
+    margin-bottom: -20px;
+    display: block;
+    margin-top: 32px;
+    max-width: unset;
+  }
+
+  .article-cta .main-btn {
+    background: #FBBC05;
+    color: black;
+    margin-top: 24px;
+  }
+
+  .article-cta .section-title b {
+    position: relative;
+  }
+
+  .article-cta .section-title strong {
+    color: #FBBC05;
+    position: relative;
+  }
+  .article-cta .section-title strong:after {
+    content: "";
+    width: 100%;
+    top: 85%;
+    left: 0;
+    position: absolute;
+    height: 10px;
+    background: url("../img/awards/line-lime.png") no-repeat center;
+    background-size: 100% 100%;
+  }
+
+  .share-buttons .socs-wrap {
+    margin-top: 5px;
+  }
+
+  .share-buttons .socs-wrap .socs {
+    margin-top: 5px;
+  }
+}
