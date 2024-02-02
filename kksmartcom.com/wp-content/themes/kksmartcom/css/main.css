@@ -4387,7 +4387,7 @@ a.tag span {
     font-size: 16px;
     font-weight: 600;
     line-height: 125%;
-    /* 20px */
+    color: black;
 }
 
 .footer .footer-top .left .locations .address .location p {
@@ -4397,6 +4397,7 @@ a.tag span {
     /* 18.76px */
     letter-spacing: -0.28px;
     margin-top: 6px;
+    color: black;
 }
 
 @media (max-width: 992px) {
