@@ -104,8 +104,8 @@ h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
 		<TR>
 			<TD BACKGROUND="fade.gif">
 				&middot;
-					<A HREF="phenomenonstudio.com/index.html">
-						Full service studio for both startups and established businesses - Phenomenon
+					<A HREF="kksmartcom.com/index.html">
+						Full service studio for both startups and established businesses - KK SMART COM
 					</A>		
 			</TD>
 		</TR>
@@ -118,7 +118,7 @@ h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
 	</H6>
 	<!-- Mirror and index made by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
 	<!-- Thanks for using HTTrack Website Copier! -->
-	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=phenomenonstudio.com/index.html">
+	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=kksmartcom.com/index.html">
 
 
 <!-- ==================== Start epilogue ==================== -->
