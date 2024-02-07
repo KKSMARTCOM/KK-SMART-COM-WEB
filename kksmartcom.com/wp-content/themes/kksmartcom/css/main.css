@@ -3613,7 +3613,8 @@ a.line-animation.email:hover img {
     z-index: 1;
     line-height: 85%;
     font-feature-settings: 'pnum' on, 'lnum' on;
-    pointer-events: none
+    pointer-events: none;
+    font-family: montserrat
 }
 
 .screen1 h1 span.line,
@@ -3769,6 +3770,24 @@ a.line-animation.email:hover img {
     height: 40px;
     border-radius: 20px;
     background: #4285F4;
+    text-decoration: none;
+    color: #FFFEFD;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s;
+    padding: 0 16px;
+    position: relative;
+    overflow: hidden;
+    user-select: none
+}
+
+#btnservices {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 20px;
+    background: #FF0062;
     text-decoration: none;
     color: #FFFEFD;
     font-size: 14px;
@@ -4162,7 +4181,7 @@ a.tag span {
 }
 
 .screen3 {
-    padding: 80px 0
+    padding: 40px 0
 }
 
 .screen3 .flex-row {
@@ -4359,10 +4378,9 @@ a.tag span {
     align-items: center;
     justify-content: flex-start;
     color: #1F2122;
-    font-size: 14px;
     font-weight: 600;
     line-height: 100%;
-    /* 14px */
+    font-size: 14px;
     transition: 0.2s;
 }
 
@@ -4380,10 +4398,16 @@ a.tag span {
 }
 
 .footer .footer-top .left .locations .address .location {
-    width: calc(100% - 26px);
+    width: calc(100% - 0px);
 }
 
 .footer .footer-top .left .locations .address .location span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 125%;
+    color: black;
+}
+.footer .footer-top .left .locations .address .location #btntel {
     font-size: 16px;
     font-weight: 600;
     line-height: 125%;
@@ -4560,8 +4584,8 @@ a.tag span {
     background: #0058FC
 }
 
-.socs-wrap .socs a.dribble:before {
-    background: #E94C87
+.socs-wrap .socs a.comeup:before {
+    background: #ffee66
 }
 
 .socs-wrap .socs a.medium:before {

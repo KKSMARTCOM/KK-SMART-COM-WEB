@@ -3,13 +3,13 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>https://phenomenonstudio.com/</homePageLink>
+		<homePageLink>https://kksmartcom.com/</homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="https://phenomenonstudio.com/xmlrpc.php" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://phenomenonstudio.com/xmlrpc.php" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://phenomenonstudio.com/xmlrpc.php" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="https://phenomenonstudio.com/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="https://phenomenonstudio.com/wp-json/" />
+			<api name="WordPress" blogID="1" preferred="true" apiLink="https://kksmartcom.com/xmlrpc.php" />
+			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://kksmartcom.com/xmlrpc.php" />
+			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://kksmartcom.com/xmlrpc.php" />
+			<api name="Blogger" blogID="1" preferred="false" apiLink="https://kksmartcom.com/xmlrpc.php" />
+				<api name="WP-API" blogID="1" preferred="false" apiLink="https://kksmartcom.com/wp-json/" />
 			</apis>
 	</service>
 </rsd>

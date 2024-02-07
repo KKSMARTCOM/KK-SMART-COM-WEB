@@ -2598,8 +2598,8 @@ h1.section-heading {
 }
 
 .na6.main_contacs_screen {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 0px;
+  padding-bottom: 80px;
   min-height: unset;
 }
 .na6.main_contacs_screen .socs-wrap .socs {
