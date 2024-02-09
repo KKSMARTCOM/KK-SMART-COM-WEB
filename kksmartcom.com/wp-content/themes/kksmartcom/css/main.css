@@ -3607,14 +3607,14 @@ a.line-animation.email:hover img {
 .screen1 h1,
 .screen1 .h1 {
     font-size: 90px;
-    font-weight: 700;
+    font-weight: 900;
     display: inline-block;
     position: relative;
     z-index: 1;
     line-height: 85%;
     font-feature-settings: 'pnum' on, 'lnum' on;
     pointer-events: none;
-    font-family: montserrat
+    /* font-family: montserrat */
 }
 
 .screen1 h1 span.line,
@@ -4405,6 +4405,12 @@ a.tag span {
     font-size: 16px;
     font-weight: 600;
     line-height: 125%;
+    color: #1F2122;
+}
+.footer .footer-top .left .locations .address .location #lienrapide {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 125%;
     color: black;
 }
 .footer .footer-top .left .locations .address .location #btntel {
@@ -4585,7 +4591,7 @@ a.tag span {
 }
 
 .socs-wrap .socs a.comeup:before {
-    background: #ffee66
+    background: #f7e131
 }
 
 .socs-wrap .socs a.medium:before {
@@ -4605,7 +4611,7 @@ a.tag span {
 }
 
 .socs-wrap .socs a.twitter:before {
-    background: #18A1EF
+    background: black
 }
 
 .socs-wrap .socs a.whatsapp:before {

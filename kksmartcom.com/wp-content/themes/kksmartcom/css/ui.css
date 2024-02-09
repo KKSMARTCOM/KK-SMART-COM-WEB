@@ -2623,6 +2623,11 @@ h1.section-heading {
   color: white !important;
 }
 
+
+.footer-new + .footer-wrap .footer {
+    padding: 32px 0 24px;
+}
+
 .footer-new + .footer-wrap .footer .bottom p {
   color: #1F2122 !important;
 }
@@ -2685,7 +2690,8 @@ h1.section-heading {
   display: none;
 }
 .footer-new + .footer-wrap .footer .section-subheading {
-  color: #1F2122;
+ /*  color: #1F2122; */
+  color: black;
 }
 .footer-new + .footer-wrap .footer .bottom p {
   opacity: 1;
@@ -4348,9 +4354,6 @@ h1.section-heading {
     margin-bottom: 0;
   }
 
-  /* .footer-new + .footer-wrap .footer {
-    padding: 32px 0 24px;
-  } */
   .footer-new + .footer-wrap .footer:after {
     content: "";
     width: 168px;

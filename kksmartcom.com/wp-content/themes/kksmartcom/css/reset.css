@@ -177,7 +177,7 @@ a:not([class]) {
     text-decoration-skip-ink: auto
 }
 a{
-    color: black;
+    color: #1F2122;
 }
 
 img {
