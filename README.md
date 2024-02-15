@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="" id="html" translate="no">
+
 <head>
 	<meta name="google" content="notranslate">
 	<meta charset="utf-8">
@@ -8,23 +9,25 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&amp;display=swap"
+	<link rel="preload"
+		href="https://fonts.googleapis.com/css2?family=Montserrat Light:wght@400;500;600;700&amp;display=swap"
 		as="style" onload="this.onload=null;this.rel='stylesheet'" />
 	<noscript>
-		<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&amp;display=swap"
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat Light:wght@400;500;600;700&amp;display=swap"
 			rel="stylesheet" type="text/css" />
 	</noscript>
+
 	<title>KK SMART COM</title>
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-	<!-- This site is optimized with the Yoast SEO Premium plugin v18.3 (Yoast SEO v20.0) - https://yoast.com/wordpress/plugins/seo/ -->
+
 	<meta name="description"
-		content="kksmartcom is a digital product studio bolstering a core team of world-class designers, developers, and a flexible network of multi-specialized talent." />
+		content="KK SMART COM est une entreprise de communication générale renforçant une équipe de base composée de concepteurs et de développeurs de classe mondiale et d'un réseau flexible de talents multi-spécialisés." />
 	<link rel="canonical" href="index.html" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Full service studio for both startups and established businesses - kksmartcom" />
+	<meta property="og:title" content="Nous fournissons un service complet pour les startups et les entreprises établies - KK SMART COM" />
 	<meta property="og:description"
-		content="kksmartcom is a digital product studio bolstering a core team of world-class designers, developers, and a flexible network of multi-specialized talent." />
+		content="KK SMART COM est une entreprise de communication générale renforçant une équipe de base composée de concepteurs et de développeurs de classe mondiale et d'un réseau flexible de talents multi-spécialisés." />
 	<meta property="og:url" content="index.html" />
 	<meta property="og:site_name" content="kksmartcom" />
 	<meta property="article:modified_time" content="2022-09-14T14:25:39+00:00" />
@@ -34,8 +37,9 @@
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<script type="application/ld+json"
-		class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kksmartcom.com/","url":"https://kksmartcom.com/","name":"Full service studio for both startups and established businesses - kksmartcom","isPartOf":{"@id":"https://kksmartcom.com/#website"},"primaryImageOfPage":{"@id":"https://kksmartcom.com/#primaryimage"},"image":{"@id":"https://kksmartcom.com/#primaryimage"},"thumbnailUrl":"https://kksmartcom.com/wp-content/uploads/2021/10/Cover-1-6-scaled.jpg","datePublished":"2021-09-02T07:30:18+00:00","dateModified":"2022-09-14T14:25:39+00:00","description":"kksmartcom is a digital product studio bolstering a core team of world-class designers, developers, and a flexible network of multi-specialized talent.","breadcrumb":{"@id":"https://kksmartcom.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kksmartcom.com/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kksmartcom.com/#primaryimage","url":"https://kksmartcom.com/wp-content/uploads/2021/10/Cover-1-6-scaled.jpg","contentUrl":"https://kksmartcom.com/wp-content/uploads/2021/10/Cover-1-6-scaled.jpg","width":"2560","height":"1344"},{"@type":"BreadcrumbList","@id":"https://kksmartcom.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://kksmartcom.com/#website","url":"https://kksmartcom.com/","name":"kksmartcom","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kksmartcom.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
-	<!-- / Yoast SEO Premium plugin. -->
+		class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kksmartcom.com/","url":"https://kksmartcom.com/","name":"Nous fournissons un service complet pour les startups et les entreprises établies - KK SMART COM","isPartOf":{"@id":"https://kksmartcom.com/#website"},"primaryImageOfPage":{"@id":"https://kksmartcom.com/#primaryimage"},"image":{"@id":"https://kksmartcom.com/#primaryimage"},"thumbnailUrl":"https://kksmartcom.com/wp-content/uploads/2021/10/Cover-1-6-scaled.jpg","datePublished":"2021-09-02T07:30:18+00:00","dateModified":"2022-09-14T14:25:39+00:00","description":"kksmartcom is a digital product studio bolstering a core team of world-class designers, developers, and a flexible network of multi-specialized talent.","breadcrumb":{"@id":"https://kksmartcom.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kksmartcom.com/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kksmartcom.com/#primaryimage","url":"https://kksmartcom.com/wp-content/uploads/2021/10/Cover-1-6-scaled.jpg","contentUrl":"https://kksmartcom.com/wp-content/uploads/2021/10/Cover-1-6-scaled.jpg","width":"2560","height":"1344"},{"@type":"BreadcrumbList","@id":"https://kksmartcom.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://kksmartcom.com/#website","url":"https://kksmartcom.com/","name":"kksmartcom","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kksmartcom.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+
+
 	<link rel='dns-prefetch' href='http://ajax.googleapis.com/' />
 	<link rel="https://api.w.org/" href="wp-json/index.html" />
 	<link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/59.json" />
@@ -55,30 +59,36 @@
 	<script>
 		black_bg = "wp-content/themes/kksmartcom/img/black-bg.png";
 		other_bg = "wp-content/themes/kksmartcom/img/bg.png";
+
 	</script>
 	<style>
 		body * {
-			font-family: Syne;
+			font-family: Montserrat Light;
 			font-feature-settings: 'pnum' on, 'lnum' on;
 		}
+
 		.wrap {
 			margin: 0 auto;
 			width: 100%;
 			max-width: 1330px;
 			padding: 0 15px;
 		}
+
 		.black-background {
 			background-image: url(wp-content/themes/kksmartcom/img/black-bg.png);
 		}
+
 		.white-background,
 		.gray-background,
 		.lime-background,
 		.orange-background {
 			background-image: url(https://kksmartcom.com/wp-content/themes/kksmartcom/img/bg.png);
 		}
+
 		img {
 			aspect-ratio: attr(width)/attr(height)
 		}
+
 		.bottom-divider {
 			position: absolute;
 			border-top: 2px solid #414243;
@@ -94,6 +104,7 @@
 			transition: 0.7s;
 			transition-delay: 0.2s
 		}
+
 		.pace {
 			display: none !important;
 			position: absolute;
@@ -103,6 +114,7 @@
 			height: 1px;
 			z-index: -1
 		}
+
 		.page-preloader {
 			height: 100vh;
 			color: white;
@@ -122,6 +134,7 @@
 			left: 0;
 			width: 100%
 		}
+
 		.page-preloader.active {
 			animation-name: loader;
 			animation-iteration-count: 1;
@@ -130,40 +143,49 @@
 			animation-fill-mode: forwards;
 			animation-delay: 0.5s
 		}
+
 		.page-preloader.active .bottom-divider {
 			height: 100%
 		}
+
 		@keyframes loader {
 			0% {
 				height: 100vh
 			}
+
 			100% {
 				height: 0;
 				display: none
 			}
 		}
+
 		.preloader-wrap span {
 			font-size: 200px;
 			margin-left: 20px;
 			line-height: 100%
 		}
+
 		.preloader-wrap sup {
 			display: inline-block;
 			vertical-align: top;
 			margin-left: 5px
 		}
+
 		.preloader-wrap sup img {
 			width: 25px
 		}
+
 		.header {
 			border-bottom: 1px solid transparent
 		}
+
 		@media (min-width: 1110px) {
 			.header.mini {
 				padding: 12px 0 !important;
 				border-bottom: 1px solid #D9D9D9
 			}
 		}
+
 		.view,
 		.hidd_block {
 			opacity: 0;
@@ -171,35 +193,42 @@
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden
 		}
+
 		.logo svg {
 			display: block
 		}
+
 		.viewed {
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
 			opacity: 1;
 			visibility: visible
 		}
+
 		.view.textslide {
 			visibility: hidden;
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
 			opacity: 0
 		}
+
 		.viewed.textslide {
 			visibility: visible;
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
 			opacity: 0
 		}
+
 		.fadein {
 			opacity: 0
 		}
+
 		.hidden-block.active {
 			opacity: 1;
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden
 		}
+
 		h1 i,
 		.section-heading i,
 		.one i,
@@ -210,19 +239,24 @@
 		.section-subheading:not(.notme) i {
 			opacity: 0
 		}
+
 		.contacts-screen1 form .serv-wrap label input:checked+span::before {
 			clip-path: circle(100% at 50% 50%)
 		}
+
 		.wls li {
 			overflow: hidden
 		}
+
 		.wls li span.a-line {
 			display: inline-block;
 			overflow: hidden
 		}
+
 		.wls li span.a-line {
 			overflow: hidden !important
 		}
+
 		.wls li span.a-line span {
 			opacity: 1;
 			transform: translate3d(0, 100%, 0);
@@ -231,6 +265,7 @@
 			display: block;
 			line-height: 105%
 		}
+
 		h1.view:not(.done) span.a-line,
 		.section-heading.view:not(.line-animation) span.a-line,
 		h2.view span.a-line,
@@ -242,6 +277,7 @@
 			-webkit-backface-visibility: hidden;
 			margin: -1% 0 -1% -5px
 		}
+
 		h1.viewed:not(.done) span.a-line,
 		.section-heading.viewed:not(.line-animation) span.a-line,
 		h2.viewed span.a-line,
@@ -255,6 +291,7 @@
 			opacity: 1;
 			margin: -1% 0 -1% -5px
 		}
+
 		h1.viewed:not(.done) span.a-line span,
 		.section-heading.viewed:not(.line-animation) span.a-line span,
 		h2.viewed span.a-line span,
@@ -265,6 +302,7 @@
 			display: block;
 			line-height: 105%
 		}
+
 		h1.viewed:not(.done).active span.a-line span,
 		.section-heading.viewed:not(.line-animation).active span.a-line span,
 		h2.viewed.active span.a-line span,
@@ -277,14 +315,17 @@
 			animation-fill-mode: forwards;
 			animation-timing-function: ease
 		}
+
 		.one .a-line {
 			overflow: hidden;
 			-webkit-backface-visibility: hidden
 		}
+
 		.one .a-line .inn {
 			transform: translateY(100%);
 			display: block
 		}
+
 		.one.active .a-line .inn {
 			animation-name: texttotop;
 			animation-duration: 0.8s;
@@ -292,6 +333,7 @@
 			animation-fill-mode: forwards;
 			animation-timing-function: ease
 		}
+
 		.textslide.viewed {
 			animation-name: textslide;
 			animation-duration: 0.8s;
@@ -299,6 +341,7 @@
 			animation-fill-mode: forwards;
 			animation-timing-function: ease
 		}
+
 		.texttobottom.viewed {
 			animation-name: textslidebottom;
 			animation-duration: 0.8s;
@@ -306,33 +349,43 @@
 			animation-fill-mode: forwards;
 			animation-timing-function: ease
 		}
+
 		.delay0 {
 			animation-delay: 0s !important
 		}
+
 		.delay0-2 {
 			animation-delay: 0.2s !important
 		}
+
 		.delay0-5 {
 			animation-delay: 0.5s !important
 		}
+
 		.delay0-7 {
 			animation-delay: 0.7s !important
 		}
+
 		.delay1 {
 			animation-delay: 1s !important
 		}
+
 		.delay1-2 {
 			animation-delay: 1.2s !important
 		}
+
 		.delay1-5 {
 			animation-delay: 1.5s !important
 		}
+
 		.delay1-7 {
 			animation-delay: 1.7s !important
 		}
+
 		.delay2-2 {
 			animation-delay: 2.2s !important
 		}
+
 		.viewed.fadein {
 			animation-name: fadein;
 			animation-duration: 1s;
@@ -340,91 +393,110 @@
 			animation-fill-mode: forwards;
 			animation-timing-function: ease;
 			-webkit-backface-visibility: hidden
+		}
+
 		@keyframes texttotop {
 			0% {
 				opacity: 0;
 				transform: translate3d(0, 100%, 0);
 				-webkit-transform: translate3d(0, 100%, 0)
 			}
+
 			100% {
 				opacity: 1;
 				transform: translate3d(0, 0, 0);
 				-webkit-transform: translate3d(0, 0, 0)
 			}
 		}
+
 		@keyframes texttobottom {
 			0% {
 				opacity: 1;
 				transform: translate3d(0, 0, 0);
 				-webkit-transform: translate3d(0, 0, 0)
 			}
+
 			100% {
 				opacity: 0;
 				transform: translate3d(0, 100%, 0);
 				-webkit-transform: translate3d(0, 100%, 0)
 			}
 		}
+
 		@keyframes textslide {
 			0% {
 				opacity: 0;
 				transform: translate3d(0, 30px, 0);
 				-webkit-transform: translate3d(0, 30px, 0)
 			}
+
 			100% {
 				opacity: 1;
 				transform: translate3d(0, 0, 0);
 				-webkit-transform: translate3d(0, 0, 0)
 			}
 		}
+
 		@keyframes textslidebottom {
 			0% {
 				opacity: 1;
 				transform: translate3d(0, 0, 0);
 				-webkit-transform: translate3d(0, 0, 0)
 			}
+
 			100% {
 				opacity: 0;
 				transform: translate3d(0, 30px, 0);
 				-webkit-transform: translate3d(0, 30px, 0)
 			}
 		}
+
 		@keyframes fadein {
 			0% {
 				opacity: 0
 			}
+
 			100% {
 				opacity: 1
 			}
 		}
+
 		@media (max-width: 1210px) {
 			.header.mini:not(.allways-white) {
 				padding: 12px 0 !important;
 				border-bottom: 1px solid #D9D9D9
 			}
+
 			.preloader-wrap span {
 				font-size: 100px;
 				margin-left: 0;
 				line-height: 100%
 			}
+
 			.preloader-wrap b {
 				display: block
 			}
+
 			.preloader-wrap sup {
 				display: inline-block;
 				vertical-align: top;
 				margin-left: 5px
 			}
+
 			.preloader-wrap sup img {
 				width: 25px
 			}
+
 			.bottom-divider {
 				border-top: 2px solid #414243;
 				height: calc(50% - 100px)
 			}
+
 			.page-preloader {
 				height: 100vh;
 				font-size: 24px
 			}
+
 			h1.view:not(.done) span.a-line,
 			.section-heading.view:not(.line-animation) span.a-line,
 			h2.view span.a-line,
@@ -435,10 +507,12 @@
 				margin-top: 0;
 				margin-bottom: 0
 			}
+
 			.header.mini:not(.allways-white) {
 				padding: 15px 0 !important;
 				border-bottom: 1px solid #D9D9D9
 			}
+
 			h1.viewed:not(.done) span.a-line,
 			.section-heading.viewed:not(.line-animation) span.a-line,
 			h2.viewed span.a-line,
@@ -449,6 +523,7 @@
 				margin-top: 0;
 				margin-bottom: 0
 			}
+
 			h1.viewed:not(.done) span.a-line {
 				margin-top: -0.5%;
 				margin-bottom: -0.5%
@@ -458,10 +533,14 @@
 	<script type="application/ld+json">
 [{"@context":"http://schema.org","@type":"WebSite","url":"https://kksmartcom.com/","potentialAction":{"@type":"SearchAction","target":"https://kksmartcom.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"Organization","url":"https://kksmartcom.com/","logo":"https://kksmartcom.com/wp-content/webp-express/webp-images/uploads/2021/09/Logo-3D-1mob-e1630573294768.png.webp","name":"kksmartcomstudio","email":"hello@kksmartcom.com"}]
 </script>
+
 	<script async src="../cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script>
+
 	<script>
 		setTimeout(function () { var e, t, n; t = setTimeout(function () { document.getElementById("loadcntr").textContent = "100", document.getElementById("pageloader").classList.add("active"), document.getElementById("main-screen-load").classList.add("is_view"), document.getElementById("main-screen-load-inner") && document.getElementById("main-screen-load-inner").classList.add("viewed"), init(), load_funcs(), check_viewport(), additional_funcs(), check_viewport(), setObserver(), setTimeout(function () { window.scrollTo(0, 1) }, 1), setTimeout(function () { window.scrollTo(0, 0) }, 1), clearInterval(n) }, 8e3), n = setInterval(function () { var a = document.getElementsByClassName("pace-progress"); Array.prototype.filter.call(a, function (t) { (e = t.getAttribute("data-progress-text").replace("%", "")) < 10 ? e = "00" + e : e < 100 && e > 10 && (e = "0" + e) }), document.getElementById("loadcntr").textContent = e, "100" == e && (document.getElementById("pageloader").classList.add("active"), setTimeout(function () { init(), load_funcs(), check_viewport(), additional_funcs(), check_viewport(), setObserver(), document.getElementById("main-screen-load").classList.add("is_view"), document.getElementById("main-screen-load-inner") && document.getElementById("main-screen-load-inner").classList.add("viewed"), setTimeout(function () { window.scrollTo(0, 1) }, 1), setTimeout(function () { window.scrollTo(0, 0) }, 1), clearTimeout(t) }, 1e3), clearInterval(n)) }) }, 100);
+
 	</script>
+
 	<!-- Google Tag Manager -->
 	<script>(function (w, d, s, l, i) {
 			w[l] = w[l] || []; w[l].push({
@@ -472,8 +551,12 @@
 					'../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-NG5S546');</script>
 	<!-- End Google Tag Manager -->
+
 	<script> (function (ss, ex) { window.ldfdr = window.ldfdr || function () { (ldfdr._q = ldfdr._q || []).push([].slice.call(arguments)); }; (function (d, s) { fs = d.getElementsByTagName(s)[0]; function ce(src) { var cs = d.createElement(s); cs.src = src; cs.async = 1; fs.parentNode.insertBefore(cs, fs); }; ce('https://sc.lfeeder.com/lftracker_v1_' + ss + (ex ? '_' + ex : '') + '.js'); })(document, 'script'); })('lYNOR8xdeJN8WQJZ'); </script>
+
+
 </head>
+
 <body id="body">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
@@ -482,6 +565,7 @@
 		</iframe>
 	</noscript>
 	<!-- End Google Tag Manager (noscript) -->
+
 	<div class="page-preloader" id="pageloader" data-src="wp-content/themes/kksmartcom/img/black-bg.png">
 		<div class="wrap">
 			<div class="preloader-wrap">
@@ -491,6 +575,7 @@
 			<div class="bottom-divider" data-src="wp-content/themes/kksmartcom/img/black-bg.png"></div>
 		</div>
 	</div>
+
 	<div class="header-wrap">
 		<div class="header view fadein" id="header">
 			<div class="wrap">
@@ -503,12 +588,15 @@
 									.cls-1 {
 										fill: #4385f3;
 									}
+
 									.cls-2 {
 										fill: #fe0162;
 									}
+
 									.cls-3 {
 										fill: #fabb07;
 									}
+
 									.cls-4 {
 										fill: #434244;
 									}
@@ -562,12 +650,13 @@
 													<path fill-rule="evenodd" clip-rule="evenodd"
 														d="M5.5 0L11 5.5L5.5 11L4.67022 10.1702L8.7537 6H0V5H8.7537L4.67022 0.829781L5.5 0Z"
 														fill="#1F2122"></path>
-												</svg> Voir plus</span></a>
+												</svg>En savoir plus</span></a>
 										<div class="col">
 											<div class="menu-title section-title small"> Digital </div>
 											<ul>
 												<li class=""><a class=""
-														href="https://www.linkedin.com/company/kksmartcom/"	target="_self">Réseaux sociaux</a></li>
+														href="https://www.linkedin.com/company/kksmartcom/"
+														target="_self">Réseaux sociaux</a></li>
 												<li class=""><a class="" href="https://comeup.com/fr/@kk-smart-com"
 														target="_self">Design Web</a></li>
 												<li class=""><a class="" href="https://comeup.com/fr/@kk-smart-com"
@@ -599,16 +688,19 @@
 											</ul>
 										</div>
 										<div class="col">
+
 										</div>
 									</div>
 								</div>
 							</li>
+
 							<li class="menu-item-has-children"><a class="" href="https://www.behance.net/kksmartcom"
-									target="_self">Projets</a> 
+									target="_self">Projets</a>
 								<!-- <svg width="8" height="3" viewBox="0 0 8 3" fill="none"
 									xmlns="http://www.w3.org/2000/svg">
 									<path d="M0.5 0H7.5L4 3L0.5 0Z" fill="#1F2122" />
 								</svg>
+
 								<div class="sub-menu white-background">
 									<div class="menu-inner wrap"> <a href="#"
 											class="circle-btn lime"><span><svg width="11" height="11"
@@ -632,9 +724,11 @@
 											</ul>
 										</div>
 										<div class="col">
+
 										</div>
 									</div>
 								</div> -->
+
 							</li>
 							<li class="menu-item-has-children"><a class="" href="#" target="_self">Entreprise</a> <svg
 									width="8" height="3" viewBox="0 0 8 3" fill="none"
@@ -642,29 +736,34 @@
 									<path d="M0.5 0H7.5L4 3L0.5 0Z" fill="#1F2122" />
 								</svg>
 								<div class="sub-menu white-background">
-									<div class="menu-inner wrap"> <a href="#"
-											class="circle-btn lime"><span><svg width="11" height="11"
-													viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<div class="menu-inner wrap"> <a href="#" class="circle-btn lime"><span><svg
+													width="11" height="11" viewBox="0 0 11 11" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd"
 														d="M5.5 0L11 5.5L5.5 11L4.67022 10.1702L8.7537 6H0V5H8.7537L4.67022 0.829781L5.5 0Z"
 														fill="#1F2122"></path>
 												</svg> Parlons-en !</span></a>
 										<div class="col">
+
 										</div>
+
 										<div class="col" style="margin-right:auto;">
-											<div class="menu-title section-title small"> Voir plus </div>
+											<div class="menu-title section-title small">En savoir plus </div>
 											<ul>
 												<li class=""><a class="" href="about-us.html" target="_self">A
 														propos</a></li>
 												<!-- <li class=""><a class="" href="https://www.behance.net/kksmartcom" target="_self">Blog</a> </li> -->
 												<li class=""><a class="" href="blog.html" target="_self">Blog</a> </li>
 												<li class=""><a class="" href="#" target="_self">Carrière</a>
-												</li>	
+												</li>
+
 											</ul>
+
 										</div>
 									</div>
 								</div>
 							</li>
+
 						</ul>
 					</nav>
 					<div class="header-arr-wrap">
@@ -672,23 +771,25 @@
 							<ul id="menu-langs-menu" class="menu">
 								<li id="menu-item-10096"
 									class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10096">
-									<a href="#pll_switcher">FRA</a><svg width="8" height="3" viewBox="0 0 8 3"
+									<a href="#">FRA</a><svg width="8" height="3" viewBox="0 0 8 3"
 										fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M0.5 0H7.5L4 3L0.5 0Z" fill="#1F2122" />
 									</svg>
 									<ul class="sub-menu">
-										<li st menu-item menu-item-type-custom menu-item-object-custom menu-item-10096-it">
-											<a href="index.html" lang="en">ENG</a>
+										<li st menu-item menu-item-type-custom menu-item-object-custom
+											menu-item-10096-it">
+											<a href="indexen.html" lang="en">ENG</a>
 										</li>
 									</ul>
 								</li>
 							</ul>
-						</div> <a href="#contact-form" class="arrow-btn"><span></span>Cliquez ici !</a>
+						</div> <a href="#contact-form" class="arrow-btn"><span></span>Cliquez ici</a>
 					</div>
 					<div class="gam"></div>
 				</div>
 			</div>
 			<div class="progress-wrap gray-background">
+
 			</div>
 		</div>
 	</div>
@@ -702,7 +803,7 @@
 						<li id="menu-item-10396"
 							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10396"><a
 								href="https://www.linkedin.com/company/kksmartcom/"><span class="a-line"><span>Réseaux
-										sociauxe</span></span></a></li>
+										sociaux</span></span></a></li>
 						<li id="menu-item-10294"
 							class="menu-item menu-item-type-post_type menu-item-object-service menu-item-10294"><a
 								href="https://comeup.com/fr/@kk-smart-com"><span class="a-line"><span>Design
@@ -743,6 +844,7 @@
 				</li>
 				<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a
 						href="https://www.behance.net/kksmartcom">Projets</a></li>
+
 				<li id="menu-item-7141"
 					class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7141">
 					<a href="https://comeup.com/fr/@kk-smart-com"><span
@@ -766,11 +868,13 @@
 						<li id="menu-item-10097-en"
 							class="lang-item lang-item-97 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-10097-en">
 							<a href="https://kksmartcom.com/" hreflang="en" lang="en"><span
-									class="a-line"><span>ENG</span></span></a></li>
+									class="a-line"><span>ENG</span></span></a>
+						</li>
 						<li id="menu-item-10097-it"
 							class="lang-item lang-item-156 lang-item-fr menu-item menu-item-type-custom menu-item-object-custom menu-item-10097-fr">
 							<a href="https://kksmartcom.com/fr/" hreflang="it-IT" lang="fr-FR"><span
-									class="a-line"><span>FRA</span></span></a></li>
+									class="a-line"><span>FRA</span></span></a>
+						</li>
 					</ul><span class="sub-menu-opener"></span>
 				</li>
 			</ul>
@@ -798,7 +902,8 @@
 			<div class="pc-visible">
 				<span>Politique de cookies</span>
 				<p>Nous utilisons nos propres cookies, ainsi que ceux de tiers, pour des besoins individuels ou des
-					sessions répétées, afin de rendre la navigation sur notre site Web facile et sûre pour nos utilisateurs.</p>
+					sessions répétées, afin de rendre la navigation sur notre site Web facile et sûre pour nos
+					utilisateurs.</p>
 				<div class="buttons">
 					<button id="remove_cookies_popup" class="main-btn white">Accepter les cookies</button>
 					<a target="_blank" href="cookies-policy.html">Politique de cookies</a>
@@ -806,10 +911,12 @@
 			</div>
 			<div class="mob-visible">
 				<div class="buttons">
-					<p>Nous utilisons nos propres cookies <a target="_blank" href="cookies-policy.html">En savoir plus</a></p>
+					<p>Nous utilisons nos propres cookies <a target="_blank" href="cookies-policy.html">En savoir
+							plus</a></p>
 					<button id="remove_cookies_popup_2" class="main-btn white">Acceptez</button>
 				</div>
 			</div>
+
 		</div>
 	</div>
 	<script>
@@ -817,13 +924,16 @@
 		can_go = true;
 	</script>
 	<!-- end header -->
+
 	<video class="vns" style="width: 0;height: 0;position: absolute;left: -1px;visibility: visible!important;"
 		preload="none" id="main-video2" src="wp-content/showreel_kksmartcom_off.MP4" controls=""></video>
 	<div class="screen1 black-background section" id="main-screen-load">
 		<div class="wrap view hidden-block hidd_block">
 			<div style="display: none;">
 				<h1>Tout part d'une connexion ...</h1>
-				<h1 id="conbleue">.</h1><h1 id="conjaune">.</h1><h1 id="conrose">.</h1>
+				<h1 id="conbleue">.</h1>
+				<h1 id="conjaune">.</h1>
+				<h1 id="conrose">.</h1>
 			</div>
 			<h2 class="view h1">Tout<br> part <br>d'une<br> connexion...<br></h2>
 			<picture>
@@ -840,6 +950,7 @@
 						class="view-video view fadein delay0-7" id="main-video" muted="" loop="" autoplay=""
 						playsinline=""></video>
 				</div>
+
 				<button class="circle-btn play_video black">
 					<span>
 						<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -853,6 +964,8 @@
 			</div>
 		</div>
 	</div>
+
+
 	<div class="screen2 white-background section is_view">
 		<div class="wrap view hidden-block hidd_block">
 			<div class="flex-row">
@@ -860,7 +973,7 @@
 					<div class="section-subheading view textslide">Projets sélectionnés</div>
 				</div>
 				<div class="w60">
-					<h2 class="section-heading view meow"> Service studio <br> complet  pour <br>les 
+					<h2 class="section-heading view meow"> Service studio <br> complet pour <br>les
 						startups
 						<br>et les entreprises.
 					</h2>
@@ -878,21 +991,20 @@
 								srcset="../cdn.kksmartcom.com/wp-content/uploads/2023/05/covermobile-1.jpg">
 							<img width="630" height="600" class="" loading="lazy"
 								src="../cdn.kksmartcom.com/wp-content/uploads/2023/05/covermobile-1.jpg"
-								alt="Rapida – Branding for the Delivery Service - Website Development - Photo ">
+								alt="Rapida – Branding pour le service de livraison - Développement de sites Web - Photo ">
 						</picture>
 					</a>
 					<div class="name-wrap">
 						<a href="#" class="name">Rapida –
 							Branding pour le service de livraison</a>
-						<a href="#"
-							class="main-btn arrow">
+						<a href="#" class="main-btn arrow">
 							<span>
 								<svg fill="none" height="10" viewBox="0 0 9 10" width="9"
 									xmlns="http://www.w3.org/2000/svg">
 									<path clip-rule="evenodd"
 										d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
 										fill="#fffefd" fill-rule="evenodd" />
-								</svg>Voir plus
+								</svg>En savoir +
 							</span>
 						</a>
 					</div>
@@ -925,14 +1037,15 @@
 									<path clip-rule="evenodd"
 										d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
 										fill="#fffefd" fill-rule="evenodd" />
-								</svg>Voir plus
+								</svg>En savoir +
 							</span>
 						</a>
 					</div>
 					<div class="tags-wrap">
 						<a href="projectsb43a.html?tag=website" class="tag">Site web</a>
 					</div>
-					<p>Ectopanel est une application avancée pour le suivi et la gestion de l'électricité, avec une interface conviviale pour les ventes d'énergie excédentaire.</p>
+					<p>Ectopanel est une application avancée pour le suivi et la gestion de l'électricité, avec une
+						interface conviviale pour les ventes d'énergie excédentaire.</p>
 				</div>
 				<div class="case view textslide delay0">
 					<a href="projects/tabela-a-management-system-for-restaurants.html" class="img-wrap view">
@@ -957,11 +1070,13 @@
 									<path clip-rule="evenodd"
 										d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
 										fill="#fffefd" fill-rule="evenodd" />
-								</svg>Voir plus</span></a>
+								</svg>En savoir +</span></a>
 					</div>
 					<div class="tags-wrap"> <a class="tag" href="projects68d8.html?cat=saas">SaaS</a> <a
 							href="projectsb62f.html?tag=web-app" class="tag">Application</a> </div>
-					<p>SMART QR est un système de gestion avancé conçu spécifiquement pour les restaurants. Avec SMART QR, le personnel du restaurant peut facilement suivre ses réservations et ses tables en temps réel.</p>
+					<p>SMART QR est un système de gestion avancé conçu spécifiquement pour les restaurants. Avec SMART
+						QR, le personnel du restaurant peut facilement suivre ses réservations et ses tables en temps
+						réel.</p>
 				</div>
 				<div class="case view textslide delay0"> <a href="projects/cracker-cybersecurity-web-application.html"
 						class="img-wrap view">
@@ -977,20 +1092,19 @@
 								alt="Cracker &#8211; Cybersecurity web application - Website Development - Photo ">
 						</picture>
 					</a>
-					<div class="name-wrap"> <a href="#"
-							class="name">Cracker &#8211; Application Web de cybersécurité</a> <a
-							href="#" class="main-btn arrow"><span><svg
-									fill="none" height="10" viewBox="0 0 9 10" width="9"
-									xmlns="http://www.w3.org/2000/svg">
+					<div class="name-wrap"> <a href="#" class="name">Cracker &#8211; Application Web de
+							cybersécurité</a> <a href="#" class="main-btn arrow"><span><svg fill="none" height="10"
+									viewBox="0 0 9 10" width="9" xmlns="http://www.w3.org/2000/svg">
 									<path clip-rule="evenodd"
 										d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
 										fill="#fffefd" fill-rule="evenodd" />
-								</svg>Voir plus</span></a> </div>
+								</svg>En savoir +</span></a> </div>
 					<div class="tags-wrap"> <a class="tag" href="projectsa4ec.html?cat=cybersecurity">Cybersécurité</a>
 						<a class="tag" href="projects6d13.html?cat=fintech">FinTech</a> <a
 							href="projectsb62f.html?tag=web-app" class="tag">Application web</a>
 					</div>
-					<p>Cracker est une application Web avancée conçue pour fournir aux utilisateurs une solution de paiement sûre et fiable pour les achats en ligne.</p>
+					<p>Cracker est une application Web avancée conçue pour fournir aux utilisateurs une solution de
+						paiement sûre et fiable pour les achats en ligne.</p>
 				</div>
 			</div>
 			<div class="text-center view textslide"> <a href="projects.html" class="circle-btn black"><span><svg
@@ -998,31 +1112,32 @@
 							<path fill-rule="evenodd" clip-rule="evenodd"
 								d="M5.5 0L11 5.5L5.5 11L4.67022 10.1702L8.7537 6H0V5H8.7537L4.67022 0.829781L5.5 0Z"
 								fill="#1F2122" />
-						</svg>Projets/span></a> </div>
+						</svg>Projets</span></a> </div>
 			<div class="flex-row bottom-row">
 				<div class="w30"> <video muted="" loop="" playsinline="" autoplay="" preload="none"
 						style="clip-path:polygon(1px 1px,calc(100% - 1px) 1px,calc(100% - 1px) calc(100% - 1px),1px calc(100% - 1px));">
-						<source src="https://cdn.kksmartcom.com/wp-content/uploads/2021/10/home-1.mov"
+						<source src="../cdn.kksmartcom.com/wp-content/uploads/2021/10/home-1.mov"
 							type='video/mp4; codecs="hvc1"'>
-						<source src="https://cdn.kksmartcom.com/wp-content/uploads/2021/10/Home-2.webm"
+						<source src="../cdn.kksmartcom.com/wp-content/uploads/2021/10/Home-2.webm"
 							type="video/webm">
-						<source src="https://cdn.kksmartcom.com/wp-content/uploads/2021/10/Home-2.webm"
+						<source src="../cdn.kksmartcom.com/wp-content/uploads/2021/10/Home-2.webm"
 							type="video/webm">
 					</video> </div>
 				<div class="w60">
-					<h2 class="section-heading view textslide"> Nous vous soutenons
-						dans la réalisation de votre
-						objectifs d'affaires
-						en résolvant le
-						problèmes votre
-						les utilisateurs sont confrontés.</h2>
-					<p class="view textslide"> Nous analysons les projets sous un nouvel angle. Nos experts en analytique, marketing, conception et développement vous donneront une vision à 360 degrés de vos enjeux.</p>
+					<h3 class="section-heading view textslide"> Nous vous soutenons
+						dans l'atteinte de vos objectifs.</h3>
+					<p class="view textslide"> Nous analysons les projets sous un nouvel angle. Nos experts en
+						analytique, marketing, conception et développement vous donneront une vision à 360 degrés de vos
+						enjeux.</p>
 				</div>
 			</div>
 		</div>
 	</div>
+
 	<div class="screen3 black-background section is_view">
-		<div class="screen3 black-background section is_view">						
+		<div class="screen3 black-background section is_view">
+
+
 			<div class="section newabout-screen3 black-background is_view target_section">
 				<div class="reviews-target target_section" id="reviews">
 					<div class="dec"></div>
@@ -1030,29 +1145,38 @@
 						<div class="flex-row" style="margin-top:0;">
 							<div class="w80">
 								<div class="section-heading section-heading decorable">
-									<div class="pc-visible">Que disent <strong>les gens</strong> <br>à propos de nous?</div>
-									<div class="mob-visible">Que disent <strong>les </strong> <br> <strong>gens</strong> à propos de nous?
-									</div>									
+									<div class="pc-visible">Que disent <strong>les gens</strong> <br>à propos de nous?
+									</div>
+									<div class="mob-visible">Que disent <strong>les </strong> <br> <strong>gens</strong>
+										à propos de nous?
+									</div>
+
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="reviews_wrap view fadein active viewed">
-						<div class="reviews_slider swiper swiper-backface-hidden swiper-initialized swiper-horizontal swiper-pointer-events swiper-autoheight" style="padding-left: 20px; padding-right: 20px;">
-							<div class="swiper-wrapper" id="swiper-wrapper-912101093246e7d458" aria-live="polite" style="height: 435px; transform: translate3d(0px, 0px, 0px);">
-								<div class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6" style="width: 518px; margin-right: 15px;">
+						<div class="reviews_slider swiper swiper-backface-hidden swiper-initialized swiper-horizontal swiper-pointer-events swiper-autoheight"
+							style="padding-left: 20px; padding-right: 20px;">
+							<div class="swiper-wrapper" id="swiper-wrapper-912101093246e7d458" aria-live="polite"
+								style="height: 435px; transform: translate3d(0px, 0px, 0px);">
+								<div class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6"
+									style="width: 518px; margin-right: 15px;">
 									<div class="review_inner">
 										<div class="top_wrap"><img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Group-2212.svg"
 												alt="" loading="lazy"></div>
-										<div class="text"> Ils ont conçu un excellent UX/UI facile à utiliser. KK SMART COM
-												a démontré un excellent travail. L'aspect visuel, la convivialité et
-											l’architecture du site véhiculent une esthétique mature et professionnelle. Leur communication agile
-											a permis une rétroaction continue, ce qui a conduit à une collaboration fructueuse.
+										<div class="text"> Ils ont conçu un excellent UX/UI facile à utiliser. KK SMART
+											COM
+											a démontré un excellent travail. L'aspect visuel, la convivialité et
+											l’architecture du site véhiculent une esthétique mature et professionnelle.
+											Leur communication agile
+											a permis une rétroaction continue, ce qui a conduit à une collaboration
+											fructueuse.
 										</div>
 										<div class="author"> <img class=""
-												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-2.png" alt=""
-												loading="lazy">
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-2.png"
+												alt="" loading="lazy">
 											<div class="bio"> <span>Oliver Ahad</span>
 												<p>CRO Airportr Technologies</p>
 											</div>
@@ -1062,21 +1186,25 @@
 													alt="">Explorer l'étude de cas</a> <a target="_blank"
 												href="https://www.google.com/search?q=kk+smart+com&oq=kk+smart+com&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg80gEIMjkwMmowajmoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x10235798a3364b93:0x2e31cf5b35f72be8,1,,,,"><img
 													src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/au2.svg"
-													alt="">Voir plus</a> </div>
+													alt="">En savoir plus</a> </div>
 									</div>
 								</div>
-								<div  class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6" style="width: 518px; margin-right: 15px;">
+								<div class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6"
+									style="width: 518px; margin-right: 15px;">
 									<div class="review_inner">
 										<div class="top_wrap"><img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/image-154-Traced.svg"
 												alt="" loading="lazy"></div>
-										<div class="text"> Je suis époustouflé par la qualité du travail effectué par KK SMART COM.
-											KK SMART COM a livré avec succès une application iOS grand public. L'équipe avait un
-											flux de travail fluide et communiqué via Slack. Le client a été impressionné par la qualité,
+										<div class="text"> Je suis époustouflé par la qualité du travail effectué par KK
+											SMART COM.
+											KK SMART COM a livré avec succès une application iOS grand public. L'équipe
+											avait un
+											flux de travail fluide et communiqué via Slack. Le client a été impressionné
+											par la qualité,
 											le résultat et le délai d’exécution rapide fixé par l’équipe. </div>
 										<div class="author"> <img class=""
-												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-3.png" alt=""
-												loading="lazy">
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-3.png"
+												alt="" loading="lazy">
 											<div class="bio"> <span>Mike Abbott</span>
 												<p>Co-fondateur de Polyform Studio</p>
 											</div>
@@ -1086,22 +1214,26 @@
 													alt="">Explorer l'étude de cas</a> <a target="_blank"
 												href="https://www.google.com/search?q=kk+smart+com&oq=kk+smart+com&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg80gEIMjkwMmowajmoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x10235798a3364b93:0x2e31cf5b35f72be8,1,,,,"><img
 													src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/au2.svg"
-													alt="">Voir plus</a> </div>
+													alt="">En savoir plus</a> </div>
 									</div>
 								</div>
-								<div  class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6" style="width: 518px; margin-right: 15px;">
+
+								<div class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6"
+									style="width: 518px; margin-right: 15px;">
 									<div class="review_inner">
 										<div class="top_wrap"><img class=""
-												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Mask-group-e1671472234260.png"
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/image-154-Traced.svg"
 												alt="" loading="lazy"></div>
-										<div class="text">J'ai été impressionné par leurs connaissances et leurs compétences pour donner vie
-											chaque idée que nous avions. Depuis le lancement réussi du site par KK SMART COM
-											, la société a connu des temps de chargement plus rapides, permettant à ses clients
-											pour naviguer plus facilement sur la plateforme et réserver leurs services plus rapidement. </div>
+										<div class="text"> J'ai été impressionné par leurs connaissances et 
+											compétences pour donner vie à chaque idée que nous avions. Grâce à KK SMART COM , 
+											notre site web a connu un temps de chargement
+											plus rapide, permettant à nes clients de naviguer plus facilement sur notre
+											plateforme et de réserver pllus rapidement leurs services.
+										</div>
 										<div class="author"> <img class=""
-												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-4.png" alt=""
-												loading="lazy">
-											<div class="bio"> <span>Jason Timpson</span>
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-3.png"
+												alt="" loading="lazy">
+											<div class="bio"> <span>Jason Timpson </span>
 												<p>Responsable marketing chez Copper Rock</p>
 											</div>
 										</div>
@@ -1110,21 +1242,24 @@
 													alt="">Explorer l'étude de cas</a> <a target="_blank"
 												href="https://www.google.com/search?q=kk+smart+com&oq=kk+smart+com&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg80gEIMjkwMmowajmoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x10235798a3364b93:0x2e31cf5b35f72be8,1,,,,"><img
 													src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/au2.svg"
-													alt="">Voir plus</a> </div>
+													alt="">En savoir plus</a> </div>
 									</div>
 								</div>
-								<div  class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6" style="width: 518px; margin-right: 15px;">
+								<div class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6"
+									style="width: 518px; margin-right: 15px;">
 									<div class="review_inner">
 										<div class="top_wrap"><img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/neap_logo_indigo_flat-1.svg"
 												alt="" loading="lazy"></div>
-										<div class="text"> La qualité des designs est fantastique. La société a 
-											mesuré d'autres résultats, mais la qualité globale a des commentaires positifs. KK SMART COM
-											travaille rapidement et est extrêmement ponctuel avec les délais. Ils livrent
+										<div class="text"> La qualité des designs est fantastique. La société a
+											mesuré d'autres résultats, mais la qualité globale a des commentaires
+											positifs. KK SMART COM
+											travaille rapidement et est extrêmement ponctuel avec les délais. Ils
+											livrent
 											des résultats de premier ordre avec des designs exceptionnels.</div>
 										<div class="author"> <img class=""
-												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-5.png" alt=""
-												loading="lazy">
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-5.png"
+												alt="" loading="lazy">
 											<div class="bio"> <span>George Fry</span>
 												<p>Fondateur Neap</p>
 											</div>
@@ -1134,21 +1269,25 @@
 													alt="">Explorer l'étude de cas</a> <a target="_blank"
 												href="https://www.google.com/search?q=kk+smart+com&oq=kk+smart+com&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg80gEIMjkwMmowajmoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x10235798a3364b93:0x2e31cf5b35f72be8,1,,,,"><img
 													src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/au2.svg"
-													alt="">Voir plus</a> </div>
+													alt="">En savoir plus</a> </div>
 									</div>
 								</div>
-								<div  class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6" style="width: 518px; margin-right: 15px;">
+								<div class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6"
+									style="width: 518px; margin-right: 15px;">
 									<div class="review_inner">
 										<div class="top_wrap"><img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2023/03/Group-758530428.svg"
 												alt="" loading="lazy"></div>
-										<div class="text"> Toutes les communications étaient claires et ouvertes, et tous les membres de l'équipe ont travaillé
-											très efficacement vers nos objectifs. KK SMART COM a impressionné les entreprises
-											parties prenantes internes avec leurs conceptions. La collaboration a été rendue fructueuse par
+										<div class="text"> Toutes les communications étaient claires et ouvertes, et
+											tous les membres de l'équipe ont travaillé
+											très efficacement vers nos objectifs. KK SMART COM a impressionné les
+											entreprises
+											parties prenantes internes avec leurs conceptions. La collaboration a été
+											rendue fructueuse par
 											l'approche communicative, efficace et méticuleuse du vendeur. </div>
 										<div class="author"> <img class=""
-												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-6.png" alt=""
-												loading="lazy">
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-6.png"
+												alt="" loading="lazy">
 											<div class="bio"> <span>Alex Shepherd</span>
 												<p>CTO Métraverse</p>
 											</div>
@@ -1158,21 +1297,26 @@
 													alt="">Explorer l'étude de cas</a> <a target="_blank"
 												href="https://www.google.com/search?q=kk+smart+com&oq=kk+smart+com&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg80gEIMjkwMmowajmoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x10235798a3364b93:0x2e31cf5b35f72be8,1,,,,"><img
 													src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/au2.svg"
-													alt="">Voir plus</a> </div>
+													alt="">En savoir plus</a> </div>
 									</div>
 								</div>
-								<div  class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6" style="width: 518px; margin-right: 15px;">
+								<div class="slide swiper-slide swiper-slide-active" role="group" aria-label="1 / 6"
+									style="width: 518px; margin-right: 15px;">
 									<div class="review_inner">
 										<div class="top_wrap"><img class=""
-												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Vector.svg"
-												alt="" loading="lazy"></div>
-										<div class="text"> Leur exécution est splendide et leur excellente communication maintient
-											tout le monde aligné. KK SMART COM continue d'impressionner avec ses splendides
-											processus d'exécution de projet et leurs superbes compétences en matière de support client. Ils veillent à
-											rester accessible à tout moment pour établir un processus encore plus efficace. </div>
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Vector.svg" alt=""
+												loading="lazy"></div>
+										<div class="text"> Leur exécution est splendide et leur excellente communication
+											maintient
+											tout le monde aligné. KK SMART COM continue d'impressionner avec ses
+											splendides
+											processus d'exécution de projet et leurs superbes compétences en matière de
+											support client. Ils veillent à
+											rester accessible à tout moment pour établir un processus encore plus
+											efficace. </div>
 										<div class="author"> <img class=""
-												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-7.png" alt=""
-												loading="lazy">
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/Avatar-7.png"
+												alt="" loading="lazy">
 											<div class="bio"> <span>Eliza Nimmich</span>
 												<p>Co-fondateur/COO</p>
 											</div>
@@ -1182,7 +1326,7 @@
 													alt="">Explorer l'étude de cas</a> <a target="_blank"
 												href="https://www.google.com/search?q=kk+smart+com&oq=kk+smart+com&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg80gEIMjkwMmowajmoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x10235798a3364b93:0x2e31cf5b35f72be8,1,,,,"><img
 													src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/au2.svg"
-													alt="">Voir plus</a> </div>
+													alt="">En savoir plus</a> </div>
 									</div>
 								</div>
 							</div>
@@ -1196,9 +1340,13 @@
 				</div>
 				<div class="wrap">
 					<div class="awards-cta">
-						<div class="cta_button"> <a href="#contact-form" class="toform"> <span><b>Obtenez un devis</b></span>
-								<span><b><svg width="59" height="60" viewBox="0 0 59 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path fill-rule="evenodd" clip-rule="evenodd" d="M29.4974 0.664062L58.8307 29.9974L29.4974 59.3307L25.0719 54.9052L46.8504 32.6641H0.164062V27.3307H46.8504L25.0719 5.08956L29.4974 0.664062Z" fill="#1F2122"></path>
+						<div class="cta_button"> <a href="#contact-form" class="toform"> <span><b>Obtenez un
+										devis</b></span>
+								<span><b><svg width="59" height="60" viewBox="0 0 59 60" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M29.4974 0.664062L58.8307 29.9974L29.4974 59.3307L25.0719 54.9052L46.8504 32.6641H0.164062V27.3307H46.8504L25.0719 5.08956L29.4974 0.664062Z"
+												fill="#1F2122"></path>
 										</svg> Collaborez avec nous</b></span> </a> </div>
 					</div>
 				</div>
@@ -1208,9 +1356,11 @@
 							<div class="w100 view textslide">
 								<div class="section-heading section-heading borderb decorable">
 									<div class="pc-visible">KK SMART COM dans <br><strong>faits</strong> et
-										<strong>chiffres</strong></div>
+										<strong>chiffres</strong>
+									</div>
 									<div class="mob-visible">KK SMART COM dans <br><strong>faits</strong> et
-										<strong>chiffres</strong></div> 
+										<strong>chiffres</strong>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1227,7 +1377,8 @@
 											loading="lazy"> </div>
 								</div>
 								<div class="h"> </div>
-								<div class="p small"> TOP Entreprises de technologie et de développement Blockchain par UpFirms </div>
+								<div class="p small"> TOP Entreprises de technologie et de développement Blockchain par
+									UpFirms </div>
 							</div>
 							<div class="row w35 big">
 								<div class="top">
@@ -1269,24 +1420,32 @@
 											loading="lazy"> </div>
 								</div>
 								<div class="h"> 21 Prix </div>
-								<div class="p big"> Pour les sites Web, sur les plateformes de compétition comme Awwwards, CSSDA, CSSWinner,
+								<div class="p big"> Pour les sites Web, sur les plateformes de compétition comme
+									Awwwards, CSSDA, CSSWinner,
 									Behance, etc. </div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>						
+			</div>
+
+
 			<div class="secrives-new-screen-9 is_view gray-background section">
 				<div class="last_block">
 					<div class="wrap view fadein target_section screen9-inner" id="how">
 						<div class="sfr9">
 							<div class="left" style="width:100%;">
 								<div class="section-heading decorable">
-									<div class="pc-visible"> Explorer les opportunités <br> pour créer <strong>d'excellents</strong>
-										<br> des produits </div>
+									<div class="pc-visible"> Explorer les opportunités <br> pour créer
+										<strong>d'excellents</strong>
+										<br> des produits
+									</div>
 									<div class="mob-visible"> Explorer <br> les opportunités <br>pour créer <br>
-										<strong>d'excellents</strong> <br> des produits </div>
-								</div>							 								
+										<strong>d'excellents</strong> <br> des produits
+									</div>
+								</div>
+
+
 							</div>
 						</div>
 					</div>
@@ -1294,25 +1453,28 @@
 						<div class="wrap view fadein">
 							<div class="two-columns">
 								<div class="col">
+
 									<div class="h"> Projets </div>
 									<p>Découvrez les projets que nous avons <br />réalisé pour nos clients </p> <a
-										href="https://comeup.com/fr/@kk-smart-com" class="main-btn arrow toform"><span><svg fill="none" height="10"
+										href="https://comeup.com/fr/@kk-smart-com"
+										class="main-btn arrow toform"><span><svg fill="none" height="10"
 												viewBox="0 0 9 10" width="9" xmlns="http://www.w3.org/2000/svg">
 												<path clip-rule="evenodd"
 													d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
 													fill="#fffefd" fill-rule="evenodd"></path>
-											</svg>Voir plus </span> </a>
+											</svg>En savoir plus </span> </a>
 								</div>
 								<div class="col">
 									<div class="h"> Services </div>
-									<p>Découvrez la multitude de méthodes que nous <br />peut utiliser pour améliorer votre produit </p> 
-									<a id="btnservices"
-										href="https://www.behance.net/kksmartcom" class="main-btn arrow toform"><span><svg fill="none" height="10"
+									<p>Découvrez la multitude de méthodes que nous <br />peut utiliser pour améliorer
+										votre produit </p>
+									<a id="btnservices" href="https://www.behance.net/kksmartcom"
+										class="main-btn arrow toform"><span><svg fill="none" height="10"
 												viewBox="0 0 9 10" width="9" xmlns="http://www.w3.org/2000/svg">
 												<path clip-rule="evenodd"
 													d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
 													fill="#fffefd" fill-rule="evenodd"></path>
-											</svg>Voir plus </span> 
+											</svg>En savoir plus </span>
 									</a>
 								</div>
 							</div>
@@ -1321,7 +1483,10 @@
 				</div>
 			</div>
 		</div>
+
 	</div>
+
+
 	<div class="contacts-screen1 main_contacs_screen black-background section is_view na6 special" id="contact-form">
 		<div class="wrap view fadein">
 			<div class="flex-row centered">
@@ -1338,6 +1503,7 @@
 								class="email_to_copy2 copyme" alt="">
 						</div>
 					</div>
+
 					<div class="socs-wrap view textslide">
 						<div class="to-copy-email">
 							<a href="mailto:kksmartcom.bj@gmail.com"
@@ -1345,6 +1511,7 @@
 							<img src="wp-content/themes/kksmartcom/img/copy.svg" data-text="kksmartcom.bj@gmail.com"
 								class="email_to_copy pc-visible copyme" alt="">
 						</div>
+
 						<div class="socs view textslide">
 							<a target="_blank" rel="noopener noreferrer nofollow" href="https://wa.me/22956141438"
 								class="whatsapp wide"><img width="20" height="20" loading="lazy"
@@ -1353,6 +1520,8 @@
 					</div>
 				</div>
 				<div class="right">
+
+
 					<form id="myForm" class="main_contact_form">
 						<div class="inps-wrap">
 							<label for="name" class="inp-wrap view textslide">
@@ -1365,6 +1534,7 @@
 								<span>Votre email<sup>*</sup></span>
 							</label>
 						</div>
+
 						<label for="message" class="inp-wrap view textslide">
 							<textarea placeholder=" " id="message" name="message"></textarea>
 							<span>Parlez-nous de votre projet.</span>
@@ -1372,6 +1542,7 @@
 								<b>0</b>/1000
 							</span>
 						</label>
+
 						<div class="terms-label-wrap view textslide">
 							<label for="terms_input">
 								<input type="checkbox" required="" name="terms" id="terms_input">
@@ -1379,6 +1550,7 @@
 										confidentialité</a></p>
 							</label>
 						</div>
+
 						<button type="submit" class="main-btn arrow white"><span><svg fill="none" height="10"
 									viewBox="0 0 9 10" width="9" xmlns="http://www.w3.org/2000/svg">
 									<path clip-rule="evenodd"
@@ -1386,176 +1558,195 @@
 										fill="black" fill-rule="evenodd"></path>
 								</svg>Soumettre</span></button>
 					</form>
+
 					<script>
 						document.getElementById("myForm").addEventListener("submit", function (event) {
 							event.preventDefault();
+
 							// Récupérer les valeurs des champs du formulaire
 							var name = document.getElementById("name").value;
 							var email = document.getElementById("email").value;
 							var message = document.getElementById("message").value;
+
 							// Générer le lien vers WhatsApp avec un message personnalisé
 							var whatsappLink = "https://wa.me/22956141438?text=Bonjour,%20je%20suis%20" + name + ".%20Mon%20adresse%20e-mail%20est%20" + email + ".%20Voici%20mon%20message%20:%20" + message;
+
 							// Rediriger vers le lien généré
 							window.location.href = whatsappLink;
 						});
 					</script>
+
+
 				</div>
 			</div>
 		</div>
 	</div>
+
 	<div class="ht"
 		style="position: absolute!important; width: 0!important;height: 0!important;z-index: -1!important;border:none!important;outline: none!important; overflow: hidden;">
-		<textarea class="js-copytextarea2" style="position: absolute!important; width: 0!important;height: 0!important;z-index: -1!important;border:none!important;outline: none!important;">hello@kksmartcom.com</textarea>
+		<textarea class="js-copytextarea2"
+			style="position: absolute!important; width: 0!important;height: 0!important;z-index: -1!important;border:none!important;outline: none!important;">hello@kksmartcom.com</textarea>
 	</div>
-		<!-- debut footer -->
-		<div class="new_footer_wrap" style="display:none;"></div>
-		<div class="before-footer lime-background section is_view footer-new"></div>
-		<div class="footer-wrap lime-background hidden-block">
-			<div class="footer">
-				<div class="wrap">
-					<!-- <img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/star-full.svg"
+
+
+	<!-- debut footer -->
+	<div class="new_footer_wrap" style="display:none;"></div>
+	<div class="before-footer lime-background section is_view footer-new"></div>
+	<div class="footer-wrap lime-background hidden-block">
+		<div class="footer">
+			<div class="wrap">
+				<!-- <img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/star-full.svg"
 						class="star-img" alt=""> -->
-					<div class="footer-top">
-						<div class="left">
-							<!-- <div class="section-subheading">KK SMART COM</div> -->
-							<div class="locations">
-								<div class="col">
-									<div class="address">
-										<div class="location">
-											<a href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide">Liens rapides</span></a>
-											<div class="address">
-												<a href="https://comeup.com/fr/@kk-smart-com">
-													<div class="location">
-														<span>&emsp;Services</span>
-													</div>
-												</a>
-											</div>
-											<div class="address">
-												<a href="https://www.behance.net/kksmartcom">
-													<div class="location">
-														<span>&emsp;Projets</span>
-													</div>
-												</a>
-											</div>
-											<div class="address">
-												<a href="#">
-													<div class="location">
-														<span>&emsp;A propos</span>
-													</div>
-												</a>
-											</div>
-											<div class="address">
-												<a href="https://www.linkedin.com/company/kksmartcom/">
-													<div class="location">
-														<span>&emsp;Blog</span>
-													</div>
-												</a>
-											</div>
-											<div class="address">
-												<a href="https://comeup.com/fr/@kk-smart-com">
-													<div class="location">
-														<span>&emsp;Carrière</span>
-													</div>
-												</a>
-											</div>
+				<div class="footer-top">
+					<div class="left">
+						<!-- <div class="section-subheading">KK SMART COM</div> -->
+						<div class="locations">
+							<div class="col">
+								<div class="address">
+									<div class="location">
+										<a href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide">Liens
+												rapides</span></a>
+										<div class="address">
+											<a href="https://comeup.com/fr/@kk-smart-com">
+												<div class="location">
+													<span>&emsp;Services</span>
+												</div>
+											</a>
 										</div>
-									</div>
-								</div>								
-								<div class="col">
-									<div class="section-subheading">Agences</div>
-									<div class="address">
-										<img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/pin.svg"
-											alt="">											
-										<div class="location">
-											<span>Cotonou / Bénin</span>
+										<div class="address">
+											<a href="https://www.behance.net/kksmartcom">
+												<div class="location">
+													<span>&emsp;Projets</span>
+												</div>
+											</a>
 										</div>
-									</div>
-									<div class="address">
-										<img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/pin.svg"
-											alt="">
-										<div class="location">
-											<span>Lomé / Togo</span>
+										<div class="address">
+											<a href="#">
+												<div class="location">
+													<span>&emsp;A propos</span>
+												</div>
+											</a>
 										</div>
-									</div>
-									<div class="address">
-										<img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/pin.svg"
-											alt="">
-										<div class="location">
-											<span>Abidjan / Côte d'Ivoire</span>
+										<div class="address">
+											<a href="https://www.linkedin.com/company/kksmartcom/">
+												<div class="location">
+													<span>&emsp;Blog</span>
+												</div>
+											</a>
 										</div>
-									</div>
-									<div class="address">
-										<img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/tel.svg"
-											alt="">
-										<div class="location">
-											<span><a href="tel:+22956141438">+229 56141438</a></span>
+										<div class="address">
+											<a href="https://comeup.com/fr/@kk-smart-com">
+												<div class="location">
+													<span>&emsp;Carrière</span>
+												</div>
+											</a>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="right">
-							<div class="section-subheading">Suivez-nous sur les réseaux sociaux</div>
-							<div class="socs-wrap">
-								<div class="socs">
-									<a target="_blank" rel="noopener noreferrer nofollow"
-										href="https://www.behance.net/kksmartcom" class="behance">
-										<img width="20" height="20" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSBmSKvWVnUI_BcvxPHQl0kwwVOknXz7qdNult5wPaquoXaxnPds8qpxNiVHgq8KJUnC7YboUUaNmMIN_r8rtYgQtBeQsbaEr1w0y4nbUL6UGKpoQZD8AtAmamBx3HFuYku0rEAXWhnV7xDYK0pSDmSzhu7zj-_0scJx18Q1SO-TDq5CVLg26HfHYavQ/s24/s1.png" alt="">
-									</a>
-									<a target="_blank" rel="noopener noreferrer nofollow" 
-										href="https://comeup.com/fr/@kk-smart-com" class="comeup">
-										<img width="20" height="20" loading="lazy" style="color: black;"
-											src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/Comeup0.png"
-											alt="">
-									</a>
-									<a target="_blank" rel="noopener noreferrer nofollow"
-										href="https://www.linkedin.com/company/kksmartcom" class="linkedin">
-										<img width="20" height="20" loading="lazy"
-											src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFHU8GCdNGH6ooQuhNU-z-_tRpFuWkdR0CWOU5y8IJwMfapYoqLyxkgJTOmfHNa9IVbxT2PH_eUMGwi5nqLDV8GYU9sQM4cDaEEQMQ5sNHUj4d7U_FC8BNJ1QLx3-AkSSw6nXeU0T2RBqjWADokJwtwzDhqdatW1U7xUJ_lSgqfOJxWHSx7kXfZq8k1w/s21/s6.png"
-											alt="">
-									</a>
-									<a target="_blank" rel="noopener noreferrer nofollow"
-										href="https://www.instagram.com/kksmartcom" class="instagram">
-										<img width="20" height="20" loading="lazy"
-											src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhWLlNLKgfa1B48upjA_al8C5vYN7SEFqgyjaKIxm0KYqNUK984S4y5dUKPeQACMyhg6vi0-LrdU1OCDldC5maGh45B1gdIwpdWCIK2P_5x-GiVDtN9nheArsvIDpuJZnIl-BAFuO-d8PjLBaViNepWARJU0HXjeaAbItt2gKA50Z-lsU4sAa-_XzYWA/s22/s4.png"
-											alt="">
-									</a>
-									<a target="_blank" rel="noopener noreferrer nofollow"
-										href="https://www.facebook.com/kksmartcomm" class="facebook">
-										<img width="20" height="20" loading="lazy"
-											src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI1t6BLC0iSA7wzU9eA-DDTUjVfTpDG2hmyYf5I7EsX5Gi3x2DUBuQkx6W--_J3W435Nf19WASdtu2NOvHgGJVZRAx30oL6W65XSiSLEg4wFNSfKTkn5QyvlMyYnF8VqasNyNzLm670lqJkcHCO4dp32HMLoBcv655VnFp-itHiYAyzjS91Y61PAcV3A/s21/s5.png"
-											alt="">
-									</a>
-									<a target="_blank" rel="noopener noreferrer nofollow"
-										href="https://twitter.com/kksmartcom" class="twitter">
-										<img width="20" height="20" loading="lazy"
-											src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/twitter0.png"
-											alt="">
-									</a>
-									<a target="_blank" rel="noopener noreferrer nofollow" href="https://wa.me/22956141438"
-										class="whatsapp">
-										<img width="20" height="20" loading="lazy"
-											src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUlB3pkVmkOosBK4T9OHK9gJZXoRJGW9JjC1oeck05b1RKD-aduM_geg_yNewqkmP1eJ_a6mpDiumZbowCW7Og1LLNE-XH4kILgKlueCyazjyWSHtI4JsNQzIuRE_sOsoXLw37AQrd4DkzsJ9nAEQ7w5zS9pwjNuRuU6Izk4thvjo_adzg46SXpq952Q/s24/s8%201.png"
-											alt="">
-									</a>								
-									<iframe
-										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.1639292867094!2d2.3553105746980005!3d6.372826593617385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10235798a3364b93%3A0x2e31cf5b35f72be8!2sKK%20SMART%20COM!5e0!3m2!1sfr!2sbj!4v1686445030526!5m2!1sfr!2sbj0" height="200" width="400" style="border: 0; border-radius: 10px; margin-top: 34px;"
-										allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-									</iframe>
-								</div>	
+
+							<div class="col">
+								<div class="section-subheading">Agences</div>
+								<div class="address">
+									<img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/pin.svg" alt="">
+
+									<div class="location">
+										<span>Cotonou / Bénin</span>
+									</div>
+								</div>
+								<div class="address">
+									<img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/pin.svg" alt="">
+									<div class="location">
+										<span>Lomé / Togo</span>
+									</div>
+								</div>
+								<div class="address">
+									<img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/pin.svg" alt="">
+									<div class="location">
+										<span>Abidjan / Côte d'Ivoire</span>
+									</div>
+								</div>
+
+								<div class="address">
+									<img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/tel.svg" alt="">
+									<div class="location">
+										<span><a href="tel:+22956141438">+229 56141438</a></span>
+									</div>
+								</div>
+
 							</div>
+
 						</div>
 					</div>
-				</div>
-				<!-- Tous droits réservés -->
-				<div class="wrap">
-					<div class="flex-row bottom" id="clutch-widget-wrap">
-						<p>KK SMART COM © 2024 </p>
+					<div class="right">
+						<div class="section-subheading">Suivez-nous sur les réseaux sociaux</div>
+						<div class="socs-wrap">
+							<div class="socs">
+								<a target="_blank" rel="noopener noreferrer nofollow"
+									href="https://www.behance.net/kksmartcom" class="behance">
+									<img width="20" height="20" loading="lazy"
+										src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSBmSKvWVnUI_BcvxPHQl0kwwVOknXz7qdNult5wPaquoXaxnPds8qpxNiVHgq8KJUnC7YboUUaNmMIN_r8rtYgQtBeQsbaEr1w0y4nbUL6UGKpoQZD8AtAmamBx3HFuYku0rEAXWhnV7xDYK0pSDmSzhu7zj-_0scJx18Q1SO-TDq5CVLg26HfHYavQ/s24/s1.png"
+										alt="">
+								</a>
+								<a target="_blank" rel="noopener noreferrer nofollow"
+									href="https://comeup.com/fr/@kk-smart-com" class="comeup">
+									<img width="20" height="20" loading="lazy" style="color: black;"
+										src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/Comeup0.png" alt="">
+								</a>
+								<a target="_blank" rel="noopener noreferrer nofollow"
+									href="https://www.linkedin.com/company/kksmartcom" class="linkedin">
+									<img width="20" height="20" loading="lazy"
+										src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFHU8GCdNGH6ooQuhNU-z-_tRpFuWkdR0CWOU5y8IJwMfapYoqLyxkgJTOmfHNa9IVbxT2PH_eUMGwi5nqLDV8GYU9sQM4cDaEEQMQ5sNHUj4d7U_FC8BNJ1QLx3-AkSSw6nXeU0T2RBqjWADokJwtwzDhqdatW1U7xUJ_lSgqfOJxWHSx7kXfZq8k1w/s21/s6.png"
+										alt="">
+								</a>
+								<a target="_blank" rel="noopener noreferrer nofollow"
+									href="https://www.instagram.com/kksmartcom" class="instagram">
+									<img width="20" height="20" loading="lazy"
+										src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhWLlNLKgfa1B48upjA_al8C5vYN7SEFqgyjaKIxm0KYqNUK984S4y5dUKPeQACMyhg6vi0-LrdU1OCDldC5maGh45B1gdIwpdWCIK2P_5x-GiVDtN9nheArsvIDpuJZnIl-BAFuO-d8PjLBaViNepWARJU0HXjeaAbItt2gKA50Z-lsU4sAa-_XzYWA/s22/s4.png"
+										alt="">
+								</a>
+								<a target="_blank" rel="noopener noreferrer nofollow"
+									href="https://www.facebook.com/kksmartcomm" class="facebook">
+									<img width="20" height="20" loading="lazy"
+										src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI1t6BLC0iSA7wzU9eA-DDTUjVfTpDG2hmyYf5I7EsX5Gi3x2DUBuQkx6W--_J3W435Nf19WASdtu2NOvHgGJVZRAx30oL6W65XSiSLEg4wFNSfKTkn5QyvlMyYnF8VqasNyNzLm670lqJkcHCO4dp32HMLoBcv655VnFp-itHiYAyzjS91Y61PAcV3A/s21/s5.png"
+										alt="">
+								</a>
+								<a target="_blank" rel="noopener noreferrer nofollow"
+									href="https://twitter.com/kksmartcom" class="twitter">
+									<img width="20" height="20" loading="lazy"
+										src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/twitter0.png"
+										alt="">
+								</a>
+								<a target="_blank" rel="noopener noreferrer nofollow" href="https://wa.me/22956141438"
+									class="whatsapp">
+									<img width="20" height="20" loading="lazy"
+										src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUlB3pkVmkOosBK4T9OHK9gJZXoRJGW9JjC1oeck05b1RKD-aduM_geg_yNewqkmP1eJ_a6mpDiumZbowCW7Og1LLNE-XH4kILgKlueCyazjyWSHtI4JsNQzIuRE_sOsoXLw37AQrd4DkzsJ9nAEQ7w5zS9pwjNuRuU6Izk4thvjo_adzg46SXpq952Q/s24/s8%201.png"
+										alt="">
+								</a>
+
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.1639292867094!2d2.3553105746980005!3d6.372826593617385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10235798a3364b93%3A0x2e31cf5b35f72be8!2sKK%20SMART%20COM!5e0!3m2!1sfr!2sbj!4v1686445030526!5m2!1sfr!2sbj0"
+									height="200" width="400" style="border: 0; border-radius: 10px; margin-top: 34px;"
+									allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+								</iframe>
+							</div>
+
+
+						</div>
 					</div>
 				</div>
 			</div>
+
+			<!-- Tous droits réservés -->
+			<div class="wrap">
+				<div class="flex-row bottom" id="clutch-widget-wrap">
+					<p>KK SMART COM © 2024 </p>
+				</div>
+			</div>
 		</div>
+	</div>
 	<!-- fin footer -->
+
 	<div id="cursor" class=""></div>
 	<div class="main-modal-wrap form-modal">
 		<div class="modal-closer wrap black-background">
@@ -1568,12 +1759,15 @@
 								.cls-1 {
 									fill: #4385f3;
 								}
+
 								.cls-2 {
 									fill: #fe0162;
 								}
+
 								.cls-3 {
 									fill: #fabb07;
 								}
+
 								.cls-4 {
 									fill: #434244;
 								}
@@ -1622,26 +1816,27 @@
 				<div class="flex-modal-wrap">
 					<div class="left black-background">
 						<div class="top view textslide">
-							<div class="section-title medium"> Avez-vous besoin d'aide pour concrétiser une idée ? </div>
+							<div class="section-title medium"> Avez-vous besoin d'aide pour concrétiser une idée ?
+							</div>
 							<div class="l-wrap"> <a href="mailto:hello@kksmartcom.com"
 									class="line-animation email">kksmartcom.bj@gmail.com</a> <b class="copyme_wrap">
 									<img style="margin-left:0!important"
 										src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/copy.svg"
-										data-text="hello@kksmartcom.com" class="copyme" alt=""> </b> 
+										data-text="hello@kksmartcom.com" class="copyme" alt=""> </b>
 							</div>
 						</div>
 						<div class="bottom socs-wrap">
-							<div class="socs view textslide"> 
-								<a target="_blank" rel="noopener noreferrer nofollow"
-										href="https://wa.me/22956141438" class="whatsapp wide"><img width="20" height="20"
-										loading="lazy"
-										src="wp-content/themes/kksmartcom/img/s8.svg"
-										alt=""> <span>Whatsapp</span>
-									</a>
+							<div class="socs view textslide">
+								<a target="_blank" rel="noopener noreferrer nofollow" href="https://wa.me/22956141438"
+									class="whatsapp wide"><img width="20" height="20" loading="lazy"
+										src="wp-content/themes/kksmartcom/img/s8.svg" alt=""> <span>Whatsapp</span>
+								</a>
 							</div>
 						</div>
+
 						<div class="socs-wrap view textslide">
-					</div>
+
+						</div>
 					</div>
 					<div class="right black-background">
 						<form action="https://kksmartcom.com/thanks" method="post" autocomplete="off"
@@ -1666,14 +1861,15 @@
 										alt="">Attach file </label>
 							</div>
 							<div class="file-err err fe1_1">Vous pouvez télécharger un maximum de 5 fichiers</div>
-							<div class="file-err err fe2_1">Une partie de votre fichier n'est pas chargée, car la taille maximale du fichier est de 5.
+							<div class="file-err err fe2_1">Une partie de votre fichier n'est pas chargée, car la taille
+								maximale du fichier est de 5.
 								Mo</div>
 							<div class="trms-wrap">
 								<div class="terms-label-wrap view textslide"> <label for="terms_input_1"> <input
 											type="checkbox" required="" name="terms" id="terms_input_1" class="required"
 											data-message-error=""> <span>J'accepte votre <a
-												href="https://kksmartcom.com/cookies-policy"
-												target="_blank">politique de confidentialité</a></span> </label> </div> <button
+												href="https://kksmartcom.com/cookies-policy" target="_blank">politique
+												de confidentialité</a></span> </label> </div> <button
 									class="main-btn arrow white"><span><svg fill="none" height="10" viewBox="0 0 9 10"
 											width="9" xmlns="http://www.w3.org/2000/svg">
 											<path clip-rule="evenodd"
@@ -1687,6 +1883,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div class="main-modal-wrap thank-modal">
 		<div class="modal-closer wrap black-background">
 			<div class="mob-visible">
@@ -1833,8 +2030,10 @@
 					</div>
 					<div class="right">
 						<div class="col1 view fadein delay-02" id="inst1">
+
 						</div>
 						<div class="col2 view fadein delay-02" id="inst2">
+
 						</div>
 					</div>
 				</div>
@@ -1872,11 +2071,20 @@
 					})
 				}, 2000);
 			}
+
 		})
 	</script>
+
+
+
 	<script src="../cdn.jsdelivr.net/npm/jquery-validation%401.19.3/dist/jquery.validate.min.js"></script>
+
 	<script>
 		function validateEmail(e) { return /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/.test(e) } jQuery(".main_contact_form").validate({ rules: { your_name: { required: !0, maxlength: 40 }, your_email: { required: !0, email: !0 }, your_text: { maxlength: 1e3 }, terms: { required: !0 } }, messages: { your_name: { required: "Your name is required", maxlength: "Max length 40 characters" }, your_email: { email: "Your email is invalid", required: "Email is required" }, your_text: { maxlength: "Max length 1000 characters" }, terms: { required: null } }, submitHandler: function (e) { $(e).find(".main-btn").attr("disabled", !0), sendAjaxForm(e)/*e.submit()*/ } }), jQuery(".subscribe_form_handler").validate({ rules: { your_email: { required: !0, email: !0 } }, messages: { your_email: { email: "Incorrect email. Please doublecheck.", required: "Email is required" } }, submitHandler: function (e) { console.log("submit") } }); jQuery(".main_contact_form2").validate({ rules: { your_name: { required: !0, maxlength: 40 }, your_email: { required: !0, email: !0 }, your_text: { maxlength: 1e3 }, terms: { required: !0 } }, messages: { your_name: { required: "Your name is required", maxlength: "Max length 40 characters" }, your_email: { email: "Your email is invalid", required: "Email is required" }, your_text: { maxlength: "Max length 1000 characters" }, terms: { required: null } }, submitHandler: function (e) { $(e).find(".main-btn").attr("disabled", !0), sendAjaxForm(e) } });
 	</script>
+
+
+
 </body>
+
 </html>
