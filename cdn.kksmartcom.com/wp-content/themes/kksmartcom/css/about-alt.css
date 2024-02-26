@@ -89,10 +89,10 @@ html[lang=it] .about_alt_screen1 .flex-container .left h1 .pc-visible div {
 }
 
 .text-image-wrap img {
-  width: 513px;
+  width: 400px;
   position: absolute;
-  left: -130px;
-  bottom: -123px;
+  left: 110px;
+  bottom: 120px;
   height: auto;
 }
 

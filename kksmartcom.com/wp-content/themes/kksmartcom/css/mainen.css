@@ -2053,7 +2053,7 @@ h4.viewed i,
 }
 
 #cursor.teamcur:before {
-    content: 'Défilez';
+    content: 'Scroll';
     font-size: 14px;
     height: auto;
     width: auto;
@@ -2076,7 +2076,7 @@ h4.viewed i,
 }
 
 #cursor.videocur:after {
-    content: 'Suivez-nous';
+    content: 'Watch showreel';
     font-size: 14px;
     color: #1F2122;
     width: auto;
