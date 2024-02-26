@@ -58,7 +58,7 @@
 	<meta name="msapplication-TileImage"
 		content="https://kksmartcom.com/wp-content/uploads/2022/05/cropped-fv-270x270.png" />
 
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 
 		if(navigator.language.substr(0,2)=="fr")
 			window.location.href = "apropos.html";
@@ -70,7 +70,7 @@
 			;
 		
 	</script>
-	<meta http-equiv="refresh" content="4; URL=window.location.href">
+	<meta http-equiv="refresh" content="4; URL=window.location.href"> -->
 
 
 	<script type="text/javascript">
@@ -1837,50 +1837,63 @@
 	</script>
 
 
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	<script>
-		document.addEventListener('DOMContentLoaded', function () {
-			var mySwiper = new Swiper('.reviews_slider', {
-				loop: true,
-				autoplay: {
-					delay: 5000,
-					disableOnInteraction: false,
-					navigation: {
-						nextEl: '.next',
-						prevEl: '.prev',
-					},
-					slidesPerView: 1,
-					spaceBetween: 15,
-					breakpoints: {
-						768: {
-							slidesPerView: 2,
-						},
-						1024: {
-							slidesPerView: 2,
-						},
-					},
-					on: {
-						autoplay: function () {
-							updateElementsPosition();
-						},
-					},
-				});
-
-			var scaleFactor = 0.5;
-
-			function updateElementsPosition() {
-				var reviewsWrap = document.querySelector('.reviews_wrap');
-				if (reviewsWrap) {
-					var activeSlideHeight = mySwiper.slides[mySwiper.activeIndex].offsetHeight;
-					var addedHeight = activeSlideHeight * scaleFactor;
-
-					reviewsWrap.style.marginBottom = addedHeight + 'px';
-				}
-			}
-			updateElementsPosition();
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		var mySwiper = new Swiper('.reviews_slider', {
+			// Paramètres de configuration Swiper ici
+			loop: true, // Activer la boucle infinie
+			autoplay: {
+				delay: 5000, // Définir le délai entre les diapositives en millisecondes
+				disableOnInteraction: false, // Autoriser l'autoplay même lorsqu'un utilisateur interagit avec la diapositive
+			},
+			navigation: {
+				nextEl: '.next',
+				prevEl: '.prev',
+			},
+			slidesPerView: 1, // Un slide visible à la fois
+			spaceBetween: 15, // Espace entre les slides
+			breakpoints: {
+				768: {
+					slidesPerView: 2,
+				},
+				1024: {
+					slidesPerView: 2,
+				},
+			},
+			on: {
+				autoplay: function () {
+					// Mettre à jour la position des éléments en dessous des slides après chaque transition d'autoplay
+					updateElementsPosition();
+				},
+			},
 		});
-	</script>
 
+		// Facteur d'échelle pour ajuster la hauteur ajoutée
+		var scaleFactor = 0.5;
+
+		// Fonction pour mettre à jour la position des éléments en dessous des slides
+		function updateElementsPosition() {
+			// Récupérer le conteneur des slides
+			var reviewsWrap = document.querySelector('.reviews_wrap');
+
+			// Vérifier si le conteneur existe
+			if (reviewsWrap) {
+				// Récupérer la hauteur du slide actif
+				var activeSlideHeight = mySwiper.slides[mySwiper.activeIndex].offsetHeight;
+
+				// Calculer la hauteur ajoutée en fonction du facteur d'échelle
+				var addedHeight = activeSlideHeight * scaleFactor;
+
+				// Mettre à jour la position des éléments en dessous des slides
+				reviewsWrap.style.marginBottom = addedHeight + 'px';
+			}
+		}
+
+		// Appeler la fonction au chargement initial de la page
+		updateElementsPosition();
+	});
+</script>
 
 	<script src="../cdn.jsdelivr.net/npm/jquery-validation%401.19.3/dist/jquery.validate.min.js"></script>
 
