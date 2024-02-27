@@ -62,7 +62,7 @@ input[type="tel"] {
 body {
     -ms-overflow-style: none;
     scrollbar-width: none;
-    font-family: Syne;
+    font-family: Montserrat Light;
     font-weight: 400;
     font-feature-settings: 'pnum' on, 'lnum' on
 }
@@ -279,7 +279,7 @@ body.loading:after {
     font-weight: 700;
     line-height: 90%;
     margin-top: 20px;
-    font-family: Syne;
+    font-family: Montserrat Light;
 }
 
 .awards-details .row .h+.p {
@@ -298,7 +298,7 @@ body.loading:after {
     font-size: 34px;
     font-weight: 700;
     line-height: 125%;
-    font-family: Syne;
+    font-family: Montserrat Light;
     color: white;
 }
 
@@ -574,7 +574,7 @@ body.loading:after {
     font-size: 24px;
     color: #1F2122;
     font-weight: 700;
-    font-family: 'Syne'
+    font-family: 'Montserrat Light'
 }
 
 .post-text p {
@@ -1221,7 +1221,7 @@ picture img {
 }
 
 .contacts-screen1 .flex-row .left .section-heading {
-    font-size: 90px;
+    font-size: 65px;
     margin-top: 30px;
     display: inline-block;
     line-height: 85%;
@@ -2053,7 +2053,7 @@ h4.viewed i,
 }
 
 #cursor.teamcur:before {
-    content: 'drag';
+    content: 'Défilez';
     font-size: 14px;
     height: auto;
     width: auto;
@@ -2076,7 +2076,7 @@ h4.viewed i,
 }
 
 #cursor.videocur:after {
-    content: 'Watch showreel';
+    content: 'Suivez-nous';
     font-size: 14px;
     color: #1F2122;
     width: auto;
@@ -3536,6 +3536,23 @@ a.line-animation.email:hover img {
     background-size: contain
 }
 
+.arrow-btn span:after, .arrow-btn span:before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    background: url(../img/right-arrow.svg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.8s;
+}
+
+a, button {
+    cursor: pointer;
+}
+
 .arrow-btn {
     font-size: 14px;
     color: white;
@@ -3569,6 +3586,11 @@ a.line-animation.email:hover img {
     position: relative;
     margin-right: 14px;
     transition: 0.3s
+}
+
+.white-background .arrow-btn span:after, .white-background .arrow-btn span:before {
+    background: url(../img/arrow-right-white.svg) no-repeat center;
+    background-size: contain;
 }
 
 .arrow-btn span:after,
@@ -3607,13 +3629,14 @@ a.line-animation.email:hover img {
 .screen1 h1,
 .screen1 .h1 {
     font-size: 90px;
-    font-weight: 700;
+    font-weight: 900;
     display: inline-block;
     position: relative;
     z-index: 1;
     line-height: 85%;
     font-feature-settings: 'pnum' on, 'lnum' on;
-    pointer-events: none
+    pointer-events: none;
+    /* font-family: montserrat */
 }
 
 .screen1 h1 span.line,
@@ -3780,6 +3803,24 @@ a.line-animation.email:hover img {
     user-select: none
 }
 
+#btnservices {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 20px;
+    background: #FF0062;
+    text-decoration: none;
+    color: #FFFEFD;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s;
+    padding: 0 16px;
+    position: relative;
+    overflow: hidden;
+    user-select: none
+}
+
 .main-btn span,
 .tags-list a.tag span {
     display: flex;
@@ -3801,6 +3842,12 @@ a.line-animation.email:hover img {
 .tags-list a.tag:hover {
     background: #FF0062
 }
+
+#btnservices:hover,
+.tags-list a.tag:hover {
+    background: #4285F4
+}
+
 
 .main-btn:hover svg path,
 .tags-list a.tag:hover svg path {
@@ -3967,7 +4014,7 @@ a.tag span {
 .screen2 .flex-row img,
 .screen2 .flex-row picture,
 .screen2 .flex-row video {
-    width: calc(100% + ((100vw - 1330px) / 2));
+    width: calc(130% + ((100vw - 1330px) / 2));
     margin-left: calc(((100vw - 1330px) / 2) - ((100vw - 1330px) / 2) - ((100vw - 1330px) / 2) - 15px);
     max-width: initial
 }
@@ -4162,7 +4209,7 @@ a.tag span {
 }
 
 .screen3 {
-    padding: 80px 0
+    padding: 40px 0
 }
 
 .screen3 .flex-row {
@@ -4359,10 +4406,9 @@ a.tag span {
     align-items: center;
     justify-content: flex-start;
     color: #1F2122;
-    font-size: 14px;
     font-weight: 600;
     line-height: 100%;
-    /* 14px */
+    font-size: 14px;
     transition: 0.2s;
 }
 
@@ -4380,14 +4426,26 @@ a.tag span {
 }
 
 .footer .footer-top .left .locations .address .location {
-    width: calc(100% - 26px);
+    width: calc(100% - 0px);
 }
 
 .footer .footer-top .left .locations .address .location span {
     font-size: 16px;
     font-weight: 600;
     line-height: 125%;
-    /* 20px */
+    color: #1F2122;
+}
+.footer .footer-top .left .locations .address .location #lienrapide {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 125%;
+    color: black;
+}
+.footer .footer-top .left .locations .address .location #btntel {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 125%;
+    color: black;
 }
 
 .footer .footer-top .left .locations .address .location p {
@@ -4397,6 +4455,7 @@ a.tag span {
     /* 18.76px */
     letter-spacing: -0.28px;
     margin-top: 6px;
+    color: black;
 }
 
 @media (max-width: 992px) {
@@ -4559,8 +4618,8 @@ a.tag span {
     background: #0058FC
 }
 
-.socs-wrap .socs a.dribble:before {
-    background: #E94C87
+.socs-wrap .socs a.comeup:before {
+    background: #f7e131
 }
 
 .socs-wrap .socs a.medium:before {
@@ -4580,7 +4639,7 @@ a.tag span {
 }
 
 .socs-wrap .socs a.twitter:before {
-    background: #18A1EF
+    background: black
 }
 
 .socs-wrap .socs a.whatsapp:before {
