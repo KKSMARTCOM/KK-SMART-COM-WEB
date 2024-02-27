@@ -3269,10 +3269,10 @@ h4.viewed i,
     align-items: flex-end;
 }
  */
-a,
+/* a,
 button {
     cursor: pojinter
-}
+} */
 
 a.line-animation {
     position: relative;
