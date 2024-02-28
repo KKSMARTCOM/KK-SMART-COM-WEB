@@ -1,6 +1,6 @@
 
 
- <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+ <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
 
 
 
@@ -22,7 +22,7 @@
 
 </HEAD>
 <BODY>
-<H1 ALIGN=Center>Tout part d'une connexion ...</H1>
+<H1 ALIGN=Center color="white">Tout part d'une connexion ...</H1>
 	<TABLE BORDER="0" WIDTH="50%" CELLSPACING="0" CELLPADDING="0">
 		<TR>
 			<TD>
@@ -35,7 +35,7 @@
 	<BR>
 	<BR>
   	<H6 ALIGN="RIGHT">
-	<I>TOUT PART D'UNE CONNEXION ...</I>
+	<I>Tout part d'une connexion ...</I>
 	</H6>
 
     <meta HTTP-EQUIV="Refresh" CONTENT="0; URL=kksmartcom.com/index.html">
