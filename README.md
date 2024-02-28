@@ -1,20 +1,8 @@
-# kksmartcom.github.io
+
 
  <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<title>KK SMART COM</title>
-	<style type="text/css">
-	<!--
 
-
-// -->
-</style>
-
-</head>
 
 <table width="50%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
 	
