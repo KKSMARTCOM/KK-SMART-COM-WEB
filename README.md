@@ -17,8 +17,7 @@
 		<tr> 
 		<td id="pageContent">
 
-    <meta name="generator" content="KK SMART COM">
-    <TITLE>KK SMART COM</TITLE>
+    
 
 </HEAD>
 <BODY>
