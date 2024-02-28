@@ -78,7 +78,7 @@ h4 { margin: 0; font-weight: bold; font-size: 1.18em; }
 
 <table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
 	<tr>
-	<td id="subTitle">KK SMART</td>
+	<td id="subTitle">KK SMART COM</td>
 	</tr>
 </table>
 <table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
