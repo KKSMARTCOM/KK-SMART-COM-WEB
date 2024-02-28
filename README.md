@@ -1,4 +1,4 @@
-
+# kksmartcom.github.io
 
  <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
@@ -129,9 +129,12 @@ h4 { margin: 0; font-weight: bold; font-size: 1.18em; }
 </tr>
 </table>
 
+<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
+	<tr>
+	<td id="footer"><small>KK SMART COM</small></td>
+	</tr>
+</table>
+
 </body>
 
 </html>
-
-
-
