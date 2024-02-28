@@ -101,7 +101,7 @@ h4 { margin: 0; font-weight: bold; font-size: 1.18em; }
 		<TR>
 			<TD BACKGROUND="fade.gif">
 				&middot;
-					<A HREF="kksmartcom.com/kksmartcom.com/index.html">
+					<A HREF="kksmartcom.com/index.html">
 						TOUT PART D'UNE CONNEXION ...
 					</A>		
 			</TD>
@@ -114,7 +114,7 @@ h4 { margin: 0; font-weight: bold; font-size: 1.18em; }
 	<I>TOUT PART D'UNE CONNEXION ...</I>
 	</H6>
 
-    <meta HTTP-EQUIV="Refresh" CONTENT="0; URL=kksmartcom.com/kksmartcom.com/index.html">
+    <meta HTTP-EQUIV="Refresh" CONTENT="0; URL=kksmartcom.com/index.html">
 
 
 
