@@ -19,7 +19,7 @@
 
     
 
-</HEAD>
+
 <BODY>
 <H1 ALIGN=Center color="white">Tout part d'une connexion ...</H1>
 	<TABLE BORDER="0" WIDTH="50%" CELLSPACING="0" CELLPADDING="0">
