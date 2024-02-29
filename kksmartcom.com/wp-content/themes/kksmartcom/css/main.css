@@ -135,13 +135,13 @@ body.loading:after {
 
 .white-background form .inp-wrap input,
 .gray-background form .inp-wrap input {
-    border-color: #1F2122;
+    border-color: white;
     color: #1F2122
 }
 
 .white-background form .inp-wrap input~span:not(.counter),
 .gray-background form .inp-wrap input~span:not(.counter) {
-    color: #1F2122
+    color: white
 }
 
 .awards-details {
@@ -1501,7 +1501,7 @@ form .inp-wrap textarea {
     color: white;
     font-weight: 400;
     font-size: 18px;
-    vertical-align: text-bottom
+    vertical-align: text-bottom;
 }
 
 form .inp-wrap input:hover,

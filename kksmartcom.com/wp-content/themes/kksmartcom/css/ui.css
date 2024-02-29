@@ -184,7 +184,7 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children {
   position: relative;
 }
 html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   border-top: none !important;
   border-bottom: none !important;
   padding-left: 10px;
@@ -2355,6 +2355,8 @@ h1.section-heading {
     visibility: hidden;
     box-shadow: 0 100vw 0 100vw rgba(31, 33, 34, 0.6);
   }
+
+  
 
   .menu-inner {
     display: flex;
