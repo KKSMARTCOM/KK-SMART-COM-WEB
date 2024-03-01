@@ -86,12 +86,11 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    /* justify-content: center; */
 }
 
 iframe {
     display: BLOCK;
-    /* align-items: flex-end; */
+    align-items: flex-end;
 }
 
 article,

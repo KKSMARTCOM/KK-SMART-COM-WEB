@@ -4368,17 +4368,6 @@ h1.section-heading {
     margin-top: 0 !important;
     margin-bottom: 0;
   }
-
-  .footer-new + .footer-wrap .footer:after {
-    content: "";
-    width: 168px;
-    height: 293px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    /* background: url("../img/mfs2.svg") no-repeat right bottom; */
-    background-size: contain;
-  }
   .footer-new + .footer-wrap .footer .section-subheading {
     margin-bottom: 10px;
   }
@@ -4448,5 +4437,18 @@ h1.section-heading {
 
   .last_block .section-heading {
     font-size: 28px;
+  }
+}
+
+@media (max-width: 992px){
+  .footer-new + .footer-wrap .footer:after {
+      content: "";
+      width: 168px;
+      height: 293px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background: url(../img/mfs2.svg) no-repeat right bottom;
+      background-size: contain;
   }
 }

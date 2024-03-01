@@ -3254,6 +3254,12 @@ h4.viewed i,
     justify-content: space-between;
 }
 
+@media (max-width: 992px){
+    .footer .footer-top {
+        display: block;
+    }
+}
+
 .wrap {
     margin: 0 auto;
     width: 100%;
@@ -4366,7 +4372,9 @@ a.tag span {
     .footer .footer-top .left {
         width: 100%;
     }
+}
 
+@media (max-width: 992px) {
     .footer .footer-top .left .locations {
         grid-template-columns: auto;
         row-gap: 7px;
@@ -4544,6 +4552,16 @@ a.tag span {
     width: 40%;
     margin-left: 15%
 }
+
+/* #footerofoot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+} */
 
 .socs-wrap a {
     color: white;
@@ -7987,6 +8005,13 @@ a.tag span {
         margin-bottom: -30px
     }
 }
+@media (max-width: 1024px) and (orientation: landscape) and (max-height: 360px){
+    .wrap {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
 
 @media (max-width: 1024px) and (orientation: landscape) and (max-height: 360px) {
     .screen3 .flex-row.fr .w60 picture {
@@ -8020,10 +8045,6 @@ a.tag span {
         padding-right: min(0vmin, env(safe-area-inset-right))
     }
 
-    .wrap {
-        padding-left: 50px;
-        padding-right: 50px
-    }
 
     .marquee-wrap {
         padding-right: 50px;
