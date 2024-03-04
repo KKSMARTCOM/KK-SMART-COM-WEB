@@ -1,0 +1,203 @@
+<div class="case-nav-menu">
+    <ul class="white-background case-nav-list-items">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#result">Result</a></li>
+    </ul>
+</div>
+
+<div class="single-screen single-screen1 section white-background" id="main-screen-load">
+    <div class="wrap view hidden-block">
+        <h1 class="view text-left">JoCreate &#8211; Application for creating NFT collections</h1>
+        <div class="tags-wrap view textslide text-left">
+            <a href="../projects4230.html?cat=crypto-nft" class="tag">Crypto &amp; NFT</a>
+            <a href="../projectsb62f.html?tag=web-app" class="tag">Web app</a>
+            <a href="../projectsb43a.html?tag=website" class="tag">Website</a>
+            <a href="../projects69b3.html?tag=mobile-app" class="tag">Mobile app</a>
+        </div>
+        <div class="case-image view fadein delay0-5">
+            <picture>
+                <source media="(min-width: 1600px)" srcset="https://phenomenonstudio.com/wp-content/uploads/2023/02/0-scaled.jpg">
+                <source media="(max-width: 1100px)" srcset="https://phenomenonstudio.com/wp-content/uploads/2023/02/Cover-mobile.jpg">
+                <source media="(min-width: 1101px) and (max-width:1599px)" srcset="https://phenomenonstudio.com/wp-content/uploads/2023/02/0@2x-scaled.jpg">
+                <img width="1300" height="630" class="" loading="lazy" src="../wp-content/uploads/2023/02/0%402x-scaled.jpg" alt="JoCreate &#8211; Application for creating NFT collections - Website Development - Photo 1">
+            </picture>
+        </div>
+        <!--<div class="case-image view fadein delay0-5">
+            <img src="https://phenomenon.tantal-web.top/wp-content/uploads/2021/09/Cover-7.png" alt="">
+        </div>-->
+        <div id="overview" class="target_section">
+            <div class="flex-row paddt80">
+                <div class="w40 view textslide">
+                    <div class="section-subheading view textslide">Overview</div>
+                </div>
+                <div class="w60">
+                    <h2 class="section-heading mw630" style="">
+                        A service that allows you to create NFT collections in a few clicks
+                    </h2>
+                    <div class="view textslide p mw630">
+                        <p>The service allows you to model a set of elements and generate a collection of NFTs based on them. Its functionality is aimed at a young audience &#8211; this application&#8217;s backgrounds, filters, and visual effects are extremely relevant and modern. With this application, users can also sell their artwork: once it&#8217;s finished, it can be exported to the popular NFT marketplaces.</p>
+                    </div>
+                    <div class="flex-way view textslide">
+                        <div class="w33">
+                            <b>Client</b>
+                            <p>JoCreate LLC,</p>
+                            <p>San Francisco</p>
+                        </div>
+                        <div class="w33">
+                            <b>Services</b>
+                            <ul>
+                                <li>Research</li>
+                                <li>Wireframing</li>
+                                <li>UI design</li>
+                                <li>Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="single-case-screen2 white-background section is_view">
+    <div class="wrap view hidden-block">
+        <div class="flex-row gallery">
+            <picture><source media="(min-width: 1600px)" srcset="../wp-content/uploads/2023/02/Frame-1519.jpg"><source media="(max-width: 1100px)" srcset="../wp-content/uploads/2023/02/Frame-1519.jpg"><source media="(min-width: 1101px) and (max-width:1599px)" srcset="../wp-content/uploads/2023/02/Frame-1519%402x.jpg"><img width="630" height="650" class="view fadein" loading="lazy" src="../wp-content/uploads/2023/02/Frame-1519%402x.jpg" alt="JoCreate &#8211; Application for creating NFT collections - Website Development - Photo 2"></picture>
+            <picture><source media="(min-width: 1600px)" srcset="../wp-content/uploads/2023/02/Frame-1520.jpg"><source media="(max-width: 1100px)" srcset="../wp-content/uploads/2023/02/Frame-1520.jpg"><source media="(min-width: 1101px) and (max-width:1599px)" srcset="../wp-content/uploads/2023/02/Frame-1520%402x.jpg"><img width="630" height="650" class="view fadein" loading="lazy" src="../wp-content/uploads/2023/02/Frame-1520%402x.jpg" alt="JoCreate &#8211; Application for creating NFT collections - Website Development - Photo 3"></picture>
+        </div>
+    </div>
+</div>
+
+<div class="single-case-screen2 gray-background section is_view nullpaddb">
+    <div class="wrap view hidden-block">
+        <div class="flex-row ordinary-text">
+            <div class="w40 view textslide">
+                <div class="section-subheading view textslide">Business need</div>
+                <div class="btn-with-arrow-wrap pc-visible">
+                    <a href="#contact-form" class="circle-btn lime toform">
+                        <span><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0L11 5.5L5.5 11L4.67022 10.1702L8.7537 6H0V5H8.7537L4.67022 0.829781L5.5 0Z" fill="#1F2122"></path>
+                        </svg>
+                        Get an estimate
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="w60 view textslide">
+                <h3 class="section-title mw630">
+                    Client request
+                </h3>
+                <div class="simple-text mw630">
+                    <p>The JoCreate team asked us to develop a stylish and easy-to-use service for creating NFT collections for desktop and mobile versions, with integration into the most popular marketplaces.</p>
+                    <h6>Our role</h6>
+                    <p>The role of our team in this project was not only to implement solutions. The main goal was to identify these solutions through UX research and competitive and business analysis, such as choosing the best technologies, integrations, and even the best way to synchronize different third-party platforms with our service.</p>
+                </div>
+                <div class="btn-with-arrow-wrap mob-visible">
+                    <a href="#contact-form" class="circle-btn lime toform">
+                        <span><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0L11 5.5L5.5 11L4.67022 10.1702L8.7537 6H0V5H8.7537L4.67022 0.829781L5.5 0Z" fill="#1F2122"></path>
+                        </svg>
+                        Get an estimate
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--<div class="mrgt30"></div>-->
+        <div class="flex-row gallery">
+            <picture><source media="(min-width: 1600px)" srcset="../wp-content/uploads/2023/02/Frame-1518.jpg"><source media="(max-width: 1100px)" srcset="../wp-content/uploads/2023/02/Frame-1518.jpg"><source media="(min-width: 1101px) and (max-width:1599px)" srcset="../wp-content/uploads/2023/02/Frame-1518%402x.jpg"><img width="630" height="650" class="view fadein" loading="lazy" src="../wp-content/uploads/2023/02/Frame-1518%402x.jpg" alt="JoCreate &#8211; Application for creating NFT collections - Website Development - Photo 4"></picture>
+            <picture><source media="(min-width: 1600px)" srcset="../wp-content/uploads/2023/02/Frame-1517.jpg"><source media="(max-width: 1100px)" srcset="../wp-content/uploads/2023/02/Frame-1517.jpg"><source media="(min-width: 1101px) and (max-width:1599px)" srcset="../wp-content/uploads/2023/02/Frame-1517%402x.jpg"><img width="630" height="650" class="view fadein" loading="lazy" src="../wp-content/uploads/2023/02/Frame-1517%402x.jpg" alt="JoCreate &#8211; Application for creating NFT collections - Website Development - Photo 5"></picture>
+        </div>
+    </div>
+</div>
+
+
+<div class="single-case-screen2 gray-background section is_view target_section" id="problem">
+    <div class="wrap view hidden-block">
+        
+        <div class="flex-row">
+            <div class="w50">
+                <div class="section-subheading">Project</div>
+                <div class="section-title">
+                    Problems & solutions
+                </div>
+            </div>
+            <div class="w50">
+                
+            </div>
+        </div>
+        <div class="flex-row how_to_solve ordinary-text">
+            <div class="w50">
+                <div class="section-title small">
+                    Problem
+                </div>
+                <div class="stage-line">
+                    <span>1</span>
+                    <p>The existing generators on the market have a confusing and complex interface with limited functionality. It isn't easy to figure out how to upload your content and generate collections.</p>
+                </div>
+                <div class="stage-line">
+                    <span>2</span>
+                    <p>While researching the market, our team discovered that there is no service that allows you to upload your created collection to the marketplace for sale immediately.</p>
+                </div>
+                <div class="stage-line">
+                    <span>3</span>
+                    <p>Most competing services only have a desktop version and a mobile adaptation. There are also separate applications in the Apple Store and Google Play, but they don't have a desktop version.</p>
+                </div>
+            </div>
+            <div class="w50">
+                <div class="section-title small">
+                    Solution
+                </div>
+                <div class="stage-line">
+                    <span>1</span>
+                    <p>The creation of a collection has the form of a constructor, where all actions are divided into logical steps. At each stage, the user understands what to do, how to return to the previous step, and how much more information to fill in.</p>
+                </div>
+                <div class="stage-line">
+                    <span>2</span>
+                    <p>On our platform, users can synchronize their accounts from marketplaces such as Opensea, etc., and upload entire collections and individual NFTs directly to the marketplace with just a few clicks.</p>
+                </div>
+                <div class="stage-line">
+                    <span>3</span>
+                    <p>Our service has both web and mobile applications. The user can start creating a collection from the web platform, then switch to the mobile application and finish the generation. It is possible thanks to automatic saving and synchronization between the desktop and mobile versions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="single-case-screen2 white-background section is_view target_section" id="research">
+    <div class="wrap view hidden-block">
+        <div class="flex-row ordinary-text">
+            <div class="w40 view textslide">
+                <div class="section-subheading view textslide">Research stages</div>
+            </div>
+            <div class="w60 view textslide">
+                <h3 class="section-title mw630">Research process</h3>
+                <div class="simple-text mw630">
+                    <p>We analyzed the best competitors in the field of crypto &amp; NFT using a SWOT analysis. We conducted a business analysis to find the best way to implement the features correctly and bring profit to the product.</p>
+                    <div class="stages-wrap">
+                        <h6>Stages</h6>
+                        <ul>
+                            <li>SWOT analysis</li>
+                            <li>Business analysis</li>
+                            <li>Map</li>
+                            <li>User Flow</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="case-image view fadein full_image_template">
+            <picture>
+                <source media="(min-width: 1600px)" srcset="../wp-content/uploads/2023/02/Images-scaled.jpg">
+                <source media="(max-width: 1100px)" srcset="../wp-content/uploads/2023/02/Images-scaled.jpg">
+                <source media="(min-width: 1101px) and (max-width:1599px)" srcset="../wp-content/uploads/2023/02/Images%402x-scaled.jpg">
+                <img width="1300" height="630" class="" loading="lazy" src="../wp-content/uploads/2023/02/Images%402x-scaled.jpg" alt="JoCreate &#8211; Application for creating NFT collections - Website Development - Photo 6">
+            </picture>
+        </div>
