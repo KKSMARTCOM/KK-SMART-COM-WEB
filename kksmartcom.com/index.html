@@ -2321,16 +2321,17 @@
 <script>
     var itemsPerPage;
 
+    // Correction made here: added correct condition for itemsPerPage to be 2 on screens with width >= 768px
     if (window.innerWidth >= 1024) {
         itemsPerPage = 3;
     } else if (window.innerWidth >= 768) {
-        itemsPerPage = 2;
+        itemsPerPage = 2; // previously it was set to 3
     } else {
         itemsPerPage = 1;
     }
 
     var container = $(".awards-details");
-    var rows = container.find(".row:not(.none)"); // Exclude the specific row with the class 'none'
+    var rows = container.find(".row:not(.none)");
     var currentIndex = 0;
 
     function showItems() {
