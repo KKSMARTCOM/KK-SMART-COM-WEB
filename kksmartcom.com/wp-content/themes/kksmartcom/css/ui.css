@@ -1855,7 +1855,7 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
   margin-bottom: 25px;
   font-size: 18px;
   line-height: 170%;
- /*  &:after{
+/*    &:after{
       content: '';
       width: 32px;
       height: 24px;
@@ -1878,6 +1878,20 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
   display: block;
   margin-bottom: 20px;
 }
+
+.reviews_slider .slide .review_inner .text:after {
+  content: "";
+  width: 135px;
+  height: 24px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAWCAYAAAA1vze2AAAAqUlEQVR4AWLwySwkGv/YzgworgwwAIphGHqJXWgX6nl6q55o/GHxCX4bUx9hMK9JYwucFSmAubW2ZifED8Q7IXEgcmRqVNDsgBhBrAMSBJEiqwAGAaBRhiDvBk1A3mkRyb2CXSYLlmWFnbArffoMIrjS6qy3Sm/Z/068CPEbyKpKhfCDyA0yNE95MKtRGe9LiSz9O3hKclv6Y76ictQzqbmjyhIkyVi+8wCta5MKDP5AeAAAAABJRU5ErkJggg==") repeat center;
+  background-size: contain;
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
 .reviews_slider .slide .review_inner .author {
   display: flex;
   align-items: center;
