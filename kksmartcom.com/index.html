@@ -547,26 +547,23 @@
 			max-height: 100%;
 			object-fit: contain;
 		}
+		.map-container {
+			width: 100%;
+			height: 200px;
+			border: 0;
+			border-radius: 10px;
+			margin-top: 34px;
+		}
+
+		@media (max-width: 767px) {
+			#lienrapide,
+			.section-subheading {
+				display: block;
+				margin-bottom: 10px; 
+			}
+		}
 	</style>
 
-	<style>
-		
-.map-container {
-    width: 100%;
-    height: 200px;
-    border: 0;
-    border-radius: 10px;
-    margin-top: 34px;
-}
-
-@media (max-width: 767px) {
-    #lienrapide,
-    .section-subheading {
-        display: block;
-        margin-bottom: 10px; 
-    }
-}
-	</style>
 	<script type="application/ld+json">
 [{"@context":"http://schema.org","@type":"WebSite","url":"https://kksmartcom.com/","potentialAction":{"@type":"SearchAction","target":"https://kksmartcom.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"Organization","url":"https://kksmartcom.com/","logo":"https://kksmartcom.com/wp-content/webp-express/webp-images/uploads/2021/09/Logo-3D-1mob-e1630573294768.png.webp","name":"kksmartcomstudio","email":"hello@kksmartcom.com"}]
 </script>
@@ -1620,7 +1617,7 @@
 							<div class="row w35 big">
 								<div class="top">
 									<div class="left"> 
-										<img style="width: 155px; height: 155px;" class="" src="wp-content/clients/spiro-wb.png" alt="" loading="lazy"> 
+										<img style="width: 100%; height: 100%;" class="" src="wp-content/clients/spiro-wb.png" alt="" loading="lazy"> 
 									</div>
 								</div>
 								<div class="h"> </div>
@@ -1655,8 +1652,8 @@
 							</div>
 							<div class="row w35 big">
 								<div class="top">
-									<div class="left">
-										<img class="" style="width: 155px; height: 155px;" src="wp-content/clients/pinecrest_text.png" alt="" loading="lazy">  
+									<div class="left"style="font-size: 30px !important; font-weight: bold;">
+										Pinecrest
 									</div>
 									<div class="right" id="go"> 
 										<img class="" src="wp-content/clients/pinecrest(1).png" alt="" loading="lazy"> 
@@ -1695,7 +1692,7 @@
 							<div class="row w35 big">
 								<div class="top">
 									<div class="left"> 
-										<img style="width: 170px; height: 170px;" class="" src="wp-content/clients/racines_wb.png" alt="" loading="lazy"> 
+										<img  class="" style="width: 100%; height: 100%;" src="wp-content/clients/racines_wb.png" alt="" loading="lazy"> 
 									</div>
 								</div>
 								<div class="h"> </div>
@@ -1706,7 +1703,7 @@
 							<div class="row w35 big">
 								<div class="top">
 									<div class="left">
-										<img class="" style="width: 160px; height: 630px;" src="wp-content/clients/engie.png" alt="" loading="lazy">  
+										<img class="" style="width: 100%; height: 100%;" src="wp-content/clients/engie.png" alt="" loading="lazy">  
 									</div>
 								</div>
 								<div class="h"> </div>
@@ -1727,8 +1724,8 @@
 							</div>
 							<div class="row w35 big">
 								<div class="top">
-									<div class="left">
-										<img class="" style="width: 155px; height: 155px;" src="wp-content/clients/sobebra-wbtext.png" alt="" loading="lazy">  
+									<div class="left"style="font-size: 30px !important; font-weight: bold;">
+										SOBEBRA 
 									</div>
 									<div class="right" id="go"> 
 										<img class="" src="wp-content/clients/sobebra-wblogo.png" alt="" loading="lazy"> 
@@ -1742,8 +1739,8 @@
 							<div class="row w35 big">
 								<div class="top">
 									<div class="left">
-										<img class="" style="width: 160px; height: 630px;" src="wp-content/clients/art.png" alt="" loading="lazy">  
-									</div>
+										<img class="" src="wp-content/clients/art.png" alt="" loading="lazy">  
+									</div>			
 								</div>
 								<div class="h"> </div>
 								<div class="p small">  
@@ -1767,7 +1764,7 @@
 							<div class="row light full none">
 								<div class="top">
 									<div class="left">
-										<img class="" style="width: 160px; height: 630px;" src="wp-content/clients/engie.png" alt="" loading="lazy"> 
+										<img class="" style="width: 100%; height: 100%;" src="wp-content/clients/engie.png" alt="" loading="lazy"> 
 									</div>
 									<div class="right kubok"> <img class="" src="wp-content/uploads/2022/12/5.svg"
 											alt="" loading="lazy"> </div>
@@ -2379,19 +2376,21 @@
     }
 
     function next() {
-        currentIndex += itemsPerPage;
+        currentIndex++;
         if (currentIndex >= rows.length) {
             currentIndex = 0;
         }
-        showItems();
+        slideItems(-container.width()); // Slide to the left
     }
 
-    function prev() {
-        currentIndex -= itemsPerPage;
-        if (currentIndex < 0) {
-            currentIndex = rows.length - itemsPerPage;
-        }
-        showItems();
+    // Function to animate the sliding effect
+    function slideItems(offset) {
+        container.animate({
+            left: offset
+        }, 500, function () {
+            showItems();
+            container.css("left", 0); // Reset left position
+        });
     }
 
     // Show initial items
@@ -2400,6 +2399,7 @@
     // Automatically scroll every 5 seconds
     setInterval(next, 5000);
 </script>
+
 
 
 
