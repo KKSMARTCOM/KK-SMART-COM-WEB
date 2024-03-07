@@ -1,0 +1,179 @@
+<!-- Slide 5 -->
+							<div class="swiper-slide">
+								<div class="wrap">
+									<div class="awards-details">
+										<div class="row w35 big">
+											<div class="top">
+												<div class="left">
+													<img style="width: 155px; height: 155px;" src="wp-content/clients/laPaire-wb.png" alt="" loading="lazy">
+												</div>
+											</div>
+											<div class="h"></div>
+											<div class="p small">
+												Depuis 2018, Lapaire révolutionne l’accès aux soins oculaires en Afrique en rendant accessibles à tous les lunettes de vue tendances!
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Slide 6 -->
+							<div class="swiper-slide">
+								<div class="wrap">
+									<div class="awards-details">
+										<div class="row w35 big">
+											<div class="top">
+												<div class="left">
+													<img class="" style="width: 155px; height: 155px;" src="wp-content/clients/pinecrest_text.png" alt="" loading="lazy">
+												</div>
+												<div class="right" id="go">
+													<img class="" src="wp-content/clients/pinecrest(1).png" alt="" loading="lazy">
+												</div>
+											</div>
+											<div class="h"></div>
+											<div class="p small">
+												Service de nettoyage à sec avec service de dépôt et de récupération 24 heures sur 24, avec des services de livraison et de récupération gratuits dans tout Cotonou.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Slide 7 -->
+							<div class="swiper-slide">
+								<div class="wrap">
+									<div class="awards-details">
+										<div class="row w35 big">
+											<div class="top">
+												<div class="left">
+													<img style="width: 155px; height: 155px;" class="" src="wp-content/clients/hublot-wb.png" alt="" loading="lazy">
+												</div>
+											</div>
+											<div class="h"></div>
+											<div class="p small">
+												Le Hublot est un restaurant gastronomique et une Guest house avec 6 chambres climatisées.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Slide 8 -->
+							<div class="swiper-slide">
+								<div class="wrap">
+									<div class="awards-details">
+										<div class="row w35 big">
+											<div class="top">
+												<div class="left">
+													<img style="width: 155px; height: 155px;" class="" src="wp-content/clients/canal_+-wb.png" alt="" loading="lazy">
+												</div>
+											</div>
+											<div class="h"></div>
+											<div class="p small">
+												Chaîne de télévision.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+					
+							<!-- Slide 9 -->
+							<div class="swiper-slide">
+								<div class="wrap">
+									<div class="awards-details">
+										<div class="row w35 big">
+											<div class="top">
+												<div class="left">
+													<img class="" style="width: 160px; height: 630px;" src="wp-content/clients/engie.png" alt="" loading="lazy">
+												</div>
+											</div>
+											<div class="h"></div>
+											<div class="p small">
+												MySol Bénin, une filiale du groupe ENGIE.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Slide 10 -->
+							<div class="swiper-slide">
+								<div class="wrap">
+									<div class="awards-details">
+										<div class="row w35 big">
+											<div class="top">
+												<div class="left" style="font-size: 30px !important; font-weight: bold;">
+													Origine Terre
+												</div>
+											</div>
+											<div class="h"></div>
+											<div class="p small">
+												Origine Terre est une marque de produits cosmétiques 100% naturels faits main au Bénin. Savons, laits...
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Slide 11 -->
+							<div class="swiper-slide">
+								<div class="wrap">
+									<div class="awards-details">
+										<div class="row w35 big">
+											<div class="top">
+												<div class="left">
+													<img class="" style="width: 155px; height: 155px;" src="wp-content/clients/sobebra-wbtext.png" alt="" loading="lazy">
+												</div>
+												<div class="right" id="go">
+													<img class="" src="wp-content/clients/sobebra-wblogo.png" alt="" loading="lazy">
+												</div>
+											</div>
+											<div class="h"></div>
+											<div class="p small">
+												La SOBEBRA (Société Béninoise de Boissons Rafraichissantes) est une filiale de Castel au Bénin.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Slide 12 -->
+							<div class="swiper-slide">
+								<div class="wrap">
+									<div class="awards-details">
+										<div class="row w35 big">
+											<div class="top">
+												<div class="left">
+													<img class="" style="width: 160px; height: 630px;" src="wp-content/clients/art.png" alt="" loading="lazy">
+												</div>
+											</div>
+											<div class="h"></div>
+											<div class="p small">
+												ART Résidence est une résidence hôtelière implantée à Porto-Novo dans la capitale du Bénin.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Slide 13 -->
+							<div class="swiper-slide">
+								<div class="wrap">
+									<div class="awards-details">
+										<div class="row w35 big">
+											<div class="top">
+												<div class="left" style="font-size: 30px !important; font-weight: bold;">
+													ANPE BENIN
+												</div>
+												<div class="right" id="go">
+													<img class="" src="wp-content/clients/anpe.jpg" alt="" loading="lazy">
+												</div>
+											</div>
+											<div class="h"></div>
+											<div class="p small">
+												Service Public d'Emploi Ecoute, Conseil, Orientation Accompagnement des jeunes diplômés vers l'emploi.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>

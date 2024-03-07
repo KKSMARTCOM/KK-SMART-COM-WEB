@@ -1511,7 +1511,7 @@
 							<div class="row w35 big">
 								<div class="top">
 									<div class="left"> 
-										<img style="width: 155px; height: 155px;" class="" src="wp-content/clients/BECSarl-wb.png" alt="" loading="lazy"> 
+										<img style="width: 300%; height: 300%;" class="" src="wp-content/clients/BECSarl-wb.png" alt="" loading="lazy"> 
 									</div>
 								</div>
 								<div class="h"> </div>
@@ -1536,7 +1536,7 @@
 							<div class="row w35 big">
 								<div class="top">
 									<div class="left"> 
-										<img style="width: 155px; height: 155px;" class="" src="wp-content/clients/spiro-wb.png" alt="" loading="lazy"> 
+										<img style="width: 300%; height: 300%;" class="" src="wp-content/clients/spiro-wb.png" alt="" loading="lazy"> 
 									</div>
 								</div>
 								<div class="h"> </div>
@@ -1561,7 +1561,7 @@
 							<div class="row w35 big">
 								<div class="top">
 									<div class="left"> 
-										<img style="width: 155px; height: 155px;" class="" src="wp-content/clients/laPaire-wb.png" alt="" loading="lazy"> 
+										<img style="width: 300%; height: 300%;" class="" src="wp-content/clients/laPaire-wb.png" alt="" loading="lazy"> 
 									</div>
 								</div>
 								<div class="h"> </div>
@@ -1571,8 +1571,8 @@
 							</div>
 							<div class="row w35 big">
 								<div class="top">
-									<div class="left">
-										<img class="" style="width: 155px; height: 155px;" src="wp-content/clients/pinecrest_text.png" alt="" loading="lazy">  
+									<div class="left"style="font-size: 30px !important; font-weight: bold;">
+										Pinecrest
 									</div>
 									<div class="right" id="go"> 
 										<img class="" src="wp-content/clients/pinecrest(1).png" alt="" loading="lazy"> 
@@ -1600,7 +1600,7 @@
 							<div class="row w35 big">
 								<div class="top">
 									<div class="left"> 
-										<img style="width: 155px; height: 155px;" class="" src="wp-content/clients/canal_+-wb.png" alt="" loading="lazy"> 
+										<img style="width: 300%; height: 300%;" class="" src="wp-content/clients/canal_+-wb.png" alt="" loading="lazy"> 
 									</div>
 								</div>
 								<div class="h"> </div>
@@ -1622,7 +1622,7 @@
 							<div class="row w35 big">
 								<div class="top">
 									<div class="left">
-										<img class="" style="width: 160px; height: 630px;" src="wp-content/clients/engie.png" alt="" loading="lazy">  
+										<img class="" style="width: 100px; height: 330px;" src="wp-content/clients/engie.png" alt="" loading="lazy">  
 									</div>
 								</div>
 								<div class="h"> </div>
@@ -1643,8 +1643,8 @@
 							</div>
 							<div class="row w35 big">
 								<div class="top">
-									<div class="left">
-										<img class="" style="width: 155px; height: 155px;" src="wp-content/clients/sobebra-wbtext.png" alt="" loading="lazy">  
+									<div class="left"style="font-size: 30px !important; font-weight: bold;">
+										SOBEBRA 
 									</div>
 									<div class="right" id="go"> 
 										<img class="" src="wp-content/clients/sobebra-wblogo.png" alt="" loading="lazy"> 
@@ -1658,7 +1658,7 @@
 							<div class="row w35 big">
 								<div class="top">
 									<div class="left">
-										<img class="" style="width: 160px; height: 630px;" src="wp-content/clients/art.png" alt="" loading="lazy">  
+										<img class="" src="wp-content/clients/art.png" alt="" loading="lazy">  
 									</div>
 								</div>
 								<div class="h"> </div>
@@ -1683,7 +1683,7 @@
 							<div class="row light full none">
 								<div class="top">
 									<div class="left">
-										<img class="" style="width: 160px; height: 630px;" src="wp-content/clients/engie.png" alt="" loading="lazy"> 
+										<img class="" style="width: 100px; height: 330px;" src="wp-content/clients/engie.png" alt="" loading="lazy"> 
 									</div>
 									<div class="right kubok"> <img class="" src="wp-content/uploads/2022/12/5.svg"
 											alt="" loading="lazy"> </div>
@@ -2282,19 +2282,21 @@
     }
 
     function next() {
-        currentIndex += itemsPerPage;
+        currentIndex++;
         if (currentIndex >= rows.length) {
             currentIndex = 0;
         }
-        showItems();
+        slideItems(-container.width()); // Slide to the left
     }
 
-    function prev() {
-        currentIndex -= itemsPerPage;
-        if (currentIndex < 0) {
-            currentIndex = rows.length - itemsPerPage;
-        }
-        showItems();
+    // Function to animate the sliding effect
+    function slideItems(offset) {
+        container.animate({
+            left: offset
+        }, 500, function () {
+            showItems();
+            container.css("left", 0); // Reset left position
+        });
     }
 
     // Show initial items
