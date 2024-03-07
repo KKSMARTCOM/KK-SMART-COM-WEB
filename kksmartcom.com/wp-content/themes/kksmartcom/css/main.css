@@ -139,6 +139,18 @@ body.loading:after {
     color: #1F2122
 }
 
+#menulangage{
+    padding-top: 0px;
+    border-top: none !important;
+    border-bottom: none !important;
+    padding-left: 3px;
+    padding-right: 7px;
+    padding-bottom: 1px;
+    left: 1011px;
+    min-width: 0;
+    width: auto;
+}
+
 .white-background form .inp-wrap input~span:not(.counter),
 .gray-background form .inp-wrap input~span:not(.counter) {
     color: white
@@ -2029,7 +2041,7 @@ h4.viewed i,
 }
 
 #cursor.oncase:before {
-    content: 'view';
+    content: 'voir';
     font-size: 14px;
     height: auto;
     width: auto;
@@ -2053,7 +2065,7 @@ h4.viewed i,
 }
 
 #cursor.teamcur:before {
-    content: 'Défilez';
+    content: 'défilez';
     font-size: 14px;
     height: auto;
     width: auto;
