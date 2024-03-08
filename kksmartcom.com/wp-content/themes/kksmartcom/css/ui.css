@@ -4466,7 +4466,7 @@ h1.section-heading {
       position: absolute;
       bottom: 0;
       right: 0;
-      background: url(../img/mfs2.svg) no-repeat right bottom;
+      /* background: url(../img/mfs2.svg) no-repeat right bottom; */
       background-size: contain;
   }
 }
