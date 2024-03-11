@@ -580,6 +580,12 @@
         .no100 {
 			max-width: none !important;
 		}
+		@media only screen and (max-width: 600px) {
+			.locations {
+				display: flex!important;
+				flex-direction: column!important;
+			}
+		}
 	</style>
 	<script type="application/ld+json">
 [{"@context":"http://schema.org","@type":"WebSite","url":"https://kksmartcom.com/","potentialAction":{"@type":"SearchAction","target":"https://kksmartcom.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"Organization","url":"https://kksmartcom.com/","logo":"https://kksmartcom.com/wp-content/webp-express/webp-images/uploads/2021/09/Logo-3D-1mob-e1630573294768.png.webp","name":"kksmartcomstudio","email":"hello@kksmartcom.com"}]
@@ -1352,8 +1358,8 @@
 							<div class="col">
 								<div class="address">
 									<div class="location">
-										<a href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide">Liens
-												rapides</span></a>
+										<a href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide" style="font-size: x-large;">Quick
+												links</span></a>
 										<div class="address">
 											<a href="https://comeup.com/fr/@kk-smart-com">
 												<div class="location">
@@ -1364,19 +1370,19 @@
 										<div class="address">
 											<a href="https://www.behance.net/kksmartcom">
 												<div class="location">
-													<span>Projets</span>
+													<span>Projects</span>
 												</div>
 											</a>
 										</div>
 										<div class="address">
-											<a href="apropos.html">
+											<a href="about-us.html">
 												<div class="location">
-													<span>A propos</span>
+													<span>About</span>
 												</div>
 											</a>
 										</div>
 										<div class="address">
-											<a href="https://www.linkedin.com/company/kksmartcom/">
+											<a href="blogen.html">
 												<div class="location">
 													<span>Blog</span>
 												</div>
@@ -1385,7 +1391,7 @@
 										<div class="address">
 											<a href="https://comeup.com/fr/@kk-smart-com">
 												<div class="location">
-													<span>Carrière</span>
+													<span>Career</span>
 												</div>
 											</a>
 										</div>
@@ -1394,24 +1400,24 @@
 							</div>
 
 							<div class="col">
-								<div class="section-subheading">Agences</div>
+								<div class="section-subheading" style="margin-top: 0!important; font-size: x-large;">Locations</div>
 								<div class="address">
 									<img src="wp-content/themes/kksmartcom/img/pin.svg" alt="">
 
 									<div class="location">
-										<span>Cotonou / Bénin</span>
+										<span>Cotonou / Benin</span>
 									</div>
 								</div>
 								<div class="address">
 									<img src="wp-content/themes/kksmartcom/img/pin.svg" alt="">
 									<div class="location">
-										<span>Lomé / Togo</span>
+										<span>Lome / Togo</span>
 									</div>
 								</div>
 								<div class="address">
 									<img src="wp-content/themes/kksmartcom/img/pin.svg" alt="">
 									<div class="location">
-										<span>Abidjan / Côte d'Ivoire</span>
+										<span>Abidjan, Ivory Coast</span>
 									</div>
 								</div>
 
@@ -1427,7 +1433,7 @@
 						</div>
 					</div>
 					<div class="right">
-						<div class="section-subheading">Suivez-nous sur les réseaux sociaux</div>
+						<div class="section-subheading">Follow us on social media</div>
 						<div class="socs-wrap">
 							<div class="socs">
 								<a target="_blank" rel="noopener noreferrer nofollow"
@@ -1477,6 +1483,8 @@
 									class="map-container" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 								</iframe>
 							</div>
+
+
 						</div>
 					</div>
 				</div>

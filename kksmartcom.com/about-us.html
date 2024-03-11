@@ -578,6 +578,13 @@
 				margin-bottom: 10px; 
 			}
 		}
+
+		@media only screen and (max-width: 600px) {
+			.locations {
+				display: flex!important;
+				flex-direction: column!important;
+			}
+		}
 	</style>
 	<script type="application/ld+json">
 [{"@context":"http://schema.org","@type":"WebSite","url":"https://kksmartcom.com/","potentialAction":{"@type":"SearchAction","target":"https://kksmartcom.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"Organization","url":"https://kksmartcom.com/","logo":"https://kksmartcom.com/wp-content/webp-express/webp-images/uploads/2021/09/Logo-3D-1mob-e1630573294768.png.webp","name":"kksmartcomstudio","email":"hello@kksmartcom.com"}]
@@ -1679,26 +1686,23 @@
 	<div class="footer-wrap lime-background hidden-block" style="height: 941.25px;">
 		<div class="footer" style="transform: translateY(370.5px); will-change: transform;">
 			<div class="wrap">
-				<!-- <img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/star-full.svg"
-						class="star-img" alt=""> -->
 				<div class="footer-top">
 					<div class="left">
-						<!-- <div class="section-subheading">KK SMART COM</div> -->
 						<div class="locations">
 							<div class="col">
 								<div class="address">
 									<div class="location">
-										<a href="https://comeup.com/fr/@kk-smart-com" target="_blank"><span id="lienrapide">Quick
+										<a href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide" style="font-size: x-large;">Quick
 												links</span></a>
 										<div class="address">
-											<a href="https://comeup.com/fr/@kk-smart-com" target="_blank">
+											<a href="https://comeup.com/fr/@kk-smart-com">
 												<div class="location">
 													<span>Services</span>
 												</div>
 											</a>
 										</div>
 										<div class="address">
-											<a href="https://www.behance.net/kksmartcom" target="_blank">
+											<a href="https://www.behance.net/kksmartcom">
 												<div class="location">
 													<span>Projects</span>
 												</div>
@@ -1719,7 +1723,7 @@
 											</a>
 										</div>
 										<div class="address">
-											<a href="https://comeup.com/fr/@kk-smart-com" target="_blank">
+											<a href="https://comeup.com/fr/@kk-smart-com">
 												<div class="location">
 													<span>Career</span>
 												</div>
@@ -1730,7 +1734,7 @@
 							</div>
 
 							<div class="col">
-								<div class="section-subheading">Locations</div>
+								<div class="section-subheading" style="margin-top: 0!important; font-size: x-large;">Locations</div>
 								<div class="address">
 									<img src="wp-content/themes/kksmartcom/img/pin.svg" alt="">
 
@@ -1810,8 +1814,7 @@
 
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.1639292867094!2d2.3553105746980005!3d6.372826593617385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10235798a3364b93%3A0x2e31cf5b35f72be8!2sKK%20SMART%20COM!5e0!3m2!1sfr!2sbj!4v1686445030526!5m2!1sfr!2sbj0"
-									height="200" width="400" style="border: 0; border-radius: 10px; margin-top: 34px;"
-									allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+									class="map-container" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 								</iframe>
 							</div>
 
