@@ -562,6 +562,17 @@
 				margin-bottom: 10px; 
 			}
 		}
+
+		@media only screen and (max-width: 600px) {
+			.locations {
+				display: flex!important;
+				flex-direction: column!important;
+			}
+		}
+
+
+
+
 	</style>
 
 	<script type="application/ld+json">
@@ -1885,10 +1896,10 @@
 				<div class="footer-top">
 					<div class="left">
 						<div class="locations">
-							<div class="col">
+							<div class="col" id="liensRapides">
 								<div class="address">
 									<div class="location">
-										<a target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide">Liens
+										<a href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide" style="font-size: x-large;">Liens
 												rapides</span></a>
 										<div class="address">
 											<a target="_blank" href="https://comeup.com/fr/@kk-smart-com">
@@ -1929,8 +1940,8 @@
 								</div>
 							</div>
 
-							<div class="col">
-								<div class="section-subheading">Agences</div>
+							<div class="col" id="agences">
+								<div class="section-subheading" style="margin-top: 0!important; font-size: x-large;">Agences</div>
 								<div class="address">
 									<img src="wp-content/themes/kksmartcom/img/pin.svg" alt="">
 

@@ -553,6 +553,13 @@
 				margin-bottom: 10px; 
 			}
 		}
+
+		@media only screen and (max-width: 600px) {
+			.locations {
+				display: flex!important;
+				flex-direction: column!important;
+			}
+		}
 	</style>
 
 	<script type="application/ld+json">
@@ -1378,20 +1385,20 @@
 				<div class="footer-top">
 					<div class="left">
 						<div class="locations">
-							<div class="col">
+							<div class="col" id="liensRapides">
 								<div class="address">
 									<div class="location">
-										<a href="https://comeup.com/fr/@kk-smart-com" target="_blank"><span id="lienrapide">Liens
+										<a href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide" style="font-size: x-large;">Liens
 												rapides</span></a>
 										<div class="address">
-											<a href="https://comeup.com/fr/@kk-smart-com" target="_blank">
+											<a href="https://comeup.com/fr/@kk-smart-com">
 												<div class="location">
 													<span>Services</span>
 												</div>
 											</a>
 										</div>
 										<div class="address">
-											<a href="https://www.behance.net/kksmartcom" target="_blank">
+											<a href="https://www.behance.net/kksmartcom">
 												<div class="location">
 													<span>Projets</span>
 												</div>
@@ -1416,7 +1423,7 @@
 											</a>
 										</div>
 										<div class="address">
-											<a href="https://comeup.com/fr/@kk-smart-com" target="_blank">
+											<a href="https://comeup.com/fr/@kk-smart-com">
 												<div class="location">
 													<span>Carrière</span>
 												</div>
@@ -1426,8 +1433,8 @@
 								</div>
 							</div>
 
-							<div class="col">
-								<div class="section-subheading">Agences</div>
+							<div class="col" id="agences">
+								<div class="section-subheading" style="margin-top: 0!important; font-size: x-large;">Agences</div>
 								<div class="address">
 									<img src="wp-content/themes/kksmartcom/img/pin.svg" alt="">
 
