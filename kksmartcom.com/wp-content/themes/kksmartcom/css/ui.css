@@ -2477,7 +2477,7 @@ h1.section-heading {
   width: 139px;
   height: 193px;
   bottom: 170px;
-  background: url("../img/blob.png") no-repeat center right;
+  /* background: url("../img/blob.png") no-repeat center right; */
   background-size: contain;
   position: absolute;
   right: 0;
