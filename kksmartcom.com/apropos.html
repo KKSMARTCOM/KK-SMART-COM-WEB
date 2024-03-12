@@ -776,12 +776,8 @@
 														propos</a></li>
 
 												<li class=""><a class=""
-<<<<<<< HEAD
 														href="blog.html"
 														>Blog</a> </li>
-=======
-														href="blog.html">Blog</a> </li>
->>>>>>> origin/user_experiences
 												<li class=""><a class=""
 														href="https://www.linkedin.com/company/kksmartcom/"
 														target="_blank">Carrière</a>
@@ -1120,6 +1116,28 @@
 
 				.our-map svg g {
 					pointer-events: all !important
+				}
+				@media (max-width: 1024px) {
+					.our-map {
+					width: calc(100% + 40px);
+					margin-left: -20px;
+					margin-bottom: 0;
+					}
+				}
+
+				.our-map {
+					position: relative;
+					z-index: 1;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 100vh;
+				}
+
+				.our-map iframe {
+					border: 0;
+					border-radius: 10px;
+					margin-top: 34px;
 				}
 			</style>
 			<div class="our-map">
