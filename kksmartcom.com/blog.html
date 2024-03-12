@@ -608,7 +608,7 @@
 		<div class="header view fadein" id="header">
 			<div class="wrap">
 				<div class="flex-row">
-					<a href="#" class="logo">
+					<a href="index.html" class="logo">
 						<svg id="Calque_1" data-name="Calque 1" height="35" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 1511.51 402.54">
 							<defs>
@@ -1002,7 +1002,7 @@
 						</li>
 						<li id="menu-item-10097-it"
 							class="lang-item lang-item-156 lang-item-fr menu-item menu-item-type-custom menu-item-object-custom menu-item-10097-fr">
-							<a href="indexen.html" hreflang="fr-FR" lang="fr-FR"><span class="a-line"><span>ENG</span></span></a>
+							<a href="blogen.html" hreflang="fr-FR" lang="fr-FR"><span class="a-line"><span>ENG</span></span></a>
 						</li>
 					</ul><span class="sub-menu-opener"></span>
 				</li>
@@ -1671,6 +1671,19 @@
 			$(this).find(".main-btn").removeAttr("disabled");
 		});
 	});
+
+	$(document).ready(function () {
+        $('.modal-closer').on('click', function () {
+            // Check if the modal is open
+            if ($('.modal-wrap').is(':visible')) {
+                // Change the logo color to white
+                $('#logo svg path.cls-4').css('fill', 'white');
+            } else {
+                // Change the logo color back to the original color
+                $('#logo svg path.cls-4').css('fill', '#434244');
+            }
+        });
+    });
 </script>
 
 
