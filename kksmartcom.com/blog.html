@@ -558,6 +558,12 @@
 		}
 	</style>
 
+	<style>
+		.cls-4.white-color {
+		fill: white;
+		}
+	</style>
+  
 	<script type="application/ld+json">
 [{"@context":"http://schema.org","@type":"WebSite","url":"https://kksmartcom.com/","potentialAction":{"@type":"SearchAction","target":"https://kksmartcom.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"Organization","url":"https://kksmartcom.com/","logo":"https://kksmartcom.com/wp-content/webp-express/webp-images/uploads/2021/09/Logo-3D-1mob-e1630573294768.png.webp","name":"kksmartcomstudio","email":"hello@kksmartcom.com"}]
 </script>
@@ -1725,6 +1731,40 @@
 		});
 	</script>
 
+
+
+
+
+<!-- <style>
+	/* Add this style to your CSS or within a style tag in the head */
+	.white-logo .cls-4 {
+		fill: #fff !important; /* Adjust the color code as needed */
+	}
+</style>
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		const mobileMenu = document.querySelector('.mobile-menu-wrap');
+		const menuToggle = document.querySelector('.gam');
+		const logo = document.querySelector('.logo');
+
+		// Function to toggle the mobile menu
+		function toggleMobileMenu() {
+			mobileMenu.classList.toggle('active');
+			logo.classList.toggle('white-logo');
+		}
+
+		// Event listener for the menu toggle button
+		menuToggle.addEventListener('click', toggleMobileMenu);
+
+		// Close the mobile menu when a menu item is clicked
+		const mobileMenuItems = document.querySelectorAll('.mobile-menu-wrap a');
+		mobileMenuItems.forEach(item => {
+			item.addEventListener('click', toggleMobileMenu);
+		});
+	}); -->
+</script>
+
+  
 
 </body>
 

@@ -575,6 +575,23 @@
 
 	</style>
 
+	<style>
+		#main-video {
+			width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+		}
+
+		@media only screen and (max-width: 768px) {
+			#main-video {
+				position: static !important;
+			}
+		}
+	</style>
+
 	<script type="application/ld+json">
 [{"@context":"http://schema.org","@type":"WebSite","url":"https://kksmartcom.com/","potentialAction":{"@type":"SearchAction","target":"https://kksmartcom.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"Organization","url":"https://kksmartcom.com/","logo":"https://kksmartcom.com/wp-content/webp-express/webp-images/uploads/2021/09/Logo-3D-1mob-e1630573294768.png.webp","name":"kksmartcomstudio","email":"hello@kksmartcom.com"}]
 </script>
@@ -1052,7 +1069,7 @@
 	<!-- end header -->
 
 	<video class="vns" style="width: 0;height: 0;position: absolute;left: -1px;visibility: visible!important;"
-		preload="none" id="main-video2" src="wp-content/showreel_kksmartcom_off.MP4" controls=""></video>
+		preload="none" id="" src="wp-content/showreel_kksmartcom_off.MP4" controls=""></video>
 	<div class="screen1 black-background section" id="main-screen-load">
 		<div class="wrap view hidden-block hidd_block">
 			<div style="display: none;">
