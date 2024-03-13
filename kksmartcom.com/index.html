@@ -900,29 +900,30 @@
 										</div>
 
 										<div class="right black-background">
-											<form action="https://formspree.io/f/mnqezbov" method="post"
-												autocomplete="off" enctype="multipart/form-data"
-												class="main_contact_form"> <input type="hidden" name="currency"
-													value="USD"> <input type="hidden" name="price" id="price_1"> <label for="inpname_1" class="inp-wrap view textslide active viewed"> <input type="text" id="inpname_1" style="color: white;" name="Nom" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[A-Za-z]">
+											<form class="main_contact_form" action="https://formspree.io/f/xqkrlnwe" method="post">
+													<label for="inpname_1" class="inp-wrap view textslide active viewed"> 
+													<input type="text" id="inpname_1" style="color: white;" name="Nom" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[A-Za-z]">
 														<span>Votre nom & prénoms<sup>*</sup></span> 
 													</label> 
-													<label for="inpname_1" class="inp-wrap view textslide active viewed"> <input type="email" id="inpname_1" style="color: white;" name="Email" required autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-message-error="Your Email is invalid">
+													<label for="inpemail_1" class="inp-wrap view textslide active viewed"> 
+														<input type="email" id="inpemail_1" style="color: white;" name="Email" required autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-message-error="Votre Email est invalide">
 														<span>Votre email<sup>*</sup></span> 
-													</label><label for="inptext_1" class="inp-wrap view textslide">
-													<textarea placeholder=" " id="inptext_1" name="your_text"
+													</label>
+													<label for="inptext_1" class="inp-wrap view textslide">
+													<textarea placeholder=" " id="inptext_1" name="Message"
 														data-message-error="Max length 1000 characters"
-														class="max-length" data-max-length="1000"></textarea>
+														class="max-length" data-max-length="1000" required></textarea>
 													<span>Parlez nous de votre projet</span> <span class="counter"
 														data-max="250"> <b>0</b>/1000 </span> </label>
 												
 												<div class="trms-wrap">
-													<button href="mailto:hello@kksmartcom.com" class="main-btn arrow white"><span><svg fill="none"
-																height="10" viewBox="0 0 9 10" width="9"
-																xmlns="http://www.w3.org/2000/svg">
-																<path clip-rule="evenodd"
-																	d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
-																	fill="black" fill-rule="evenodd"></path>
-															</svg>Soumettre</span></button>
+													<button type="submit" class="main-btn arrow white">
+														<span>
+															<svg fill="none" height="10" viewBox="0 0 9 10" width="9" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z" fill="black" fill-rule="evenodd"></path>
+															</svg>Soumettre
+														</span>
+													</button>
 												</div>
 											</form>
 										</div>
@@ -1816,25 +1817,24 @@
 				<div class="right">
 
 
-					<form id="myForm" class="main_contact_form" action="https://formspree.io/f/mnqezbov" method="post">
+					<form class="main_contact_form2" action="https://formspree.io/f/xqkrlnwe" method="post">
 						<div class="inps-wrap">
-							<label for="inpname_1" class="inp-wrap view textslide active viewed">
-								<input type="text" id="inpname_1" placeholder=" " name="Nom" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[A-Za-z]">
+							<label for="inpname_2" class="inp-wrap view textslide active viewed">
+								<input type="text" id="inpname_2" placeholder=" " name="Nom" required="" autocomplete="off" data-max-length="40" class="required max-length pattern" data-pattern="[A-Za-z]">
 								<span>Votre nom & prénoms<sup>*</sup></span>
 							</label>
 							<label for="inpemail_1" class="inp-wrap view textslide active viewed">
-								<input type="email" id="inpemail_1" placeholder=" " name="Email" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-message-error="Your Email is invalid">
+								<input type="email" id="inpemail_2" placeholder=" " name="Email" required="" autocomplete="off" data-max-length="40" class="required max-length pattern" data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-message-error="Your Email is invalid">
 								<span>Votre email<sup>*</sup></span>
 							</label>
 						</div>
 					
-						<label for="message" class="inp-wrap view textslide">
-							<textarea placeholder=" " id="message" name="message"></textarea>
-							<span>Parlez-nous de votre projet.</span>
-							<span class="counter" data-max="1000">
-								<b>0</b>/1000
-							</span>
-						</label>
+						<label for="inptext_2" class="inp-wrap view textslide">
+							<textarea placeholder=" " id="inptext_2" name="Message"
+								data-message-error="Max length 1000 characters"
+								class="max-length" data-max-length="1000" required></textarea>
+							<span>Parlez nous de votre projet</span> <span class="counter"
+								data-max="250"> <b>0</b>/1000 </span> </label>
 					
 						<button type="submit" class="main-btn arrow white">
 							<span>
@@ -1845,23 +1845,6 @@
 						</button>
 					</form>
 					
-
-					<script>
-						document.getElementById("myForm").addEventListener("submit", function (event) {
-							event.preventDefault();
-
-							// Récupérer les valeurs des champs du formulaire
-							var name = document.getElementById("name").value;
-							var email = document.getElementById("email").value;
-							var message = document.getElementById("message").value;
-
-							// Générer le lien vers WhatsApp avec un message personnalisé
-							var Link = "mailto:hello@kksmartcom.com?text=Bonjour,%20je%20suis%20" + name + ".%20Mon%20adresse%20e-mail%20est%20" + email + ".%20Voici%20mon%20message%20:%20" + message;
-
-							// Rediriger vers le lien généré
-							window.location.href = Link;
-						});
-					</script>
 
 
 				</div>
@@ -2287,36 +2270,42 @@
 		$(document).ready(function () {
 			$(".main_contact_form").validate({
 				rules: {
-					your_name: {
+					Nom: {
 						required: true,
 						maxlength: 40
 					},
-					your_email: {
+					Email: {
 						required: true,
 						email: true
 					},
-					your_text: {
+					Message: {
+						required: true,
 						maxlength: 1000
 					}
 				},
 				messages: {
-					your_name: {
+					Nom: {
 						required: "Votre nom est requis",
 						maxlength: "Longueur maximale 40 caractères"
 					},
-					your_email: {
+					Email: {
 						email: "Votre email est invalide",
 						required: "Email requis"
 					},
-					your_text: {
+					Message: {
+						required: "Message requis",
 						maxlength: "Longueur maximale 1000 caractères"
 					}
 				},
 				submitHandler: function (form) {
 					// Désactivez le bouton après la validation réussie
 					$(form).find(".main-btn").attr("disabled", true);
+	
 					// Envoi réel du formulaire
 					form.submit();
+	
+					// Videz les champs après l'envoi réussi
+					$(form).find('input, textarea').val('');
 				}
 			});
 	
@@ -2326,6 +2315,59 @@
 			});
 		});
 	</script>
+	
+
+	<script>
+		$(document).ready(function () {
+			$(".main_contact_form2").validate({
+				rules: {
+					Nom: {
+						required: true,
+						maxlength: 40
+					},
+					Email: {
+						required: true,
+						email: true
+					},
+					Message: {
+						required: true,
+						maxlength: 1000
+					}
+				},
+				messages: {
+					Nom: {
+						required: "Votre nom est requis",
+						maxlength: "Longueur maximale 40 caractères"
+					},
+					Email: {
+						email: "Votre email est invalide",
+						required: "Email requis"
+					},
+					Message: {
+						required: "Message requis",
+						maxlength: "Longueur maximale 1000 caractères"
+					}
+				},
+				submitHandler: function (form) {
+					// Désactivez le bouton après la validation réussie
+					$(form).find(".main-btn").attr("disabled", true);
+
+					// Envoi réel du formulaire
+					form.submit();
+
+					// Videz les champs après l'envoi réussi
+					$(form).find('input, textarea').val('');
+				}
+			});
+
+			// Réactivez le bouton avant l'envoi réel du formulaire
+			$(".main_contact_form2").submit(function () {
+				$(this).find(".main-btn").removeAttr("disabled");
+			});
+		});
+	</script>
+
+
 	
 
 <script>
