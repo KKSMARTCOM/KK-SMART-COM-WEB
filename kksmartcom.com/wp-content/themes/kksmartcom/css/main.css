@@ -2042,6 +2042,7 @@ h4.viewed i,
 
 #cursor.oncase:before {
     content: 'voir';
+    content: 'voir';
     font-size: 14px;
     height: auto;
     width: auto;
@@ -4120,7 +4121,24 @@ a.tag span {
     background-size: 100%;
     will-change: background-position-y;
     font-size: 0 !important
-}
+} */
+
+.flex-cases .case .img-wrap {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer; /* Ajout d'un curseur pointer pour indiquer l'interaction possible */
+    opacity: 1;
+    background-size: cover; /* Utilisation de "cover" pour remplir l'espace sans déformation */
+    will-change: background-position-y;
+    transition: 0.3s background-size, 0.3s opacity; /* Ajout de l'opacité à la transition */
+    font-size: 0; /* Cela reste inchangé */
+  }
 
 .flex-cases .case .img-wrap:hover {
     background-size: 102% !important
@@ -7446,7 +7464,7 @@ a.tag span {
     .flex-cases .case .img-wrap {
         width: calc(100% + 40px);
         margin-left: -20px;
-        height: 95vw;
+        /* height: 95vw; */
         max-height: 500px
     }
 

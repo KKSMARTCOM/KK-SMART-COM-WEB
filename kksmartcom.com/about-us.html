@@ -547,6 +547,44 @@
 				margin-bottom: -0.5%
 			}
 		}
+		#go {
+			width: 65px;
+			height: 65px;
+			border-radius: 50%;
+			overflow: hidden;
+			background: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		#go img {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: contain;
+		}
+		.map-container {
+			width: 100%;
+			height: 200px;
+			border: 0;
+			border-radius: 10px;
+			margin-top: 34px;
+		}
+
+		@media (max-width: 767px) {
+			#lienrapide,
+			.section-subheading {
+				display: block;
+				margin-bottom: 10px; 
+			}
+		}
+
+		@media only screen and (max-width: 600px) {
+			.locations {
+				display: flex!important;
+				flex-direction: column!important;
+			}
+		}
 	</style>
 	<script type="application/ld+json">
 [{"@context":"http://schema.org","@type":"WebSite","url":"https://kksmartcom.com/","potentialAction":{"@type":"SearchAction","target":"https://kksmartcom.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"Organization","url":"https://kksmartcom.com/","logo":"https://kksmartcom.com/wp-content/webp-express/webp-images/uploads/2021/09/Logo-3D-1mob-e1630573294768.png.webp","name":"kksmartcomstudio","email":"hello@kksmartcom.com"}]
@@ -774,7 +812,7 @@
 						<div class="main-modal-wrap form-modal">
 							<div class="modal-closer wrap black-background">
 								<div class="mob-visible">
-									<a href="#" class="logo">
+									<a href="indexen.html" class="logo">
 										<svg id="Calque_1" data-name="Calque 1" height="35"
 											xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1511.51 402.54">
 											<defs>
@@ -867,42 +905,30 @@
 										</div>
 
 										<div class="right black-background">
-											<form action="https://kksmartcom.com/thanks" method="post"
-												autocomplete="off" enctype="multipart/form-data"
-												class="main_contact_form2"> <input type="hidden" name="currency"
-													value="USD"> <input type="hidden" name="price" id="price_1"> 
-													<label for="inpname_1" class="inp-wrap view textslide active viewed"> <input type="text" id="name" placeholder=" " name="your_name" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[A-Za-z]">
+											<form class="main_contact_form" action="https://formspree.io/f/xqkrlnwe" method="post">
+													<label for="inpname_1" class="inp-wrap view textslide active viewed"> 
+													<input type="text" id="inpname_1" style="color: white;" name="Name" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[A-Za-z]">
 														<span>Your name<sup>*</sup></span> 
 													</label> 
-													<label for="inpname_1" class="inp-wrap view textslide active viewed"> <input type="email" id="email" placeholder=" " name="your_email" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-message-error="Your Email is invalid">
+													<label for="inpemail_1" class="inp-wrap view textslide active viewed"> 
+														<input type="email" id="inpemail_1" style="color: white;" name="Email" required autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-message-error="Votre Email est invalide">
 														<span>Your email<sup>*</sup></span> 
 													</label>
-												<label for="inptext_1" class="inp-wrap view textslide">
-													<textarea placeholder=" " id="message" name="your_text"
+													<label for="inptext_1" class="inp-wrap view textslide">
+													<textarea placeholder=" " id="inptext_1" name="Message"
 														data-message-error="Max length 1000 characters"
-														class="max-length" data-max-length="1000"></textarea>
+														class="max-length" data-max-length="1000" required></textarea>
 													<span>Tell us about your project</span> <span class="counter"
 														data-max="250"> <b>0</b>/1000 </span> </label>
-												<!-- <div class="attach-wrap view textslide">
-													<div id="inner_1"> </div> <label for="attach_1"> <input type="file"
-															id="attach_1" multiple="" name="files_arr[]"> <img
-															src="https://kksmartcom.com/wp-content/themes/kksmartcom/img/sk.svg"
-															alt="">Attach file</label>
-												</div> -->
-												<div class="file-err err fe1_1">You can upload a maximum of 5
-													files</div>
-												<div class="file-err err fe2_1">Part of your file is not
-													loaded, because the size
-													Maximum file size is 5.
-													MB</div>
+												
 												<div class="trms-wrap">
-													<button href="mailto:hello@kksmartcom.com" class="main-btn arrow white"><span><svg fill="none"
-																height="10" viewBox="0 0 9 10" width="9"
-																xmlns="http://www.w3.org/2000/svg">
-																<path clip-rule="evenodd"
-																	d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
-																	fill="black" fill-rule="evenodd"></path>
-															</svg>Submit</span></button>
+													<button type="submit" class="main-btn arrow white">
+														<span>
+															<svg fill="none" height="10" viewBox="0 0 9 10" width="9" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z" fill="black" fill-rule="evenodd"></path>
+															</svg>Submit
+														</span>
+													</button>
 												</div>
 											</form>
 										</div>
@@ -997,7 +1023,7 @@
 						</li>
 						<li id="menu-item-10097-it"
 							class="lang-item lang-item-156 lang-item-fr menu-item menu-item-type-custom menu-item-object-custom menu-item-10097-fr">
-							<a href="index.html" hreflang="fr-FR" lang="fr-FR"><span
+							<a href="apropos.html" hreflang="fr-FR" lang="fr-FR"><span
 									class="a-line"><span>FRA</span></span></a>
 						</li>
 					</ul><span class="sub-menu-opener"></span>
@@ -1086,6 +1112,28 @@
 
 				.our-map svg g {
 					pointer-events: all !important
+				}
+				@media (max-width: 1024px) {
+					.our-map {
+					width: calc(100% + 40px);
+					margin-left: -20px;
+					margin-bottom: 0;
+					}
+				}
+
+				.our-map {
+					position: relative;
+					z-index: 1;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 100vh;
+				}
+
+				.our-map iframe {
+					border: 0;
+					border-radius: 10px;
+					margin-top: 34px;
 				}
 			</style>
 			<div class="our-map">
@@ -1352,51 +1400,187 @@
 						<div class="awards-details">
 							<div class="row w35 big">
 								<div class="top">
-									<div class="left"> <img class="" src="wp-content/uploads/2022/12/15.png" alt=""
-											loading="lazy"> </div>
-									<div class="right "> <img class="" src="wp-content/uploads/2022/12/Badge.png" alt=""
-											loading="lazy"> </div>
-								</div>
-								<div class="h"> </div>
-								<div class="p small"> TOP Blockchain Technology and Development Companies by
-									UpFirms</div>
-							</div>
-							<div class="row w35 big">
-								<div class="top">
-									<div class="left"> <img class="" src="wp-content/uploads/2022/12/Layer-1-1.png"
-											alt="" loading="lazy"> </div>
-									<div class="right "> <img class=""
-											src="wp-content/uploads/2022/12/appfutura-badge.png" alt="" loading="lazy">
+									<div class="left"> 
+										<img style="width: 300%; height: 300%;" class="" src="wp-content/clients/BECSarl-wb.png" alt="" loading="lazy"> 
 									</div>
 								</div>
 								<div class="h"> </div>
-								<div class="p small"> TOP Blockchain Company by Appfutur </div>
+								<div class="p small">
+									BEC Sarl: Accounting and Auditing Expertise Office.
+								</div>
 							</div>
 							<div class="row w35 big">
 								<div class="top">
-									<div class="left"> <img class="" src="wp-content/uploads/2022/12/19.png" alt=""
-											loading="lazy"> </div>
-									<div class="right "> <img class="" src="wp-content/uploads/2022/12/Experts.png"
-											alt="" loading="lazy"> </div>
+									<div class="left"style="font-size: 30px !important; font-weight: bold;">
+										Mary House 
+									</div>
+									<div class="right" id="go"> 
+										<img class="" src="wp-content/clients/hotelmh.png" alt="" loading="lazy"> 
+									</div>
 								</div>
 								<div class="h"> </div>
-								<div class="p small"> Studio officially certified on Webflow Experts</div>
+								<div class="p small">  
+									Residence located near Fidjrossè Beach and Cotonou Airport.
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left"> 
+										<img style="width: 100%; height: 100%;" class="" src="wp-content/clients/spiro-wb.png" alt="" loading="lazy"> 
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">
+									Manufacturing and Marketing of electric and environmentally friendly vehicles.
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left"style="font-size: 30px !important; font-weight: bold;">
+										Bfret 
+									</div>
+									<div class="right" id="go"> 
+										<img class="" src="wp-content/clients/bfret-wb.png" alt="" loading="lazy"> 
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">  
+									Freight, cargo, and sale of goods and used cars business between France and Benin.
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left"> 
+										<img style="width: 300%; height: 300%;" class="" src="wp-content/clients/laPaire-wb.png" alt="" loading="lazy"> 
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">
+									Since 2018, Lapaire has been revolutionizing access to eye care in Africa by making trendy eyeglasses accessible to everyone!
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left"style="font-size: 30px !important; font-weight: bold;">
+										Pinecrest
+									</div>
+									<div class="right" id="go"> 
+										<img class="" src="wp-content/clients/pinecrest(1).png" alt="" loading="lazy"> 
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">  
+									Dry cleaning service with 24/7 drop-off and pick-up, including free delivery and pick-up services throughout Cotonou.
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left"style="font-size: 30px !important; font-weight: bold;">
+										Le Hublot 
+									</div>
+									<div class="right" id="go"> 
+										<img class="" src="wp-content/clients/hublot-wb.png" alt="" loading="lazy"> 
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">  
+									Le Hublot is a gourmet restaurant and a guest house with 6 air-conditioned rooms. 
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left"> 
+										<img style="width: 300%; height: 300%;" class="" src="wp-content/clients/canal_+-wb.png" alt="" loading="lazy"> 
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">
+									Television channel.
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left"> 
+										<img style="width: 100%; height: 100%;" class="" src="wp-content/clients/racines_wb.png" alt="" loading="lazy"> 
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">
+									Beauty, cosmetics, and care. Afro Roots teaches women how to take care of their curly hair through their beauty space.
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left">
+										<img class="" style="width: 100%; height: 100%;" src="wp-content/clients/engie.png" alt="" loading="lazy">  
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">  
+									MySol Bénin, a subsidiary of the ENGIE Group. 
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left"style="font-size: 30px !important; font-weight: bold;">
+										Origine Terre
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">
+									Origine Terre is a brand of 100% natural handmade cosmetic products in Benin. Soaps, lotions...
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left"style="font-size: 30px !important; font-weight: bold;">
+										SOBEBRA 
+									</div>
+									<div class="right" id="go"> 
+										<img class="" src="wp-content/clients/sobebra-wblogo.png" alt="" loading="lazy"> 
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">  
+									La SOBEBRA (Beninese Company of Refreshing Beverages) is a subsidiary of Castel in Benin.
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left">
+										<img class="" src="wp-content/clients/art.png" alt="" loading="lazy">  
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">  
+									ART Résidence is a hotel residence located in Porto-Novo, the capital of Benin.
+								</div>
+							</div>
+							<div class="row w35 big">
+								<div class="top">
+									<div class="left"style="font-size: 30px !important; font-weight: bold;">
+										ANPE BENIN 
+									</div>
+									<div class="right" id="go"> 
+										<img class="" src="wp-content/clients/anpe.jpg" alt="" loading="lazy"> 
+									</div>
+								</div>
+								<div class="h"> </div>
+								<div class="p small">  
+									Public Employment Service Listening, Advice, Orientation, and Support for young graduates in employment.
+								</div>
 							</div>
 							<div class="row light full none">
 								<div class="top">
 									<div class="left">
-										<img class="" src="" alt="" loading="lazy">
-										<img class="" src="" alt="" loading="lazy">
-										<img class="" src="" alt="" loading="lazy">
-										<img class="" src="" alt="" loading="lazy">
+										<img class="" style="width: 100%; height: 100%;" src="wp-content/clients/engie.png" alt="" loading="lazy"> 
 									</div>
 									<div class="right kubok"> <img class="" src="wp-content/uploads/2022/12/5.svg"
 											alt="" loading="lazy"> </div>
 								</div>
-								<div class="h"> 01 Prix </div>
-								<div class="p big"> For websites, on competition platforms like
-									Awwwards, CSSDA, CSSWinner,
-									Behance, etc. </div>
+								<div class="h"> 01 Price </div>
+								<div class="p big"> Receiving these awards is a recognition of the collective effort of our team and our commitment to excellence.
+								</div>
 							</div>
 						</div>
 					</div>
@@ -1444,48 +1628,34 @@
 				<div class="right">
 
 
-					<form id="myForm" class="main_contact_form">
+					<form class="main_contact_form2" action="https://formspree.io/f/xqkrlnwe" method="post">
 						<div class="inps-wrap">
-							<!-- <label for="name" class="inp-wrap view textslide">
-								<input type="text" id="name" placeholder=" " name="name" required="" autocomplete="on">
+							<label for="inpname_2" class="inp-wrap view textslide active viewed">
+								<input type="text" id="inpname_2" placeholder=" " name="Name" required="" autocomplete="off" data-max-length="40" class="required max-length pattern" data-pattern="[A-Za-z]">
 								<span>Your name<sup>*</sup></span>
 							</label>
-							<label for="email" class="inp-wrap view textslide">
-								<input type="email" id="email" placeholder=" " autocomplete="email" name="email"
-									required="">
+							<label for="inpemail_1" class="inp-wrap view textslide active viewed">
+								<input type="email" id="inpemail_2" placeholder=" " name="Email" required="" autocomplete="off" data-max-length="40" class="required max-length pattern" data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-message-error="Your Email is invalid">
 								<span>Your email<sup>*</sup></span>
-							</label> -->
-							<label for="inpname_1" class="inp-wrap view textslide active viewed"> <input type="text" id="name" placeholder=" " name="your_name" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[A-Za-z]">
-								<span>Your name<sup>*</sup></span> 
-							</label> 
-							<label for="inpname_1" class="inp-wrap view textslide active viewed"> <input type="email" id="email" placeholder=" " name="your_email" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-message-error="Your Email is invalid">
-								<span>Your email<sup>*</sup></span> 
 							</label>
 						</div>
-
-						<label for="message" class="inp-wrap view textslide">
-							<textarea placeholder=" " id="message" name="message"></textarea>
-							<span>Tell us about your project</span>
-							<span class="counter" data-max="250">
-								<b>0</b>/1000
+					
+						<label for="inptext_2" class="inp-wrap view textslide">
+							<textarea placeholder=" " id="inptext_2" name="Message"
+								data-message-error="Max length 1000 characters"
+								class="max-length" data-max-length="1000" required></textarea>
+							<span>Tell us about your project</span> <span class="counter"
+								data-max="250"> <b>0</b>/1000 </span> </label>
+					
+						<button type="submit" class="main-btn arrow white">
+							<span>
+								<svg fill="none" height="10" viewBox="0 0 9 10" width="9" xmlns="http://www.w3.org/2000/svg">
+									<path clip-rule="evenodd" d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z" fill="black" fill-rule="evenodd"></path>
+								</svg>Submit
 							</span>
-						</label>
-
-						<!-- <div class="terms-label-wrap view textslide">
-							<label for="terms_input">
-								<input type="checkbox" required="" name="terms" id="terms_input">
-								<p>Nous acceptons <a href="cookies-policy.html" target="_blank">votre politique de
-										confidentialité</a></p>
-							</label>
-						</div> -->
-
-						<button href="mailto:hello@kksmartcom.com" type="submit" class="main-btn arrow white"><span><svg fill="none" height="10"
-									viewBox="0 0 9 10" width="9" xmlns="http://www.w3.org/2000/svg">
-									<path clip-rule="evenodd"
-										d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
-										fill="black" fill-rule="evenodd"></path>
-								</svg>Submit</span></button>
+						</button>
 					</form>
+
 
 					<script>
 						document.getElementById("myForm").addEventListener("submit", function (event) {
@@ -1522,33 +1692,30 @@
 	<div class="footer-wrap lime-background hidden-block" style="height: 941.25px;">
 		<div class="footer" style="transform: translateY(370.5px); will-change: transform;">
 			<div class="wrap">
-				<!-- <img src="../cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/star-full.svg"
-						class="star-img" alt=""> -->
 				<div class="footer-top">
 					<div class="left">
-						<!-- <div class="section-subheading">KK SMART COM</div> -->
 						<div class="locations">
 							<div class="col">
 								<div class="address">
 									<div class="location">
-										<a target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide">Quick
+										<a href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide" style="font-size: x-large;">Quick
 												links</span></a>
 										<div class="address">
-											<a target="_blank" href="https://comeup.com/fr/@kk-smart-com">
+											<a href="https://comeup.com/fr/@kk-smart-com">
 												<div class="location">
 													<span>Services</span>
 												</div>
 											</a>
 										</div>
 										<div class="address">
-											<a target="_blank" href="https://www.behance.net/kksmartcom">
+											<a href="https://www.behance.net/kksmartcom">
 												<div class="location">
 													<span>Projects</span>
 												</div>
 											</a>
 										</div>
 										<div class="address">
-											<a href="#">
+											<a href="about-us.html">
 												<div class="location">
 													<span>About</span>
 												</div>
@@ -1562,7 +1729,7 @@
 											</a>
 										</div>
 										<div class="address">
-											<a target="_blank" href="https://comeup.com/fr/@kk-smart-com">
+											<a href="https://comeup.com/fr/@kk-smart-com">
 												<div class="location">
 													<span>Career</span>
 												</div>
@@ -1573,7 +1740,7 @@
 							</div>
 
 							<div class="col">
-								<div class="section-subheading">Locations</div>
+								<div class="section-subheading" style="margin-top: 0!important; font-size: x-large;">Locations</div>
 								<div class="address">
 									<img src="wp-content/themes/kksmartcom/img/pin.svg" alt="">
 
@@ -1653,8 +1820,7 @@
 
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.1639292867094!2d2.3553105746980005!3d6.372826593617385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10235798a3364b93%3A0x2e31cf5b35f72be8!2sKK%20SMART%20COM!5e0!3m2!1sfr!2sbj!4v1686445030526!5m2!1sfr!2sbj0"
-									height="200" width="400" style="border: 0; border-radius: 10px; margin-top: 34px;"
-									allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+									class="map-container" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 								</iframe>
 							</div>
 
@@ -1930,9 +2096,151 @@
 	<script src="../cdn.jsdelivr.net/npm/jquery-validation%401.19.3/dist/jquery.validate.min.js"></script>
 
 	<script>
-		function validateEmail(e) { return /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/.test(e) } jQuery(".main_contact_form").validate({ rules: { your_name: { required: !0, maxlength: 40 }, your_email: { required: !0, email: !0 }, your_text: { maxlength: 1e3 }, terms: { required: !0 } }, messages: { your_name: { required: "Your name is required", maxlength: "Max length 40 characters" }, your_email: { email: "Your email is invalid", required: "Email is required" }, your_text: { maxlength: "Max length 1000 characters" }, terms: { required: null } }, submitHandler: function (e) { $(e).find(".main-btn").attr("disabled", !0), sendAjaxForm(e)/*e.submit()*/ } }), jQuery(".subscribe_form_handler").validate({ rules: { your_email: { required: !0, email: !0 } }, messages: { your_email: { email: "Incorrect email. Please doublecheck.", required: "Email is required" } }, submitHandler: function (e) { console.log("submit") } }); jQuery(".main_contact_form2").validate({ rules: { your_name: { required: !0, maxlength: 40 }, your_email: { required: !0, email: !0 }, your_text: { maxlength: 1e3 }, terms: { required: !0 } }, messages: { your_name: { required: "Your name is required", maxlength: "Max length 40 characters" }, your_email: { email: "Your email is invalid", required: "Email is required" }, your_text: { maxlength: "Max length 1000 characters" }, terms: { required: null } }, submitHandler: function (e) { $(e).find(".main-btn").attr("disabled", !0), sendAjaxForm(e) } });
+		$(document).ready(function () {
+			$(".main_contact_form").validate({
+				rules: {
+					Name: {
+						required: true,
+						maxlength: 40
+					},
+					Email: {
+						required: true,
+						email: true
+					},
+					Message: {
+						required: true,
+						maxlength: 1000
+					}
+				},
+				messages: {
+					Name: {
+						required: "Your name is required",
+						maxlength: "Maximum length 40 characters."
+					},
+					Email: {
+						email: "Your email is invalid.",
+						required: "Email is required"
+					},
+					Message: {
+						required: "Message is required.",
+						maxlength: "Maximum length 1000 characters."
+					}
+				},
+				submitHandler: function (form) {
+					// Désactivez le bouton après la validation réussie
+					$(form).find(".main-btn").attr("disabled", true);
+	
+					// Envoi réel du formulaire
+					form.submit();
+	
+					// Videz les champs après l'envoi réussi
+					$(form).find('input, textarea').val('');
+				}
+			});
+	
+			// Réactivez le bouton avant l'envoi réel du formulaire
+			$(".main_contact_form").submit(function () {
+				$(this).find(".main-btn").removeAttr("disabled");
+			});
+		});
+	</script>
+	
+
+	<script>
+		$(document).ready(function () {
+			$(".main_contact_form2").validate({
+				rules: {
+					Nom: {
+						required: true,
+						maxlength: 40
+					},
+					Email: {
+						required: true,
+						email: true
+					},
+					Message: {
+						required: true,
+						maxlength: 1000
+					}
+				},
+				messages: {
+					Name: {
+						required: "Your name is required",
+						maxlength: "Maximum length 40 characters."
+					},
+					Email: {
+						email: "Your email is invalid.",
+						required: "Email is required"
+					},
+					Message: {
+						required: "Message is required.",
+						maxlength: "Maximum length 1000 characters."
+					}
+				},
+				submitHandler: function (form) {
+					// Désactivez le bouton après la validation réussie
+					$(form).find(".main-btn").attr("disabled", true);
+
+					// Envoi réel du formulaire
+					form.submit();
+
+					// Videz les champs après l'envoi réussi
+					$(form).find('input, textarea').val('');
+				}
+			});
+
+			// Réactivez le bouton avant l'envoi réel du formulaire
+			$(".main_contact_form2").submit(function () {
+				$(this).find(".main-btn").removeAttr("disabled");
+			});
+		});
 	</script>
 
+<script>
+    var itemsPerPage;
+
+    // Correction made here: added correct condition for itemsPerPage to be 2 on screens with width >= 768px
+    if (window.innerWidth >= 1024) {
+        itemsPerPage = 3;
+    } else if (window.innerWidth >= 768) {
+        itemsPerPage = 2; // previously it was set to 3
+    } else {
+        itemsPerPage = 1;
+    }
+
+    var container = $(".awards-details");
+    var rows = container.find(".row:not(.none)");
+    var currentIndex = 0;
+
+    function showItems() {
+        var endIndex = currentIndex + itemsPerPage;
+        rows.hide().slice(currentIndex, endIndex).show();
+    }
+
+    function next() {
+        currentIndex++;
+        if (currentIndex >= rows.length) {
+            currentIndex = 0;
+        }
+        slideItems(-container.width()); // Slide to the left
+    }
+
+    // Function to animate the sliding effect
+    function slideItems(offset) {
+        container.animate({
+            left: offset
+        }, 500, function () {
+            showItems();
+            container.css("left", 0); // Reset left position
+        });
+    }
+
+    // Show initial items
+    showItems();
+
+    // Automatically scroll every 5 seconds
+    setInterval(next, 5000);
+</script>
 
 
 </body>
