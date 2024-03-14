@@ -786,7 +786,7 @@ body.loading:after {
   display: inline-block;
   position: relative;
   margin-left: 5px;
-  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/orange-link-arrow.svg") no-repeat center;
+  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/orange-link-arrow.svg") no-repeat center;
   background-size: contain;
   transition: 0.2s;
 }
@@ -1561,7 +1561,7 @@ form .terms-label-wrap label input.error {
 }
 
 form .terms-label-wrap label input:checked {
-  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/checkbox.svg") no-repeat center;
+  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/checkbox.svg") no-repeat center;
   background-size: cover;
   border-color: #FF0062;
 }
@@ -1628,7 +1628,7 @@ form .attach-wrap #inner_1 div:before {
   position: absolute;
   left: 0;
   top: 19px;
-  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/sk.svg") no-repeat center;
+  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/sk.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -2450,7 +2450,7 @@ h4.viewed i,
 }
 
 #cursor.videocur:before {
-  content: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/right-arrow.svg");
+  content: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/right-arrow.svg");
   font-size: 14px;
   color: #1F2122;
   width: auto;
@@ -2666,7 +2666,7 @@ h4.viewed i,
   content: "";
   width: 20px;
   height: 20px;
-  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/orange*.svg") no-repeat center;
+  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/orange*.svg") no-repeat center;
   background-size: contain;
   margin: 0 16px 0 -36px;
   position: relative;
@@ -3889,7 +3889,7 @@ a.line-animation.email:hover img {
 
 .white-background .arrow-btn span:after,
 .white-background .arrow-btn span:before {
-  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/arrow-right-white.svg") no-repeat center;
+  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/arrow-right-white.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -3903,7 +3903,7 @@ a.line-animation.email:hover img {
 
 .orange-background .arrow-btn span:after,
 .orange-background .arrow-btn span:before {
-  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/arrow-right-white.svg") no-repeat center;
+  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/arrow-right-white.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -3947,7 +3947,7 @@ a.line-animation.email:hover img {
   content: "";
   width: 11px;
   height: 11px;
-  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/right-arrow.svg") no-repeat center;
+  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/right-arrow.svg") no-repeat center;
   background-size: contain;
   position: absolute;
   top: 50%;
