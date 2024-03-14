@@ -1,11 +1,11 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
 
-
- <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+    <meta HTTP-EQUIV="Refresh" CONTENT="0; URL=kksmartcom.com/index.html">
+</head>
 
 <body>
-	<A HREF="kksmartcom.com/index.html"></A>
-
-    <meta HTTP-EQUIV="Refresh" CONTENT="0; URL=kksmartcom.com/index.html">
+	<!-- <A HREF="kksmartcom.com/index.html"></A> -->
 </body>
 
 </html>
