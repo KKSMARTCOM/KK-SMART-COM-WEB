@@ -2,7 +2,7 @@
     <meta HTTP-EQUIV="Refresh" CONTENT="0; URL=kksmartcom.com/index.html">
 
 <body>
-	<a href="kksmartcom.com/index.html"></a>
+	<a href="kksmartcom.com/index.html" style="display: none"></a>
 </body>
 
 </html>
