@@ -5,7 +5,7 @@
 </head>
 
 <body>
-	<!-- <A HREF="kksmartcom.com/index.html"></A> -->
+	
 </body>
 
 </html>
