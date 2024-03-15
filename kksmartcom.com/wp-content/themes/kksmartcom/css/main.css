@@ -3681,7 +3681,8 @@ a, button {
 .screen1 .fixed-background video {
     width: 100%;
     height: 100%;
-    position: relative;
+    /* position: relative; */
+    position: absolute;
     top: 0;
     left: 0;
     object-fit: cover
@@ -5468,7 +5469,8 @@ a.tag span {
         height: 100%;
         top: 0;
         left: 0;
-        object-fit: cover
+        object-fit: cover;
+        position: absolute
     }
 
     .circle-btn {
