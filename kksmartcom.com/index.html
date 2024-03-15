@@ -41,6 +41,11 @@
 	<script type="application/ld+json"
 		class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kksmartcom.com/","url":"https://kksmartcom.com/","name":"Nous fournissons un service complet pour les startups et les entreprises établies - KK SMART COM","isPartOf":{"@id":"https://kksmartcom.com/#website"},"primaryImageOfPage":{"@id":"https://kksmartcom.com/#primaryimage"},"image":{"@id":"https://kksmartcom.com/#primaryimage"},"thumbnailUrl":"https://kksmartcom.com/wp-content/uploads/2021/10/Cover-1-6-scaled.jpg","datePublished":"2021-09-02T07:30:18+00:00","dateModified":"2022-09-14T14:25:39+00:00","description":"kksmartcom is a digital product studio bolstering a core team of world-class designers, developers, and a flexible network of multi-specialized talent.","breadcrumb":{"@id":"https://kksmartcom.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://kksmartcom.com/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://kksmartcom.com/#primaryimage","url":"https://kksmartcom.com/wp-content/uploads/2021/10/Cover-1-6-scaled.jpg","contentUrl":"https://kksmartcom.com/wp-content/uploads/2021/10/Cover-1-6-scaled.jpg","width":"2560","height":"1344"},{"@type":"BreadcrumbList","@id":"https://kksmartcom.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://kksmartcom.com/#website","url":"https://kksmartcom.com/","name":"kksmartcom","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kksmartcom.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<!-- W3.CSS -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<link rel='dns-prefetch' href='http://ajax.googleapis.com/' />
 	<link rel="https://api.w.org/" href="wp-json/index.html" />
@@ -571,12 +576,50 @@
 		}
 
 
+/* Styliser les boutons de navigation */
+.navigation-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navigation-buttons button {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+    background-color: #f0f0f0;
+}
+
+.navigation-buttons button i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styliser l'icône de la flèche gauche */
+.navigation-buttons .prev-button i {
+    margin-right: 2px;
+}
+
+/* Styliser l'icône de la flèche droite */
+.navigation-buttons .next-button i {
+    margin-left: 2px;
+}
 
 
 	</style>
 
-
-	<style>
+	<!-- <style>
 		#main-video {
 			width: 100%;
 			height: 100%;
@@ -591,7 +634,7 @@
 				position: static !important;
 			}
 		}
-	</style>
+	</style> -->
 
 	<script type="application/ld+json">
 [{"@context":"http://schema.org","@type":"WebSite","url":"https://kksmartcom.com/","potentialAction":{"@type":"SearchAction","target":"https://kksmartcom.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"Organization","url":"https://kksmartcom.com/","logo":"https://kksmartcom.com/wp-content/webp-express/webp-images/uploads/2021/09/Logo-3D-1mob-e1630573294768.png.webp","name":"kksmartcomstudio","email":"hello@kksmartcom.com"}]
@@ -1070,21 +1113,20 @@
 	<!-- end header -->
 
 	<video class="vns" style="width: 0;height: 0;position: absolute;left: -1px;visibility: visible!important;"
-		preload="none" id="" src="wp-content/showreel_kksmartcom_off.MP4" controls=""></video>
+		preload="none" id="main-video2" src="wp-content/showreel_kksmartcom_off.MP4" controls=""></video>
 	<div class="screen1 black-background section" id="main-screen-load">
 		<div class="wrap view hidden-block hidd_block">
 			<div style="display: none;">
-				<h1>Tout part d'une connexion...</h1>
-				
+				<h1>Tout part d'une connexion ...</h1>
 			</div>
 			<h2 class="view h1">Tout<br> part <br>d'une<br> connexion...<br></h2>
-			
 			<picture>
 				<source media="(min-width: 1600px)" srcset="wp-content/uploads/2021/09/decor1.png">
 				<source media="(max-width: 1100px)" srcset="wp-content/uploads/2021/09/Layer-5-3-mob.png">
 				<source media="(min-width: 1101px) and (max-width:1599px)"
 					srcset="wp-content/uploads/2021/09/decor1pc.png">
-
+				<!-- <img width="182" height="185" class="flying-image fi1 view fadein delay1-2" loading="lazy"
+					src="wp-content/uploads/2021/09/decor1pc.png" id="fi1" alt="Home - Photo 2"> -->
 			</picture>
 			<div class="fixed-background">
 				<div class="video-wrap">
@@ -1093,15 +1135,15 @@
 						playsinline=""></video>
 				</div>
 
-				<button class="circle-btn play_video black" style="visibility: hidden;">
-					<span>
+				<button class="play_video black">
+					<!-- <span>
 						<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path fill-rule="evenodd" clip-rule="evenodd"
 								d="M5.5 0L11 5.5L5.5 11L4.67022 10.1702L8.7537 6H0V5H8.7537L4.67022 0.829781L5.5 0Z"
 								fill="#1F2122" />
 						</svg>
-						Embarquez-vous !
-					</span>
+						Embarquez-vous dans notre univers
+					</span> -->
 				</button>
 			</div>
 		</div>
@@ -1735,6 +1777,10 @@
 								<div class="p big"> Recevoir ces awards est une reconnaissance de l'effort collectif de notre équipe et de notre engagement envers l'excellence.
 								</div>
 							</div>
+						</div>
+						<div class="navigation-buttons">
+							<button class="prev-button"><i class="w3-xlarge fa fa-chevron-left"></i></button>
+							<button class="next-button"><i class="w3-xlarge fa fa-chevron-right"></i></button>
 						</div>
 					</div>
 				</div>
@@ -2386,61 +2432,83 @@
 	</script>
 
 
-	
 <script>
-var elementsParPage;
+    $(document).ready(function() {
+        // Sélectionnez les éléments nécessaires
+        var conteneur = $(".awards-details");
+        var lignes = conteneur.find(".row:not(.none)");
+        var indexCourant = 0;
+        var elementsParPage;
 
-if (window.innerWidth >= 1024) {
-    elementsParPage = 3;
-} else if (window.innerWidth >= 768) {
-    elementsParPage = 1;
-} else {
-    elementsParPage = 1;
-}
+        // Déterminez le nombre d'éléments par page en fonction de la largeur de la fenêtre
+        if (window.innerWidth >= 1024) {
+            elementsParPage = 3;
+        } else if (window.innerWidth >= 768) {
+            elementsParPage = 1;
+        } else {
+            elementsParPage = 1;
+        }
 
-var conteneur = $(".awards-details");
-var lignes = conteneur.find(".row:not(.none)");
-var indexCourant = 0;
+        // Afficher les éléments initiaux
+        function afficherElements() {
+            var finIndex = indexCourant + elementsParPage;
+            var elementsAffiches = lignes.slice(indexCourant, finIndex);
 
-function afficherElements() {
-    var finIndex = indexCourant + elementsParPage;
-    var elementsAffiches = lignes.slice(indexCourant, finIndex);
+            // Si moins d'éléments que prévu sont disponibles, ajoutez les premiers éléments
+            if (elementsAffiches.length < elementsParPage) {
+                elementsAffiches = elementsAffiches.add(lignes.slice(0, elementsParPage - elementsAffiches.length));
+            }
 
-    // Si moins d'éléments que prévu sont disponibles, ajoute les premiers éléments
-    if (elementsAffiches.length < elementsParPage) {
-        elementsAffiches = elementsAffiches.add(lignes.slice(0, elementsParPage - elementsAffiches.length));
-    }
+            conteneur.empty().append(elementsAffiches);
+        }
 
-    conteneur.empty().append(elementsAffiches);
-}
+        // Actions lors du clic sur le bouton suivant
+        $(".next-button").click(function() {
+            indexCourant++;
 
-function suivant() {
-    indexCourant++;
+            if (indexCourant >= lignes.length) {
+                indexCourant = 0;
+            }
 
-    if (indexCourant >= lignes.length) {
-        indexCourant = 0;
-    }
+            faireDefiler(-conteneur.width());
+        });
 
-    faireDefiler(-conteneur.width());
-}
+        // Actions lors du clic sur le bouton précédent
+        $(".prev-button").click(function() {
+            indexCourant--;
 
-function faireDefiler(decalage) {
-    conteneur.animate({
-        left: decalage
-    }, 500, function () {
+            if (indexCourant < 0) {
+                indexCourant = lignes.length - 1;
+            }
+
+            faireDefiler(conteneur.width());
+        });
+
+        // Défilement des éléments
+        function faireDefiler(decalage) {
+            conteneur.animate({
+                left: decalage
+            }, 500, function() {
+                afficherElements();
+                conteneur.css("left", 0);
+            });
+        }
+
+        // Afficher les éléments initiaux
         afficherElements();
-        conteneur.css("left", 0);
+
+        // Défilement automatique toutes les 5 secondes
+        setInterval(function() {
+            indexCourant++;
+
+            if (indexCourant >= lignes.length) {
+                indexCourant = 0;
+            }
+
+            faireDefiler(-conteneur.width());
+        }, 5000);
     });
-}
-
-afficherElements();
-
-// Fait défiler automatiquement toutes les 5 secondes
-setInterval(suivant, 5000);
-etInterval(suivant, 5000);
-
 </script>
-
 
 
 
