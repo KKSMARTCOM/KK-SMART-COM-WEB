@@ -3681,7 +3681,6 @@ a, button {
 .screen1 .fixed-background video {
     width: 100%;
     height: 100%;
-    /* position: relative; */
     position: absolute;
     top: 0;
     left: 0;
@@ -3692,7 +3691,7 @@ a, button {
     z-index: 1;
     position: relative;
     border: none;
-    background: #FF0062
+    /* background: #FF0062 */
 }
 
 .screen1 .fixed-background .circle-btn:before {
@@ -3722,9 +3721,18 @@ a, button {
     -webkit-tap-highlight-color: transparent
 }
 
+
 .circle-btn * {
     position: relative;
     z-index: 1
+}
+.header .flex-row .logo img, .header .flex-row .logo svg {
+    width: 100%;
+    transition: 0.3s;
+}
+
+body * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .circle-btn:before {
