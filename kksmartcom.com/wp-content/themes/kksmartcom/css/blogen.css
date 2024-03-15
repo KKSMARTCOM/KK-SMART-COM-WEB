@@ -3062,14 +3062,16 @@ h4.viewed i,
 
 .white-background .gam,
 .orange-background .gam {
-    background: #1F2122 !important
+    /* background: #1F2122 !important */
+    background: white !important
 }
 
 .white-background .gam:before,
 .white-background .gam:after,
 .orange-background .gam:before,
 .orange-background .gam:after {
-    background: #fff !important
+    /* background: #fff !important */
+    background: black !important
 }
 
 .allways-white:not(.mini) {
@@ -3131,6 +3133,7 @@ h4.viewed i,
     content: '';
     width: 11px;
     height: 1.5px;
+    /* background: #1F2122; */
     background: #1F2122;
     position: absolute;
     bottom: 16px;
@@ -3378,7 +3381,8 @@ a.line-animation.email:hover img {
 }
 
 .header:not(.mini) {
-    background: transparent !important
+    /* background: transparent !important */
+    background: #1F2122 !important
 }
 
 .header.white-background .flex-row .main-menu-wrap ul li.current_page_item>a {
