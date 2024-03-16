@@ -1778,10 +1778,10 @@
 								</div>
 							</div>
 						</div>
-						<div class="navigation-buttons">
+						<!-- <div class="navigation-buttons">
 							<button class="prev-button"><i class="w3-xlarge fa fa-chevron-left"></i></button>
 							<button class="next-button"><i class="w3-xlarge fa fa-chevron-right"></i></button>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -2431,8 +2431,102 @@
 		});
 	</script>
 
-
 <script>
+	$(document).ready(function() {
+    // Sélectionnez les éléments nécessaires
+    var conteneur = $(".awards-details");
+    var lignes = conteneur.find(".row:not(.none)");
+    var divFixe = conteneur.find(".none");
+    var indexCourant = 0;
+    var elementsParPage;
+
+    // Fonction pour déterminer le nombre d'éléments par page en fonction de la largeur de l'écran
+    function determinerElementsParPage() {
+        if (window.innerWidth >= 1024) {
+            elementsParPage = 3;
+        } else if (window.innerWidth >= 768) {
+            elementsParPage = 1;
+        } else {
+            elementsParPage = 1;
+        }
+    }
+
+    // Afficher les éléments initiaux
+    function afficherElements() {
+        determinerElementsParPage();
+        conteneur.empty();
+
+        // Afficher les éléments à afficher par page
+        var finIndex = indexCourant + elementsParPage;
+        var elementsAffiches = lignes.slice(indexCourant, finIndex);
+
+        // Si moins d'éléments que prévu sont disponibles, ajoutez les premiers éléments
+        if (elementsAffiches.length < elementsParPage) {
+            elementsAffiches = elementsAffiches.add(lignes.slice(0, elementsParPage - elementsAffiches.length));
+        }
+
+        // Ajouter les éléments à la page
+        conteneur.append(elementsAffiches);
+
+        // Ajouter la div fixe
+        conteneur.append(divFixe);
+    }
+
+    // Actions lors du clic sur le bouton suivant
+    $(".next-button").click(function() {
+        indexCourant++;
+
+        if (indexCourant >= lignes.length) {
+            indexCourant = 0;
+        }
+
+        faireDefiler(-conteneur.width());
+    });
+
+    // Actions lors du clic sur le bouton précédent
+    $(".prev-button").click(function() {
+        indexCourant--;
+
+        if (indexCourant < 0) {
+            indexCourant = lignes.length - 1;
+        }
+
+        faireDefiler(conteneur.width());
+    });
+
+    // Défilement des éléments
+    function faireDefiler(decalage) {
+        conteneur.animate({
+            left: decalage
+        }, 500, function() {
+            afficherElements();
+            conteneur.css("left", 0);
+        });
+    }
+
+    // Afficher les éléments initiaux
+    afficherElements();
+
+    // Défilement automatique toutes les 5 secondes
+    setInterval(function() {
+        indexCourant++;
+
+        if (indexCourant >= lignes.length) {
+            indexCourant = 0;
+        }
+
+        faireDefiler(-conteneur.width());
+    }, 5000);
+
+    // Réactualiser les éléments par page lors du redimensionnement de la fenêtre
+    $(window).resize(function() {
+        afficherElements();
+    });
+});
+
+</script>
+
+<!-- <script>
     $(document).ready(function() {
         // Sélectionnez les éléments nécessaires
         var conteneur = $(".awards-details");
@@ -2508,7 +2602,7 @@
             faireDefiler(-conteneur.width());
         }, 5000);
     });
-</script>
+</script> -->
 
 
 
