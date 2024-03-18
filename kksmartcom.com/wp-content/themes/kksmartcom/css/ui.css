@@ -2617,7 +2617,7 @@ h1.section-heading {
 }
 
 .na6.main_contacs_screen {
-  padding-top: 0px;
+  padding-top: 18px;
   padding-bottom: 80px;
   min-height: unset;
 }
@@ -3050,8 +3050,14 @@ h1.section-heading {
   .main-modal-wrap .modal-closer span:hover {
     opacity: 0.5;
   }
+
+  /* closer popup */
   .main-modal-wrap .modal-closer span img {
-    width: 9px;
+    /* width: 9px; */
+    width: 39px;
+    margin-bottom: -83px;
+    background-color: white;
+    border-radius: 50%;
   }
 
   .modal-wrap {
