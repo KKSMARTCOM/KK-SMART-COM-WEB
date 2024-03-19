@@ -975,31 +975,35 @@
 										</div>
 
 										<div class="right black-background">
-											<form class="main_contact_form" action="https://formspree.io/f/mkndvwgg" method="post">
-													<label for="inpname_1" class="inp-wrap view textslide active viewed"> 
-													<input type="text" id="inpname_1" style="color: white;" name="Nom" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[A-Za-z]">
+											<form action="https://formspree.io/f/mkndvwgg" method="post"
+												autocomplete="off"
+												class="main_contact_form2">  
+												<label for="inpname_1" class="inp-wrap view textslide active viewed"> 
+													<input type="text" id="inpname_1" placeholder=" " name="Nom" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[A-Za-z]">
 														<span>Votre nom & prénoms<sup>*</sup></span> 
 													</label> 
-													<label for="inpemail_1" class="inp-wrap view textslide active viewed"> 
-														<input type="email" id="inpemail_1" style="color: white;" name="Email" required autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-message-error="Votre Email est invalide">
+													<label for="inpname_1" class="inp-wrap view textslide active viewed"> 
+														<input type="email" id="inpname_1" placeholder=" " name="Email" required="" autocomplete="on" data-max-length="40" class="required max-length pattern" data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-message-error="Your Email is invalid">
 														<span>Votre email<sup>*</sup></span> 
-													</label>
-													<label for="inptext" class="inp-wrap view">
-													<textarea placeholder=" " id="inptext" name="Message"
+													</label><label for="inptext_1" class="inp-wrap view textslide">
+													<textarea placeholder=" " required id="inptext_1" name="Message"
 														data-message-error="Max length 1000 characters"
-														class="max-length" data-max-length="1000" required></textarea>
-													<span>Parlez nous de votre projet</span> <span class="counter"
+														class="max-length" data-max-length="1000"></textarea>
+													<span>Parlez nous de votre projet<sup>*</sup></span> <span class="counter"
 														data-max="250"> <b>0</b>/1000 </span> </label>
+														<label class="inp-wrap view textslide" style="margin-top: -25px; margin-bottom: 15px; font-style: italic;">
+															<span><sup style="color: #fe0162;">*</sup> : Champs obligatoire!</span>
+														</label>
 												
-												<div class="trms-wrap">
-													<button type="submit" class="main-btn arrow white">
-														<span>
-															<svg fill="none" height="10" viewBox="0 0 9 10" width="9" xmlns="http://www.w3.org/2000/svg">
-																<path clip-rule="evenodd" d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z" fill="black" fill-rule="evenodd"></path>
-															</svg>Soumettre
-														</span>
-													</button>
-												</div>
+														<div class="trms-wrap">
+															<button type="submit" class="main-btn arrow white">
+																<span>
+																	<svg fill="none" height="10" viewBox="0 0 9 10" width="9" xmlns="http://www.w3.org/2000/svg">
+																		<path clip-rule="evenodd" d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z" fill="black" fill-rule="evenodd"></path>
+																	</svg>Soumettre
+																</span>
+															</button>
+														</div>
 											</form>
 										</div>
 									</div>
@@ -1908,8 +1912,12 @@
 							<textarea placeholder=" " id="inptext_2" name="Message"
 								data-message-error="Max length 1000 characters"
 								class="max-length" data-max-length="1000" required></textarea>
-							<span>Parlez nous de votre projet</span> <span class="counter"
+							<span>Parlez nous de votre projet <sup>*</sup></span> <span class="counter"
 								data-max="250"> <b>0</b>/1000 </span> </label>
+
+								<label class="inp-wrap view textslide" style="margin-top: -25px; margin-bottom: 15px; font-style: italic;">
+									<span><sup style="color: #fe0162;">*</sup> : Required field!</span>
+								</label>
 					
 						<button type="submit" class="main-btn arrow white">
 							<span>
