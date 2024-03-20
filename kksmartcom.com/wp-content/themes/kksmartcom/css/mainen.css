@@ -10,6 +10,7 @@ html.hidden {
 
 html.noscrollbar {
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none
 }
@@ -46,6 +47,7 @@ input[type="submit"],
 input[type="email"],
 input[type="tel"] {
     -webkit-appearance: none;
+    appearance: none;
     border-radius: 0
 }
 
@@ -72,7 +74,8 @@ body * {
 }
 
 body div {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 body::-webkit-scrollbar {
@@ -102,7 +105,8 @@ body.showcur {
 }
 
 body.loading {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 body.loading:before {
@@ -810,7 +814,8 @@ body.loading:after {
 }
 
 .services-screen1 {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .services-screen1.active .section-subheading {
@@ -830,7 +835,8 @@ body.loading:after {
 }
 
 .services-screen1.active .marquee-wrap {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .services-screen1.active .marquee-wrap .one:nth-of-type(odd) {
@@ -850,7 +856,8 @@ body.loading:after {
 }
 
 .services-screen1.passive .marquee-wrap {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .services-screen1.passive .marquee-wrap .one:nth-of-type(odd) {
@@ -899,7 +906,8 @@ body.loading:after {
     background: #0E1010;
     background-image: url("../img/bg.png");
     background-position: center center;
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .symbol-section .star-symbol-wrap .star-symbol.active {
@@ -1012,7 +1020,8 @@ picture img {
 
 .services-screen2:not(.invisible) li a.line,
 .new_animated_heading a.line {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .services-screen2:not(.invisible) li span.a-line span,
@@ -1097,7 +1106,8 @@ picture img {
     display: inline-block;
     color: #FF0062;
     position: relative;
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .mobile-menu-wrap .mobile-menu ul li.current_page_item>a:after {
@@ -1583,6 +1593,7 @@ form .serv-wrap {
     justify-content: flex-start;
     margin-top: 6px;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none
 }
@@ -1618,8 +1629,10 @@ form .serv-wrap label {
     position: relative;
     border-radius: 30px;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0)
 }
 
@@ -1947,7 +1960,8 @@ h4.viewed i,
 }
 
 .mobile-menu-wrap.passive {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .mobile-menu-wrap.passive ul li.current_page_item a:after {
@@ -2160,9 +2174,9 @@ h4.viewed i,
     stroke: transparent;
 }
 
-.white-background.header .logo svg path:nth-of-type(1) {
-    /* fill:#FF0062; */
-}
+/* .white-background.header .logo svg path:nth-of-type(1) {
+    fill:#FF0062;
+} */
 
 .white-background.header .logo svg g path:nth-of-type(1) {
     fill: black;
@@ -3072,9 +3086,10 @@ h4.viewed i,
     background: #fff !important
 }
 
-.allways-white:not(.mini) {
+/* commentaire
+    .allways-white:not(.mini) {
     background: transparent !important
-}
+} */
 
 .allways-white .gam {
     background: #FFFEFD !important
@@ -3377,9 +3392,10 @@ a.line-animation.email:hover img {
     transition: 0.2s
 }
 
-.header:not(.mini) {
+/* commentaire
+    .header:not(.mini) {
     background: transparent !important
-}
+} */
 
 .header.white-background .flex-row .main-menu-wrap ul li.current_page_item>a {
     color: #FF0062
@@ -3717,8 +3733,10 @@ a, button {
     font-weight: 600;
     position: relative;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     user-select: none;
     -webkit-tap-highlight-color: transparent
@@ -7152,9 +7170,9 @@ a.tag span {
         display: flex
     }
 
-    .header .flex-row .logo {
-        /* width:170px; */
-    }
+   /*  .header .flex-row .logo {
+        width:170px;
+    } */
 
     .header .flex-row .main-menu-wrap {
         display: none
@@ -7743,9 +7761,10 @@ a.tag span {
         font-size: 24px
     }
 
-    .allways-white {
+    /* commentaire
+        .allways-white {
         background: transparent !important
-    }
+    } */
 
     .awards-details .row.small.wide .top {
         justify-content: flex-start

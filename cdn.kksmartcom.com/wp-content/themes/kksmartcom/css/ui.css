@@ -160,7 +160,7 @@ html body .new-awards-section .ach .ach-wrap .col p {
   content: "";
   width: 50px;
   height: 35px;
-  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/toltip.svg") no-repeat bottom;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/toltip.svg") no-repeat bottom;
   background-size: contain;
   position: absolute;
   bottom: calc(100% + 5px);
@@ -418,7 +418,7 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
 
 @media (max-width: 992px) {
   .ua-banner:before {
-    background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/stand.svg") no-repeat center;
+    background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/stand.svg") no-repeat center;
     background-size: contain;
     width: 120px;
     height: 100%;
@@ -845,7 +845,7 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
   position: absolute;
   left: 102%;
   bottom: 55%;
-  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/maz2.svg") no-repeat center;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/maz2.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -2002,7 +2002,7 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
   position: absolute;
   right: 5px;
   top: -13px;
-  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/ds.svg") no-repeat center;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/ds.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -2089,7 +2089,7 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
   content: "";
   width: 235px;
   height: 235px;
-  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/darrow.svg") no-repeat center bottom;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/darrow.svg") no-repeat center bottom;
   background-size: contain;
   position: absolute;
   right: 0;
@@ -2202,7 +2202,7 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
   content: "";
   width: 32px;
   height: 24px;
-  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/qu.svg") no-repeat center;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/qu.svg") no-repeat center;
   background-size: contain;
   position: relative;
   display: block;
@@ -2385,7 +2385,7 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
   content: "";
   width: 21px;
   height: 27px;
-  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/vusa.svg") no-repeat center;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/vusa.svg") no-repeat center;
   background-size: contain;
   position: absolute;
   top: -20px;
@@ -3638,7 +3638,7 @@ h1.section-heading {
     position: absolute;
     left: 102%;
     bottom: 55%;
-    background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/maz2.svg") no-repeat center;
+    background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/maz2.svg") no-repeat center;
     background-size: contain;
   }
 
@@ -3944,7 +3944,7 @@ h1.section-heading {
     content: "";
     width: 21px;
     height: 27px;
-    background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/vusa.svg") no-repeat center;
+    background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/vusa.svg") no-repeat center;
     background-size: contain;
     position: absolute;
     top: -20px;
@@ -3988,7 +3988,7 @@ h1.section-heading {
     display: block;
     width: 15px;
     height: 15px;
-    background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/home-back.svg") no-repeat left;
+    background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/home-back.svg") no-repeat left;
     background-size: contain;
   }
 

@@ -10,6 +10,7 @@ html.hidden {
 
 html.noscrollbar {
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none
 }
@@ -46,6 +47,7 @@ input[type="submit"],
 input[type="email"],
 input[type="tel"] {
     -webkit-appearance: none;
+    appearance: none;
     border-radius: 0
 }
 
@@ -72,7 +74,8 @@ body * {
 }
 
 body div {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 body::-webkit-scrollbar {
@@ -102,7 +105,8 @@ body.showcur {
 }
 
 body.loading {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 body.loading:before {
@@ -810,7 +814,8 @@ body.loading:after {
 }
 
 .services-screen1 {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .services-screen1.active .section-subheading {
@@ -830,7 +835,8 @@ body.loading:after {
 }
 
 .services-screen1.active .marquee-wrap {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .services-screen1.active .marquee-wrap .one:nth-of-type(odd) {
@@ -850,7 +856,8 @@ body.loading:after {
 }
 
 .services-screen1.passive .marquee-wrap {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .services-screen1.passive .marquee-wrap .one:nth-of-type(odd) {
@@ -899,7 +906,8 @@ body.loading:after {
     background: #0E1010;
     background-image: url("../img/bg.png");
     background-position: center center;
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .symbol-section .star-symbol-wrap .star-symbol.active {
@@ -1012,7 +1020,8 @@ picture img {
 
 .services-screen2:not(.invisible) li a.line,
 .new_animated_heading a.line {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .services-screen2:not(.invisible) li span.a-line span,
@@ -1097,7 +1106,8 @@ picture img {
     display: inline-block;
     color: #FF0062;
     position: relative;
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .mobile-menu-wrap .mobile-menu ul li.current_page_item>a:after {
@@ -1582,6 +1592,7 @@ form .serv-wrap {
     justify-content: flex-start;
     margin-top: 6px;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none
 }
@@ -1617,8 +1628,10 @@ form .serv-wrap label {
     position: relative;
     border-radius: 30px;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0)
 }
 
@@ -1946,7 +1959,8 @@ h4.viewed i,
 }
 
 .mobile-menu-wrap.passive {
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 .mobile-menu-wrap.passive ul li.current_page_item a:after {
@@ -2160,9 +2174,9 @@ h4.viewed i,
     stroke: transparent;
 }
 
-.white-background.header .logo svg path:nth-of-type(1) {
-    /* fill:#FF0062; */
-}
+/* .white-background.header .logo svg path:nth-of-type(1) {
+   fill:#FF0062;
+} */
 
 .white-background.header .logo svg g path:nth-of-type(1) {
     fill: black;
@@ -3072,9 +3086,10 @@ h4.viewed i,
     background: #fff !important
 }
 
-.allways-white:not(.mini) {
+/* Commentaire
+    .allways-white:not(.mini) {
     background: transparent !important
-}
+} */
 
 .allways-white .gam {
     background: #FFFEFD !important
@@ -3372,11 +3387,30 @@ a.line-animation.email:hover img {
     padding: 30px 0;
     width: 100%;
     transition: 0.2s
+    
 }
+@keyframes fade { 
+    0% { 
+        opacity: 1; 
+    } 
+    25% { 
+        opacity: 0.75; 
+    } 
+    50% { 
+        opacity: 0.5; 
+    } 
+    75% { 
+        opacity: 0.25; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
 
-.header:not(.mini) {
+/* commentaire
+    .header:not(.mini) {
     background: transparent !important
-}
+} */
 
 .header.white-background .flex-row .main-menu-wrap ul li.current_page_item>a {
     color: #FF0062
@@ -3681,7 +3715,7 @@ a, button {
 .screen1 .fixed-background video {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     object-fit: cover
@@ -3691,7 +3725,7 @@ a, button {
     z-index: 1;
     position: relative;
     border: none;
-    /* background: #FF0062 */
+    background: #FF0062
 }
 
 .screen1 .fixed-background .circle-btn:before {
@@ -3715,24 +3749,17 @@ a, button {
     position: relative;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     user-select: none;
     -webkit-tap-highlight-color: transparent
 }
 
-
 .circle-btn * {
     position: relative;
     z-index: 1
-}
-.header .flex-row .logo img, .header .flex-row .logo svg {
-    width: 100%;
-    transition: 0.3s;
-}
-
-body * {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .circle-btn:before {
@@ -4147,7 +4174,7 @@ a.tag span {
     will-change: background-position-y;
     transition: 0.3s background-size, 0.3s opacity; /* Ajout de l'opacité à la transition */
     font-size: 0; /* Cela reste inchangé */
-  }
+}
 
 .flex-cases .case .img-wrap:hover {
     background-size: 102% !important
@@ -5477,8 +5504,7 @@ a.tag span {
         height: 100%;
         top: 0;
         left: 0;
-        object-fit: cover;
-        position: absolute
+        object-fit: cover
     }
 
     .circle-btn {
@@ -7176,9 +7202,9 @@ a.tag span {
         display: flex
     }
 
-    .header .flex-row .logo {
-        /* width:170px; */
-    }
+    /* .header .flex-row .logo {
+        width:170px;
+    } */
 
     .header .flex-row .main-menu-wrap {
         display: none
@@ -7767,9 +7793,10 @@ a.tag span {
         font-size: 24px
     }
 
-    .allways-white {
+   /*  commentaire
+        .allways-white {
         background: transparent !important
-    }
+    } */
 
     .awards-details .row.small.wide .top {
         justify-content: flex-start

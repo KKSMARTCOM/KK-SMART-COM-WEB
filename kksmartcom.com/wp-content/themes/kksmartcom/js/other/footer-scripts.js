@@ -23,7 +23,7 @@ function syncPosition(slide){
                 responsiveClass:true,
                 animateIn: 'fadeIn', 
                 animateOut: 'fadeOut', 
-                navText: ['<img src="'+window.location.origin+'/wp-content/themes/kksmartcom/img/nav_left.svg">', '<img src="'+window.location.origin+'/wp-content/themes/kksmartcom/img/nav_right.svg">'],
+                navText: ['<img src="'+window.location.origin+'/wp-content/themes/phenomenon/img/nav_left.svg">', '<img src="'+window.location.origin+'/wp-content/themes/phenomenon/img/nav_right.svg">'],
 
                 items:1,
                 touchDrag  : false,
@@ -127,7 +127,7 @@ function syncPosition(slide){
                         autoHeight:true,
                         center:false,
                         margin:15,
-                        navText: ['<img src="'+window.location.origin+'/wp-content/themes/kksmartcom/img/nav_left.svg">', '<img src="'+window.location.origin+'/wp-content/themes/kksmartcom/img/nav_right.svg">'],
+                        navText: ['<img src="'+window.location.origin+'/wp-content/themes/phenomenon/img/nav_left.svg">', '<img src="'+window.location.origin+'/wp-content/themes/phenomenon/img/nav_right.svg">'],
                         nav:true,
                     },
                   768:{
@@ -169,7 +169,7 @@ function syncPosition(slide){
                 responsiveClass:true,
                 items:1,
                 margin:40,
-                navText: ['<img src="'+window.location.origin+'/wp-content/themes/kksmartcom/img/nav_left.svg">', '<img src="'+window.location.origin+'/wp-content/themes/kksmartcom/img/nav_right.svg">'],
+                navText: ['<img src="'+window.location.origin+'/wp-content/themes/phenomenon/img/nav_left.svg">', '<img src="'+window.location.origin+'/wp-content/themes/phenomenon/img/nav_right.svg">'],
                 smartSpeed:1000,
 
             });
@@ -201,7 +201,7 @@ function syncPosition(slide){
                 responsiveClass:true,
                 items:1,
                 margin:40,
-                navText: ['<img src="'+window.location.origin+'/wp-content/themes/kksmartcom/img/nav_left.svg">', '<img src="'+window.location.origin+'/wp-content/themes/kksmartcom/img/nav_right.svg">'],
+                navText: ['<img src="'+window.location.origin+'/wp-content/themes/phenomenon/img/nav_left.svg">', '<img src="'+window.location.origin+'/wp-content/themes/phenomenon/img/nav_right.svg">'],
                 smartSpeed:1000,
                 animateIn: 'fadeIn',
                 animateOut: 'fadeOut',

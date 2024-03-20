@@ -16,7 +16,7 @@ html[lang=it] .services-new-screen1 h1::after {
   top: -29%;
   right: -7%;
   height: 137%;
-  background: url(https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/it-union1.svg) no-repeat 100%;
+  background: url(https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/it-union1.svg) no-repeat 100%;
 }
 
 @media (max-width: 1330px) {
@@ -30,7 +30,7 @@ html[lang=it] .services-new-screen1 h1::after {
 
 @media (max-width: 1110px) {
   html[lang=it] .services-new-screen1 h1::after {
-    background: url(https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/it-union1-mob.svg) no-repeat 100%;
+    background: url(https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/it-union1-mob.svg) no-repeat 100%;
     top: -18%;
   }
 }
@@ -176,7 +176,7 @@ html[lang=it] .dec1::before {
   position: absolute;
   bottom: 66%;
   right: 99%;
-  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/he2.svg") no-repeat center;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/he2.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -186,7 +186,7 @@ html[lang=it] .dec1::before {
   top: -8%;
   right: -1%;
   height: 137%;
-  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/he1.svg") no-repeat right center;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/he1.svg") no-repeat right center;
   background-size: contain;
   pointer-events: none;
   position: absolute;
@@ -378,7 +378,7 @@ html[lang=it] .dec1::before {
   content: "";
   width: 70px;
   height: 90px;
-  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/awards/v.svg") no-repeat center center;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/awards/v.svg") no-repeat center center;
   background-size: contain;
   position: absolute;
   top: -35px;
@@ -428,7 +428,7 @@ html[lang=it] .dec1::before {
   height: 100%;
   left: -27px;
   bottom: 0;
-  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/awards/crut.svg") no-repeat bottom right;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/awards/crut.svg") no-repeat bottom right;
   background-size: contain;
   position: absolute;
 }
@@ -535,7 +535,7 @@ html[lang=it] .dec1::before {
   position: absolute;
   right: 5px;
   top: -13px;
-  background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/ds.svg") no-repeat center;
+  background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/ds.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -753,7 +753,7 @@ html[lang=it] .dec1::before {
     content: "";
     width: 60px;
     height: 70px;
-    background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/awards/v.svg") no-repeat center center;
+    background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/awards/v.svg") no-repeat center center;
     background-size: contain;
     position: absolute;
     top: -20px;
@@ -925,7 +925,7 @@ html[lang=it] .dec1::before {
     bottom: 40%;
     right: unset;
     left: 97%;
-    background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/he2.svg") no-repeat center;
+    background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/he2.svg") no-repeat center;
     background-size: contain;
     transform: scale(-1, 1);
   }
@@ -937,7 +937,7 @@ html[lang=it] .dec1::before {
     right: unset;
     left: -20px;
     height: 143%;
-    background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/he1-mob.svg") no-repeat left center;
+    background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/he1-mob.svg") no-repeat left center;
     background-size: contain;
     pointer-events: none;
     position: absolute;
@@ -1121,7 +1121,7 @@ html[lang=it] .dec1::before {
     content: "";
     width: 363px;
     height: 132%;
-    background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/mob-circle-heading.svg") no-repeat left center;
+    background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/mob-circle-heading.svg") no-repeat left center;
     background-size: contain;
     position: absolute;
     top: -21%;
@@ -1247,7 +1247,7 @@ html[lang=it] .dec1::before {
     content: "";
     width: 40px;
     height: 40px;
-    background: url("https://cdn.kksmartcom.com/wp-content/themes/kksmartcom/img/awards/v.svg") no-repeat center center;
+    background: url("https://cdn.phenomenonstudio.com/wp-content/themes/phenomenon/img/awards/v.svg") no-repeat center center;
     background-size: contain;
     position: absolute;
     top: -20px;
