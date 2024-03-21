@@ -862,8 +862,10 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
   border-radius: 170px;
   transition: 0.5s;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
 }
 .cta_button a svg {
@@ -3043,16 +3045,35 @@ h1.section-heading {
   .main-modal-wrap .modal-closer .logo svg {
     width: 170px;
   }
+
+  /* fermeture du formulaire en mobile */
   .main-modal-wrap .modal-closer span {
     width: 39px;
     height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFEFD;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-bottom: -120px;
   }
   .main-modal-wrap .modal-closer span:hover {
     opacity: 0.5;
   }
-  .main-modal-wrap .modal-closer span img {
-    width: 9px;
-  }
+
+  /* closer popup */
+/*   .main-modal-wrap .modal-closer span img {
+    width: 39px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFEFD;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-bottom: -83px
+  } */
 
   .modal-wrap {
     padding: 0;
@@ -3549,6 +3570,7 @@ h1.section-heading {
     overflow: auto;
     max-width: 100%;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none;
     /* for Firefox */
@@ -4087,6 +4109,7 @@ h1.section-heading {
     justify-content: flex-start;
     padding-left: 20px;
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none;
     /* for Firefox */
