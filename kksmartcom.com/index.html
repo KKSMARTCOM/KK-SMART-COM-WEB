@@ -10,10 +10,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<link rel="preload"
-		href="https://fonts.googleapis.com/css2?family=Montserrat Light:wght@400;500;600;700&amp;display=swap"
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap"
 		as="style" onload="this.onload=null;this.rel='stylesheet'" />
 	<noscript>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat Light:wght@400;500;600;700&amp;display=swap"
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap"
 			rel="stylesheet" type="text/css" />
 	</noscript>
 
@@ -850,6 +850,7 @@
 			visibility: hidden;
 			opacity: 0;
 			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
 			margin: -1% 0 -1% -5px
 		}
 
@@ -862,6 +863,7 @@
 			overflow: hidden !important;
 			display: block;
 			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
 			visibility: visible;
 			opacity: 1;
 			margin: -1% 0 -1% -5px
@@ -893,7 +895,8 @@
 
 		.one .a-line {
 			overflow: hidden;
-			-webkit-backface-visibility: hidden
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden
 		}
 
 		.one .a-line .inn {
@@ -967,7 +970,8 @@
 			animation-iteration-count: 1;
 			animation-fill-mode: forwards;
 			animation-timing-function: ease;
-			-webkit-backface-visibility: hidden
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden
 		}
 
 		@keyframes texttotop {
@@ -2137,10 +2141,15 @@
 									</div>
 								</div>
 							</div>
-							<div class="owl-nav"> <button class="prev owl-prev"><img
-										src="wp-content/themes/kksmartcom/img/nav_left.svg" alt=""></button> <button
+							<!-- <div class="owl-nav"> 
+								<button class="prev owl-prev">
+									<img src="wp-content/themes/kksmartcom/img/nav_left.svg" alt="">
+								</button> 
+								<button
 									class="next owl-next"><img src="wp-content/themes/kksmartcom/img/nav_right.svg"
-										alt=""></button> </div>
+										alt="">
+								</button> 
+							</div> -->
 						</div>
 					</div>
 				</div>
