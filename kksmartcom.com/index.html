@@ -66,6 +66,7 @@
 	<script>
 		black_bg = "wp-content/themes/kksmartcom/img/black-bg.png";
 		other_bg = "wp-content/themes/kksmartcom/img/bg.png";
+		
 
 	</script>
 	<style>
@@ -2846,7 +2847,7 @@
 			}
 			if ($('.swiper').length > 0) {
 				setTimeout(function () {
-					var owl_car_2 = "../cdn.jsdelivr.net/npm/swiper%408/swiper-bundle.min.js";
+					var owl_car_2 = "https://unpkg.com/swiper/swiper-bundle.min.js";
 					$('head').append($('<link rel="stylesheet" type="text/css" />').attr('href', '../cdn.jsdelivr.net/npm/swiper%408/swiper-bundle.min.css'));
 					$.getScript(owl_car_2, function () {
 						var footer_scripts = "wp-content/themes/kksmartcom/js/other/footer-scripts.js";
