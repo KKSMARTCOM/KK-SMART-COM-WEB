@@ -466,8 +466,12 @@ html[lang=it] .about_alt_screen1 .flex-container .left h1 .pc-visible div {
 }
 
 .web_design_screen4 {
+<<<<<<< HEAD
   /* padding-top: 120px; */
   padding-top: 1px !important;
+=======
+  padding-top: 1px;
+>>>>>>> origin/dev
 }
 .web_design_screen4 .subheading {
   margin-bottom: 32px;

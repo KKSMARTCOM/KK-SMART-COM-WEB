@@ -484,7 +484,9 @@
 		}
 
 
+
 		@media (max-width: 1210px) {
+
 
 			/* debut ajout */
 			.viewed.fadein {
@@ -506,6 +508,7 @@
 				animation-delay: 0.5s;
 			}
 
+
 			page-preloader {
 				height: 100vh;
 				color: white;
@@ -525,6 +528,9 @@
 				left: 0;
 				width: 100%;
 			}
+
+			/* fin ajout */
+
 
 			/* fin ajout */
 
@@ -596,6 +602,7 @@
 			}
 		}
 
+
 		.map-container {
 			width: 100%;
 			height: 200px;
@@ -606,12 +613,15 @@
 
 		@media (max-width: 767px) {
 
+
 			#lienrapide,
 			.section-subheading {
 				display: block;
 				margin-bottom: 10px;
+				margin-bottom: 10px;
 			}
 		}
+
 
 		#go {
 			width: 65px;
@@ -640,15 +650,19 @@
 
 		@media (max-width: 767px) {
 
+
 			#lienrapide,
 			.section-subheading {
 				display: block;
+				margin-bottom: 10px;
 				margin-bottom: 10px;
 			}
 		}
 
 		@media only screen and (max-width: 600px) {
 			.locations {
+				display: flex !important;
+				flex-direction: column !important;
 				display: flex !important;
 				flex-direction: column !important;
 			}
@@ -1127,6 +1141,7 @@
 			}
 		}
 
+
 		#go {
 			width: 65px;
 			height: 65px;
@@ -1144,6 +1159,7 @@
 			object-fit: contain;
 		}
 
+
 		.map-container {
 			width: 100%;
 			height: 200px;
@@ -1154,15 +1170,19 @@
 
 		@media (max-width: 767px) {
 
+
 			#lienrapide,
 			.section-subheading {
 				display: block;
+				margin-bottom: 10px;
 				margin-bottom: 10px;
 			}
 		}
 
 		@media only screen and (max-width: 600px) {
 			.locations {
+				display: flex !important;
+				flex-direction: column !important;
 				display: flex !important;
 				flex-direction: column !important;
 			}
@@ -1177,6 +1197,11 @@
 				transform: translateY(-164px) !important;
 				width: 200px !important;
 			}
+		}
+
+
+		#dim9 {
+			width: 35% !important;
 		}
 
 		/* #dim1{
@@ -1399,6 +1424,7 @@
 												<li class=""><a class="" href="#" target="_self">About</a></li>
 
 												<li class=""><a class="" href="blogen.html">Blog</a> </li>
+												<li class=""><a class="" href="blogen.html">Blog</a> </li>
 												<li class=""><a class=""
 														href="https://www.linkedin.com/company/kksmartcom/"
 														target="_blank">Career</a>
@@ -1421,11 +1447,15 @@
 									class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10096">
 									<a href="#">ENG</a><svg width="8" height="3" viewBox="0 0 8 3" fill="none"
 										xmlns="https://www.w3.org/2000/svg">
+									<a href="#">ENG</a><svg width="8" height="3" viewBox="0 0 8 3" fill="none"
+										xmlns="https://www.w3.org/2000/svg">
 										<path d="M0.5 0H7.5L4 3L0.5 0Z" fill="#1F2122"></path>
 									</svg>
 									<ul class="sub-menu white-background">
 										<li id="menu-item-10096-fr"
 											class="lang-item lang-item-156 lang-item-fr lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-10096-fr">
+											<a href="apropos.html" hreflang="fr-FR" lang="fr-FR"><br>FRA</a>
+										</li>
 											<a href="apropos.html" hreflang="fr-FR" lang="fr-FR"><br>FRA</a>
 										</li>
 									</ul>
@@ -1544,9 +1574,40 @@
 														data-message-error="Your Email is invalid">
 													<span>Your email<sup>*</sup></span>
 												</label><label for="inptext_1" class="inp-wrap view textslide">
+												autocomplete="off" class="main_contact_form">
+												<label for="inpname_1" class="inp-wrap view textslide active viewed">
+													<input type="text" id="inpname_1" placeholder=" " name="Name"
+														required="" autocomplete="on" data-max-length="40"
+														class="required max-length pattern" data-pattern="[A-Za-z]">
+													<span>Your name & first names<sup>*</sup></span>
+												</label>
+												<label for="inpemail_1" class="inp-wrap view textslide active viewed">
+													<input type="email" id="inpemail_1" placeholder=" " name="Email"
+														required="" autocomplete="on" data-max-length="40"
+														class="required max-length pattern"
+														data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+														data-message-error="Your Email is invalid">
+													<span>Your email<sup>*</sup></span>
+												</label><label for="inptext_1" class="inp-wrap view textslide">
 													<textarea placeholder=" " required id="inptext_1" name="Message"
 														data-message-error="Max length 1000 characters"
 														class="max-length" data-max-length="1000"></textarea>
+													<span>Tell us about your project<sup>*</sup></span> <span
+														class="counter" data-max="250"> <b>0</b>/1000 </span> </label>
+
+
+												<div class="trms-wrap">
+													<button type="submit" class="main-btn arrow white">
+														<span>
+															<svg fill="none" height="10" viewBox="0 0 9 10" width="9"
+																xmlns="https://www.w3.org/2000/svg">
+																<path clip-rule="evenodd"
+																	d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
+																	fill="black" fill-rule="evenodd"></path>
+															</svg>Submit
+														</span>
+													</button>
+												</div>
 													<span>Tell us about your project<sup>*</sup></span> <span
 														class="counter" data-max="250"> <b>0</b>/1000 </span> </label>
 
@@ -1586,6 +1647,8 @@
 					class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7141">
 					<a target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 							class="a-line"><span>Services</span></span></a>
+					<a target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
+							class="a-line"><span>Services</span></span></a>
 					<ul class="sub-menu">
 						<li id="menu-item-10396"
 							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10396"><a
@@ -1595,9 +1658,13 @@
 							class="menu-item menu-item-type-post_type menu-item-object-service menu-item-10294"><a
 								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 									class="a-line"><span>Web
+								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
+									class="a-line"><span>Web
 										design</span></span></a></li>
 						<li id="menu-item-10295"
 							class="menu-item menu-item-type-post_type menu-item-object-service menu-item-10295"><a
+								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
+									class="a-line"><span>Web
 								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 									class="a-line"><span>Web
 										site</span></span></a></li>
@@ -1609,34 +1676,44 @@
 							class="menu-item menu-item-type-post_type menu-item-object-service menu-item-10296"><a
 								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 									class="a-line"><span>Mobile
+								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
+									class="a-line"><span>Mobile
 										app</span></span></a></li>
 						<li id="menu-item-10297"
 							class="menu-item menu-item-type-post_type menu-item-object-service menu-item-10297"><a
+								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 									class="a-line"><span>Branding</span></span></a></li>
 						<li id="menu-item-10299"
 							class="menu-item menu-item-type-post_type menu-item-object-service menu-item-10299"><a
 								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
+								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 									class="a-line"><span>Design</span></span></a></li>
 						<li id="menu-item-10300"
 							class="menu-item menu-item-type-post_type menu-item-object-service menu-item-10300"><a
+								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 									class="a-line"><span>Print</span></span></a></li>
 						<li id="menu-item-10301"
 							class="menu-item menu-item-type-post_type menu-item-object-service menu-item-10301"><a
 								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
+								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 									class="a-line"><span>Photography</span></span></a></li>
 						<li id="menu-item-10302"
 							class="menu-item menu-item-type-post_type menu-item-object-service menu-item-10302"><a
+								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 									class="a-line"><span>Videography</span></span></a></li>
 					</ul><span class="sub-menu-opener"></span>
 				</li>
 				<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a
 						target="_blank" href="https://www.behance.net/kksmartcom">Projects</a></li>
+						target="_blank" href="https://www.behance.net/kksmartcom">Projects</a></li>
 
 				<li id="menu-item-7141"
 					class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7141">
+					<a target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
+							class="a-line"><span>Company</span></span></a>
 					<a target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 							class="a-line"><span>Company</span></span></a>
 					<ul class="sub-menu">
@@ -1648,6 +1725,8 @@
 								href="blogen.html"><span class="a-line"><span>Blog</span></span></a></li>
 						<li id="menu-item-10295"
 							class="menu-item menu-item-type-post_type menu-item-object-service menu-item-10295"><a
+								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
+									class="a-line"><span>Career</span></span></a></li>
 								target="_blank" href="https://comeup.com/fr/@kk-smart-com"><span
 									class="a-line"><span>Career</span></span></a></li>
 					</ul><span class="sub-menu-opener"></span>
@@ -1717,6 +1796,11 @@
 									digital on all media, digital marketing and computer programming.
 									</br>We specialize in designing chatbots for businesses that need to
 									respond to high customer service demands.
+								<p>Our team called “SMART TEAM” provides its expertise in
+									digital fields namely: audiovisual, graphics, printing
+									digital on all media, digital marketing and computer programming.
+									</br>We specialize in designing chatbots for businesses that need to
+									respond to high customer service demands.
 								</p>
 							</div>
 						</div>
@@ -1726,6 +1810,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="section-new-screen4 web_design_screen4 is_view section white-background" style="padding-top: 1px !important;">
 	<div class="section-new-screen4 web_design_screen4 is_view section white-background" style="padding-top: 1px !important;">
 
 		<div class="wrap">
@@ -1741,8 +1826,34 @@
 							and prospecting),
 							to connect companies to their targets through adapted and innovative marketing strategies.
 						</p>
+						<p>KK SMART COM is a global communications company based in Cotonou specializing in digital and
+							visual communications
+							and audiovisual.
+							It also uses traditional means of communication (advertising panels, media, telemarketing
+							and prospecting),
+							to connect companies to their targets through adapted and innovative marketing strategies.
+						</p>
 						<p>KK SMART COM also offers training to businesses and individuals.
 							</br>She has
+							three real communication agencies serving its clients, namely:
+						<ul style="list-style-type: none;">
+							<li style="list-style-type: none;"><strong style="color: #4385f3; font-weight: bold;">KK
+									SMART DESIGN</strong> does everything possible to develop your brand through your
+								visual identity (Logo, Stationery,
+								Commercial brochure, all printing work, etc.)</li>
+							<li style="list-style-type: none;"><strong style="color: #fe0162; font-weight: bold;">KK
+									SMART DIGITAL</strong> offers to communicate where your targets are, using social
+								marketing, inbound strategies
+								marketing, content creation, natural referencing, online advertising, mobile
+								advertising....</li>
+							<li style="list-style-type: none;"><strong style="color: #fabb07; font-weight: bold;">KK
+									SMART STUDIO</strong> offers you the best support for creating, producing and
+								distributing your advertising videos, whether
+								is to tell a story about your brand (storytelling), or to produce an advertising spot
+								for your product
+								Lighthouse....</li>
+						</ul>
+						</p>
 							three real communication agencies serving its clients, namely:
 						<ul style="list-style-type: none;">
 							<li style="list-style-type: none;"><strong style="color: #4385f3; font-weight: bold;">KK
@@ -1774,8 +1885,12 @@
 					pointer-events: all !important
 				}
 
+
 				@media (max-width: 1024px) {
 					.our-map {
+						width: calc(100% + 40px);
+						margin-left: -20px;
+						margin-bottom: 0;
 						width: calc(100% + 40px);
 						margin-left: -20px;
 						margin-bottom: 0;
@@ -1814,8 +1929,10 @@
 				<!-- <div class="subheading">Principles</div> -->
 				<div class="section-heading decorable">
 					<div class="pc-visible" style="font-size: smaller;">We work with businesses <br>to help them
+					<div class="pc-visible" style="font-size: smaller;">We work with businesses <br>to help them
 						<strong>to meet ever-changing business challenges</strong>.
 					</div>
+					<div class="mob-visible">We work with businesses <br>to help them
 					<div class="mob-visible">We work with businesses <br>to help them
 						<strong>to meet ever-changing business challenges</strong>.
 					</div>
@@ -1880,6 +1997,8 @@
 										<div class="top_wrap"><img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
 												loading="lazy">
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
+												loading="lazy">
 										</div>
 										<div class="text"> What really impressed me was: the speed of
 											response, quality of service, friendliness of staff. It's this kind
@@ -1887,6 +2006,9 @@
 											SMART COM. I highly recommend it for
 											quality services.</br>
 										</div>
+										<div class="author"> <img class=""
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
+												loading="lazy">
 										<div class="author"> <img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
 												loading="lazy">
@@ -1912,6 +2034,9 @@
 										<div class="text"> Your communications company stands out for its
 											creativity and commitment to customer satisfaction. Points
 											essential for all professional collaborations.</br></br></div>
+										<div class="author"> <img class=""
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
+												loading="lazy">
 										<div class="author"> <img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
 												loading="lazy">
@@ -1941,6 +2066,9 @@
 										<div class="author"> <img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
 												loading="lazy">
+										<div class="author"> <img class=""
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
+												loading="lazy">
 											<div class="bio"> <span>Kelly ANATO </span>
 												<!-- <p>Responsable marketing chez Copper Rock</p> -->
 											</div>
@@ -1966,6 +2094,9 @@
 										<div class="author"> <img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
 												loading="lazy">
+										<div class="author"> <img class=""
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
+												loading="lazy">
 											<div class="bio"> <span>Charlyce HOUSSOU</span>
 												<!-- <p>Fondateur Neap</p> -->
 											</div>
@@ -1987,7 +2118,12 @@
 												loading="lazy"></div>
 										<div class="text"> A special and very sober setting! Ideal for creative work. I
 											highly recommend it for coworking.</br></br>
+										<div class="text"> A special and very sober setting! Ideal for creative work. I
+											highly recommend it for coworking.</br></br>
 										</div>
+										<div class="author"> <img class=""
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
+												loading="lazy">
 										<div class="author"> <img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
 												loading="lazy">
@@ -2010,10 +2146,16 @@
 										<div class="top_wrap"><img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
 												loading="lazy"></div>
+										<div class="top_wrap"><img class=""
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
+												loading="lazy"></div>
 										<div class="text"> Good level communications company. They manage
 											several other aspects affiliated with communication such as:
 											photography, video, music video, advertising spots and graphic design.</br>
 										</div>
+										<div class="author"> <img class=""
+												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
+												loading="lazy">
 										<div class="author"> <img class=""
 												src="../cdn.kksmartcom.com/wp-content/uploads/2022/12/bru.png" alt=""
 												loading="lazy">
@@ -2068,12 +2210,19 @@
 								<div class="top">
 									<div class="left" style="font-size: 30px !important; font-weight: bold;">
 										ANPE BENIN
+									<div class="left" style="font-size: 30px !important; font-weight: bold;">
+										ANPE BENIN
 									</div>
+									<div class="right" id="go">
+										<img class="" src="wp-content/clients/anpe.jpg" alt="" loading="lazy">
 									<div class="right" id="go">
 										<img class="" src="wp-content/clients/anpe.jpg" alt="" loading="lazy">
 									</div>
 								</div>
 								<div class="h"> </div>
+								<div class="p small">
+									Public Employment Service: Listening, Advice, Orientation, Support for young
+									graduates towards employment.
 								<div class="p small">
 									Public Employment Service: Listening, Advice, Orientation, Support for young
 									graduates towards employment.
@@ -2084,9 +2233,14 @@
 									<div class="left" id="dim1">
 										<img class="" id="dim1" src="wp-content/clients/logos/MYSOL.png" alt=""
 											loading="lazy">
+										<img class="" id="dim1" src="wp-content/clients/logos/MYSOL.png" alt=""
+											loading="lazy">
 									</div>
 								</div>
 								<div class="h"> </div>
+								<div class="p small">
+									ENGIE Energy Access Bénin through Mysol, we offer solar systems and devices tailored
+									to the needs of households.
 								<div class="p small">
 									ENGIE Energy Access Bénin through Mysol, we offer solar systems and devices tailored
 									to the needs of households.
@@ -2094,6 +2248,9 @@
 							</div>
 							<div class="row w35 big">
 								<div class="top">
+									<div class="left" id="dim2">
+										<img class="" id="dim2" src="wp-content/clients/logos/SPIRO.png" alt=""
+											loading="lazy">
 									<div class="left" id="dim2">
 										<img class="" id="dim2" src="wp-content/clients/logos/SPIRO.png" alt=""
 											loading="lazy">
@@ -2110,8 +2267,12 @@
 										<img class="" id="dim3" src="wp-content/clients/logos/ART RESIDENCE.png" alt=""
 											loading="lazy">
 									</div>
+										<img class="" id="dim3" src="wp-content/clients/logos/ART RESIDENCE.png" alt=""
+											loading="lazy">
+									</div>
 								</div>
 								<div class="h"> </div>
+								<div class="p small">
 								<div class="p small">
 									ART Résidence is a hotel residence located in Porto-Novo, the capital of Benin.
 								</div>
@@ -2121,9 +2282,15 @@
 									<div class="left" id="dim4">
 										<img class="" id="dim4" src="wp-content/clients/logos/SOBEBRA.png" alt=""
 											loading="lazy">
+									<div class="left" id="dim4">
+										<img class="" id="dim4" src="wp-content/clients/logos/SOBEBRA.png" alt=""
+											loading="lazy">
 									</div>
 								</div>
 								<div class="h"> </div>
+								<div class="p small">
+									La SOBEBRA is the Beninese Company of Refreshing Beverages is a subsidiary of Castel
+									in Benin.
 								<div class="p small">
 									La SOBEBRA is the Beninese Company of Refreshing Beverages is a subsidiary of Castel
 									in Benin.
@@ -2134,16 +2301,24 @@
 									<div class="left" id="dim5">
 										<img class="" id="dim5" src="wp-content/clients/canal_+-wb.png" alt=""
 											loading="lazy">
+									<div class="left" id="dim5">
+										<img class="" id="dim5" src="wp-content/clients/canal_+-wb.png" alt=""
+											loading="lazy">
 									</div>
 								</div>
 								<div class="h"> </div>
 								<div class="p small">
 									National French private generalist television channel with a subscription, focused
 									on cinema and sports.
+									National French private generalist television channel with a subscription, focused
+									on cinema and sports.
 								</div>
 							</div>
 							<div class="row w35 big">
 								<div class="top">
+									<div class="left" id="dim6">
+										<img class="" id="dim6" src="wp-content/clients/logos/CANAL+.png" alt=""
+											loading="lazy">
 									<div class="left" id="dim6">
 										<img class="" id="dim6" src="wp-content/clients/logos/CANAL+.png" alt=""
 											loading="lazy">
@@ -2159,6 +2334,9 @@
 									<div class="left" id="dim7">
 										<img class="" id="dim7" src="wp-content/clients/logos/BEC SARL.png" alt=""
 											loading="lazy">
+									<div class="left" id="dim7">
+										<img class="" id="dim7" src="wp-content/clients/logos/BEC SARL.png" alt=""
+											loading="lazy">
 									</div>
 								</div>
 								<div class="h"> </div>
@@ -2170,12 +2348,17 @@
 								<div class="top">
 									<div class="left" style="font-size: 30px !important; font-weight: bold;">
 										Le Hublot
+									<div class="left" style="font-size: 30px !important; font-weight: bold;">
+										Le Hublot
 									</div>
+									<div class="right" id="go">
+										<img class="" src="wp-content/clients/hublot-wb.png" alt="" loading="lazy">
 									<div class="right" id="go">
 										<img class="" src="wp-content/clients/hublot-wb.png" alt="" loading="lazy">
 									</div>
 								</div>
 								<div class="h"> </div>
+								<div class="p small">
 								<div class="p small">
 									Le Hublot is a gourmet restaurant and a guest House.
 								</div>
@@ -2185,10 +2368,15 @@
 									<div class="left" id="dim8">
 										<img class="" id="dim8" src="wp-content/clients/logos/AFRO.png" alt=""
 											loading="lazy">
+									<div class="left" id="dim8">
+										<img class="" id="dim8" src="wp-content/clients/logos/AFRO.png" alt=""
+											loading="lazy">
 									</div>
 								</div>
 								<div class="h"> </div>
 								<div class="p small">
+									Beauty, cosmetics, and care. Afro Roots teaches women how to take care of their
+									kinky hair through their beauty space.
 									Beauty, cosmetics, and care. Afro Roots teaches women how to take care of their
 									kinky hair through their beauty space.
 								</div>
@@ -2196,13 +2384,17 @@
 							<div class="row w35 big">
 								<div class="top">
 									<div class="left" style="font-size: 30px !important; font-weight: bold;">
+									<div class="left" style="font-size: 30px !important; font-weight: bold;">
 										Pinecrest
 									</div>
+									<div class="right" id="go">
+										<img class="" src="wp-content/clients/pinecrest(1).png" alt="" loading="lazy">
 									<div class="right" id="go">
 										<img class="" src="wp-content/clients/pinecrest(1).png" alt="" loading="lazy">
 									</div>
 								</div>
 								<div class="h"> </div>
+								<div class="p small">
 								<div class="p small">
 									Dry cleaning service with 24/7 drop-off and pickup service.
 								</div>
@@ -2211,12 +2403,17 @@
 								<div class="top">
 									<div class="left" style="font-size: 30px !important; font-weight: bold;">
 										Mary House
+									<div class="left" style="font-size: 30px !important; font-weight: bold;">
+										Mary House
 									</div>
+									<div class="right" id="go">
+										<img class="" src="wp-content/clients/hotelmh.png" alt="" loading="lazy">
 									<div class="right" id="go">
 										<img class="" src="wp-content/clients/hotelmh.png" alt="" loading="lazy">
 									</div>
 								</div>
 								<div class="h"> </div>
+								<div class="p small">
 								<div class="p small">
 									Residence located near Fidjrossè Beach and Cotonou Airport.
 								</div>
@@ -2225,7 +2422,11 @@
 								<div class="top">
 									<div class="left" style="font-size: 30px !important; font-weight: bold;">
 										Bfret
+									<div class="left" style="font-size: 30px !important; font-weight: bold;">
+										Bfret
 									</div>
+									<div class="right" id="go">
+										<img class="" src="wp-content/clients/bfret-wb.png" alt="" loading="lazy">
 									<div class="right" id="go">
 										<img class="" src="wp-content/clients/bfret-wb.png" alt="" loading="lazy">
 									</div>
@@ -2234,10 +2435,14 @@
 								<div class="p small">
 									Freight and cargo company specializing in the sale of goods and used cars between
 									France and Benin.
+								<div class="p small">
+									Freight and cargo company specializing in the sale of goods and used cars between
+									France and Benin.
 								</div>
 							</div>
 							<div class="row w35 big">
 								<div class="top">
+									<div class="left" style="font-size: 30px !important; font-weight: bold;">
 									<div class="left" style="font-size: 30px !important; font-weight: bold;">
 										Origine Terre
 									</div>
@@ -2246,11 +2451,15 @@
 								<div class="p small">
 									Origine Terre is a brand of 100% natural handmade cosmetic products in Benin. Soaps,
 									lotions...
+									Origine Terre is a brand of 100% natural handmade cosmetic products in Benin. Soaps,
+									lotions...
 								</div>
 							</div>
 							<div class="row light full none">
 								<div class="top">
 									<div class="left" id="dim9">
+										<img class="" id="dim9" src="wp-content/clients/engie.svg" alt=""
+											loading="lazy">
 										<img class="" id="dim9" src="wp-content/clients/engie.svg" alt=""
 											loading="lazy">
 									</div>
@@ -2317,9 +2526,16 @@
 								<input type="text" id="inpname_2" placeholder=" " name="Name" required=""
 									autocomplete="off" data-max-length="40" class="required max-length pattern"
 									data-pattern="[A-Za-z]">
+								<input type="text" id="inpname_2" placeholder=" " name="Name" required=""
+									autocomplete="off" data-max-length="40" class="required max-length pattern"
+									data-pattern="[A-Za-z]">
 								<span>Your name<sup>*</sup></span>
 							</label>
 							<label for="inpemail_2" class="inp-wrap view textslide active viewed">
+								<input type="email" id="inpemail_2" placeholder=" " name="Email" required=""
+									autocomplete="off" data-max-length="40" class="required max-length pattern"
+									data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+									data-message-error="Your Email is invalid">
 								<input type="email" id="inpemail_2" placeholder=" " name="Email" required=""
 									autocomplete="off" data-max-length="40" class="required max-length pattern"
 									data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
@@ -2328,8 +2544,13 @@
 							</label>
 						</div>
 
+
 						<label for="inptext_2" class="inp-wrap view textslide">
 							<textarea placeholder=" " id="inptext_2" name="Message"
+								data-message-error="Max length 1000 characters" class="max-length"
+								data-max-length="1000" required></textarea>
+							<span>Tell us about your project<sup>*</sup></span> <span class="counter" data-max="250">
+								<b>0</b>/1000 </span> </label>
 								data-message-error="Max length 1000 characters" class="max-length"
 								data-max-length="1000" required></textarea>
 							<span>Tell us about your project<sup>*</sup></span> <span class="counter" data-max="250">
@@ -2337,8 +2558,15 @@
 
 
 
+
+
 						<button type="submit" class="main-btn arrow white">
 							<span>
+								<svg fill="none" height="10" viewBox="0 0 9 10" width="9"
+									xmlns="https://www.w3.org/2000/svg">
+									<path clip-rule="evenodd"
+										d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
+										fill="black" fill-rule="evenodd"></path>
 								<svg fill="none" height="10" viewBox="0 0 9 10" width="9"
 									xmlns="https://www.w3.org/2000/svg">
 									<path clip-rule="evenodd"
@@ -2393,6 +2621,8 @@
 									<div class="location">
 										<a href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide"
 												style="font-size: x-large;">Quick
+										<a href="https://comeup.com/fr/@kk-smart-com"><span id="lienrapide"
+												style="font-size: x-large;">Quick
 												links</span></a>
 										<div class="address">
 											<a href="https://comeup.com/fr/@kk-smart-com">
@@ -2434,6 +2664,8 @@
 							</div>
 
 							<div class="col">
+								<div class="section-subheading" style="margin-top: 0!important; font-size: x-large;">
+									Locations</div>
 								<div class="section-subheading" style="margin-top: 0!important; font-size: x-large;">
 									Locations</div>
 								<div class="address">
@@ -2515,6 +2747,8 @@
 
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.1639292867094!2d2.3553105746980005!3d6.372826593617385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10235798a3364b93%3A0x2e31cf5b35f72be8!2sKK%20SMART%20COM!5e0!3m2!1sfr!2sbj!4v1686445030526!5m2!1sfr!2sbj0"
+									class="map-container" allowfullscreen="" loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade">
 									class="map-container" allowfullscreen="" loading="lazy"
 									referrerpolicy="no-referrer-when-downgrade">
 								</iframe>
@@ -2760,10 +2994,47 @@
 					},
 				},
 			});
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			var mySwiper = new Swiper('.reviews_slider', {
+				// Paramètres de configuration Swiper ici
+				loop: true, // Activer la boucle infinie
+				autoplay: {
+					delay: 5000, // Définir le délai entre les diapositives en millisecondes
+					disableOnInteraction: false, // Autoriser l'autoplay même lorsqu'un utilisateur interagit avec la diapositive
+				},
+				navigation: {
+					nextEl: '.next',
+					prevEl: '.prev',
+				},
+				slidesPerView: 1, // Un slide visible à la fois
+				spaceBetween: 15, // Espace entre les slides
+				breakpoints: {
+					768: {
+						slidesPerView: 2,
+					},
+					1024: {
+						slidesPerView: 2,
+					},
+				},
+				on: {
+					autoplay: function () {
+						// Mettre à jour la position des éléments en dessous des slides après chaque transition d'autoplay
+						updateElementsPosition();
+					},
+				},
+			});
 
 			// Facteur d'échelle pour ajuster la hauteur ajoutée
 			var scaleFactor = 0.5;
+			// Facteur d'échelle pour ajuster la hauteur ajoutée
+			var scaleFactor = 0.5;
 
+			// Fonction pour mettre à jour la position des éléments en dessous des slides
+			function updateElementsPosition() {
+				// Récupérer le conteneur des slides
+				var reviewsWrap = document.querySelector('.reviews_wrap');
 			// Fonction pour mettre à jour la position des éléments en dessous des slides
 			function updateElementsPosition() {
 				// Récupérer le conteneur des slides
@@ -2773,7 +3044,13 @@
 				if (reviewsWrap) {
 					// Récupérer la hauteur du slide actif
 					var activeSlideHeight = mySwiper.slides[mySwiper.activeIndex].offsetHeight;
+				// Vérifier si le conteneur existe
+				if (reviewsWrap) {
+					// Récupérer la hauteur du slide actif
+					var activeSlideHeight = mySwiper.slides[mySwiper.activeIndex].offsetHeight;
 
+					// Calculer la hauteur ajoutée en fonction du facteur d'échelle
+					var addedHeight = activeSlideHeight * scaleFactor;
 					// Calculer la hauteur ajoutée en fonction du facteur d'échelle
 					var addedHeight = activeSlideHeight * scaleFactor;
 
@@ -2781,7 +3058,15 @@
 					reviewsWrap.style.marginBottom = addedHeight + 'px';
 				}
 			}
+					// Mettre à jour la position des éléments en dessous des slides
+					reviewsWrap.style.marginBottom = addedHeight + 'px';
+				}
+			}
 
+			// Appeler la fonction au chargement initial de la page
+			updateElementsPosition();
+		});
+	</script>
 			// Appeler la fonction au chargement initial de la page
 			updateElementsPosition();
 		});
@@ -2826,13 +3111,16 @@
 					// Désactivez le bouton après la validation réussie
 					$(form).find(".main-btn").attr("disabled", true);
 
+
 					// Envoi réel du formulaire
 					form.submit();
+
 
 					// Videz les champs après l'envoi réussi
 					$(form).find('input, textarea').val('');
 				}
 			});
+
 
 			// Réactivez le bouton avant l'envoi réel du formulaire
 			$(".main_contact_form").submit(function () {
@@ -2840,6 +3128,7 @@
 			});
 		});
 	</script>
+
 
 
 	<script>
@@ -2900,7 +3189,25 @@
 			var divFixe = conteneur.find(".none");
 			var indexCourant = 0;
 			var elementsParPage;
+	<script>
+		$(document).ready(function () {
+			// Sélectionnez les éléments nécessaires
+			var conteneur = $(".awards-details");
+			var lignes = conteneur.find(".row:not(.none)");
+			var divFixe = conteneur.find(".none");
+			var indexCourant = 0;
+			var elementsParPage;
 
+			// Fonction pour déterminer le nombre d'éléments par page en fonction de la largeur de l'écran
+			function determinerElementsParPage() {
+				if (window.innerWidth >= 1024) {
+					elementsParPage = 3;
+				} else if (window.innerWidth >= 768) {
+					elementsParPage = 1;
+				} else {
+					elementsParPage = 1;
+				}
+			}
 			// Fonction pour déterminer le nombre d'éléments par page en fonction de la largeur de l'écran
 			function determinerElementsParPage() {
 				if (window.innerWidth >= 1024) {
@@ -2916,7 +3223,14 @@
 			function afficherElements() {
 				determinerElementsParPage();
 				conteneur.empty();
+			// Afficher les éléments initiaux
+			function afficherElements() {
+				determinerElementsParPage();
+				conteneur.empty();
 
+				// Afficher les éléments à afficher par page
+				var finIndex = indexCourant + elementsParPage;
+				var elementsAffiches = lignes.slice(indexCourant, finIndex);
 				// Afficher les éléments à afficher par page
 				var finIndex = indexCourant + elementsParPage;
 				var elementsAffiches = lignes.slice(indexCourant, finIndex);
@@ -2925,10 +3239,19 @@
 				if (elementsAffiches.length < elementsParPage) {
 					elementsAffiches = elementsAffiches.add(lignes.slice(0, elementsParPage - elementsAffiches.length));
 				}
+				// Si moins d'éléments que prévu sont disponibles, ajoutez les premiers éléments
+				if (elementsAffiches.length < elementsParPage) {
+					elementsAffiches = elementsAffiches.add(lignes.slice(0, elementsParPage - elementsAffiches.length));
+				}
 
 				// Ajouter les éléments à la page
 				conteneur.append(elementsAffiches);
+				// Ajouter les éléments à la page
+				conteneur.append(elementsAffiches);
 
+				// Ajouter la div fixe
+				conteneur.append(divFixe);
+			}
 				// Ajouter la div fixe
 				conteneur.append(divFixe);
 			}
@@ -2936,14 +3259,25 @@
 			// Actions lors du clic sur le bouton suivant
 			$(".next-button").click(function () {
 				indexCourant++;
+			// Actions lors du clic sur le bouton suivant
+			$(".next-button").click(function () {
+				indexCourant++;
 
+				if (indexCourant >= lignes.length) {
+					indexCourant = 0;
+				}
 				if (indexCourant >= lignes.length) {
 					indexCourant = 0;
 				}
 
 				faireDefiler(-conteneur.width());
 			});
+				faireDefiler(-conteneur.width());
+			});
 
+			// Actions lors du clic sur le bouton précédent
+			$(".prev-button").click(function () {
+				indexCourant--;
 			// Actions lors du clic sur le bouton précédent
 			$(".prev-button").click(function () {
 				indexCourant--;
@@ -2951,7 +3285,12 @@
 				if (indexCourant < 0) {
 					indexCourant = lignes.length - 1;
 				}
+				if (indexCourant < 0) {
+					indexCourant = lignes.length - 1;
+				}
 
+				faireDefiler(conteneur.width());
+			});
 				faireDefiler(conteneur.width());
 			});
 
@@ -2964,10 +3303,24 @@
 					conteneur.css("left", 0);
 				});
 			}
+			// Défilement des éléments
+			function faireDefiler(decalage) {
+				conteneur.animate({
+					left: decalage
+				}, 500, function () {
+					afficherElements();
+					conteneur.css("left", 0);
+				});
+			}
 
 			// Afficher les éléments initiaux
 			afficherElements();
+			// Afficher les éléments initiaux
+			afficherElements();
 
+			// Défilement automatique toutes les 5 secondes
+			setInterval(function () {
+				indexCourant++;
 			// Défilement automatique toutes les 5 secondes
 			setInterval(function () {
 				indexCourant++;
@@ -2975,7 +3328,12 @@
 				if (indexCourant >= lignes.length) {
 					indexCourant = 0;
 				}
+				if (indexCourant >= lignes.length) {
+					indexCourant = 0;
+				}
 
+				faireDefiler(-conteneur.width());
+			}, 5000);
 				faireDefiler(-conteneur.width());
 			}, 5000);
 
@@ -2984,7 +3342,13 @@
 				afficherElements();
 			});
 		});
+			// Réactualiser les éléments par page lors du redimensionnement de la fenêtre
+			$(window).resize(function () {
+				afficherElements();
+			});
+		});
 
+	</script>
 	</script>
 
 </body>
