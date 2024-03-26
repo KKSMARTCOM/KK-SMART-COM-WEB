@@ -360,6 +360,7 @@ html[lang=it] .about_alt_screen1 .flex-container .left h1 .pc-visible div {
   margin-right: -51px;
   position: relative;
   top: 56px;
+  border-radius: 10px !important;
 }
 
 .web_design_screen2 {
@@ -466,12 +467,8 @@ html[lang=it] .about_alt_screen1 .flex-container .left h1 .pc-visible div {
 }
 
 .web_design_screen4 {
-<<<<<<< HEAD
   /* padding-top: 120px; */
   padding-top: 1px !important;
-=======
-  padding-top: 1px;
->>>>>>> origin/dev
 }
 .web_design_screen4 .subheading {
   margin-bottom: 32px;
@@ -837,6 +834,7 @@ html .sfr9 .section-heading {
     margin-right: 0;
     margin-left: 0;
     transform: scale(-1, 1) !important;
+    border-radius: 10px !important;
   }
 }
 @media (max-width: 992px) {
