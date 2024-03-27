@@ -7500,7 +7500,7 @@ a.tag span {
     .flex-cases .case .img-wrap {
         width: calc(100% + 40px);
         margin-left: -20px;
-        /* height: 95vw; */
+        height: 95vw;
         max-height: 500px
     }
 
