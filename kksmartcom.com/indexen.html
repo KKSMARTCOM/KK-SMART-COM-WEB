@@ -2350,37 +2350,7 @@
 						slidesPerView: 2,
 					},
 				},
-				on: {
-					autoplay: function () {
-						// Mettre à jour la position des éléments en dessous des slides après chaque transition d'autoplay
-						updateElementsPosition();
-					},
-				},
 			});
-
-			// Facteur d'échelle pour ajuster la hauteur ajoutée
-			var scaleFactor = 0.5;
-
-			// Fonction pour mettre à jour la position des éléments en dessous des slides
-			function updateElementsPosition() {
-				// Récupérer le conteneur des slides
-				var reviewsWrap = document.querySelector('.reviews_wrap');
-
-				// Vérifier si le conteneur existe
-				if (reviewsWrap) {
-					// Récupérer la hauteur du slide actif
-					var activeSlideHeight = mySwiper.slides[mySwiper.activeIndex].offsetHeight;
-
-					// Calculer la hauteur ajoutée en fonction du facteur d'échelle
-					var addedHeight = activeSlideHeight * scaleFactor;
-
-					// Mettre à jour la position des éléments en dessous des slides
-					reviewsWrap.style.marginBottom = addedHeight + 'px';
-				}
-			}
-
-			// Appeler la fonction au chargement initial de la page
-			updateElementsPosition();
 		});
 	</script>
 
