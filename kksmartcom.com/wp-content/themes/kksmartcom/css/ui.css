@@ -1861,24 +1861,13 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
   margin-bottom: 25px;
   font-size: 18px;
   line-height: 170%;
-/*    &:after{
-      content: '';
-      width: 32px;
-      height: 24px;
-      background: url('../img/qu.svg')no-repeat center;
-      background-size:contain;
-      position:relative;
-      display: block;
-      margin-top: 10px;
-      margin-left: auto;
-      transform:scale(1,-1);
-  } */
 }
+
 .reviews_slider .slide .review_inner .text:before {
   content: "";
   width: 32px;
   height: 24px;
-  background: url("../img/qu.png") no-repeat center;
+  background: url(../img/qu.svg) no-repeat center;
   background-size: contain;
   position: relative;
   display: block;
