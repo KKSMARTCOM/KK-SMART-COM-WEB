@@ -6018,7 +6018,8 @@ a.tag span {
     h3.viewed span.a-line,
     .viewed.value .viewed.text span.a-line,
     .mobile-menu li a span.a-line {
-        margin: 0.5% 0 0.5% -2px
+        margin: 0.5% 0 0.5% -2px;
+        margin: 0.5% 0 0.5% 2px
     }
 
     .post-text {
@@ -7750,7 +7751,8 @@ a.tag span {
     h3.viewed span.a-line span,
     .viewed.value .viewed.text span.a-line span,
     .mobile-menu li a span.a-line span {
-        line-height: 90%
+        /* line-height: 90%; */
+        line-height: 115% !important
     }
 
     .single-case-screen2 .flex-row.gallery video+picture img {
