@@ -204,7 +204,7 @@ body.loading:after {
 }
 
 .awards-details .row.w35 {
-    width: calc(35% - 40px);
+    width: calc(33.33% - 40px);
 }
 
 .awards-details .row.light {
@@ -4793,7 +4793,7 @@ a.tag span {
     }
 
     .awards-details .row.w35 {
-        width: calc(35% - 20px)
+        width: calc(33.33% - 20px)
     }
 
     .awards-details .row.rating .top .left img {
@@ -5814,7 +5814,7 @@ a.tag span {
     }
 
     .awards-details .row.w35 {
-        width: calc(35% - 20px)
+        width: calc(33.33% - 20px)
     }
 
     .awards-details .row.rating .top .left img {
