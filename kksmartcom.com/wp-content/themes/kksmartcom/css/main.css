@@ -162,8 +162,8 @@ body.loading:after {
 
 .awards-details {
     display: flex;
-    flex-flow: row nowrap;;
-    /* flex-wrap: wrap; */
+    flex-flow: row;
+    flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
     margin-top: 105px;
