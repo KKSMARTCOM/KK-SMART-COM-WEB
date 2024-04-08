@@ -1350,6 +1350,10 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
 .top-cases-wrap {
   position: relative;
 }
+/* .swiper-slide{
+  width: 31% !important;
+  margin-right: 38px !important;
+} */
 .top-cases-wrap .swiper-slide .slfade a {
   display: block;
 }
