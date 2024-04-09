@@ -204,7 +204,7 @@ body.loading:after {
 }
 
 .awards-details .row.w35 {
-    width: calc(35% - 40px);
+    width: calc(33.33%  - 40px);
 }
 
 .awards-details .row.light {
