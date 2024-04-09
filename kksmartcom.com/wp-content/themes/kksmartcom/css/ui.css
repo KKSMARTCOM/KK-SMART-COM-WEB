@@ -1350,6 +1350,12 @@ html body .header-arr-wrap .langs-wrap .menu-item-has-children .sub-menu li a:ho
 .top-cases-wrap {
   position: relative;
 }
+/* .swiper-slide{
+  min-width: 400px !important;
+  max-width: 400px !important;
+  margin-right: 38px !important;
+  width: fixed;
+} */
 .top-cases-wrap .swiper-slide .slfade a {
   display: block;
 }
