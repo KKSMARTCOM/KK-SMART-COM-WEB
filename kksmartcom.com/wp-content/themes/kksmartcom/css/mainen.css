@@ -3674,6 +3674,11 @@ a, button {
     /* font-family: montserrat */
 }
 
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .screen1 h1 span.line,
 .screen1 .h1 span.line {
     display: block

@@ -143,7 +143,7 @@ body.loading:after {
     color: #1F2122
 }
 
-#menulangage{
+#menulangage {
     padding-top: 0px;
     border-top: none !important;
     border-bottom: none !important;
@@ -3282,7 +3282,7 @@ h4.viewed i,
     justify-content: space-between;
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .footer .footer-top {
         display: block;
     }
@@ -3292,7 +3292,8 @@ h4.viewed i,
     margin: 0 auto;
     width: 100%;
     max-width: 1330px;
-    padding: 0 15px;/* 
+    padding: 0 15px;
+    /* 
     justify-content: space-between;
     position: relative;
     z-index: 1; */
@@ -3387,25 +3388,29 @@ a.line-animation.email:hover img {
     padding: 30px 0;
     width: 100%;
     transition: 0.2s
-    
 }
-@keyframes fade { 
-    0% { 
-        opacity: 1; 
-    } 
-    25% { 
-        opacity: 0.75; 
-    } 
-    50% { 
-        opacity: 0.5; 
-    } 
-    75% { 
-        opacity: 0.25; 
-    } 
-    100% { 
-        opacity: 1; 
-    } 
-} 
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.75;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.25;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 /* commentaire
     .header:not(.mini) {
@@ -3586,7 +3591,8 @@ a.line-animation.email:hover img {
     background-size: contain
 }
 
-.arrow-btn span:after, .arrow-btn span:before {
+.arrow-btn span:after,
+.arrow-btn span:before {
     content: "";
     width: 11px;
     height: 11px;
@@ -3599,7 +3605,8 @@ a.line-animation.email:hover img {
     transition: 0.8s;
 }
 
-a, button {
+a,
+button {
     cursor: pointer;
 }
 
@@ -3638,7 +3645,8 @@ a, button {
     transition: 0.3s
 }
 
-.white-background .arrow-btn span:after, .white-background .arrow-btn span:before {
+.white-background .arrow-btn span:after,
+.white-background .arrow-btn span:before {
     background: url(../img/arrow-right-white.svg) no-repeat center;
     background-size: contain;
 }
@@ -3687,6 +3695,10 @@ a, button {
     font-feature-settings: 'pnum' on, 'lnum' on;
     pointer-events: none;
     /* font-family: montserrat */
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .screen1 h1 span.line,
@@ -4157,9 +4169,9 @@ a.tag span {
     background-size: 100%;
     will-change: background-position-y;
     font-size: 0 !important
-} */
+}
 
-.flex-cases .case .img-wrap {
+*/ .flex-cases .case .img-wrap {
     width: 100%;
     height: auto;
     max-height: 600px;
@@ -4168,12 +4180,16 @@ a.tag span {
     justify-content: center;
     overflow: hidden;
     position: relative;
-    cursor: pointer; /* Ajout d'un curseur pointer pour indiquer l'interaction possible */
+    cursor: pointer;
+    /* Ajout d'un curseur pointer pour indiquer l'interaction possible */
     opacity: 1;
-    background-size: cover; /* Utilisation de "cover" pour remplir l'espace sans déformation */
+    background-size: cover;
+    /* Utilisation de "cover" pour remplir l'espace sans déformation */
     will-change: background-position-y;
-    transition: 0.3s background-size, 0.3s opacity; /* Ajout de l'opacité à la transition */
-    font-size: 0; /* Cela reste inchangé */
+    transition: 0.3s background-size, 0.3s opacity;
+    /* Ajout de l'opacité à la transition */
+    font-size: 0;
+    /* Cela reste inchangé */
 }
 
 .flex-cases .case .img-wrap:hover {
@@ -4506,12 +4522,14 @@ a.tag span {
     line-height: 125%;
     color: #1F2122;
 }
+
 .footer .footer-top .left .locations .address .location #lienrapide {
     font-size: 16px;
     font-weight: 600;
     line-height: 125%;
     color: black;
 }
+
 .footer .footer-top .left .locations .address .location #btntel {
     font-size: 16px;
     font-weight: 600;
@@ -5532,7 +5550,7 @@ a.tag span {
         width: 9px
     }
 
-   /*  .section-subheading {
+    /*  .section-subheading {
         font-size: 16px
     }
  */
@@ -7795,7 +7813,7 @@ a.tag span {
         font-size: 24px
     }
 
-   /*  commentaire
+    /*  commentaire
         .allways-white {
         background: transparent !important
     } */
@@ -8074,7 +8092,8 @@ a.tag span {
         margin-bottom: -30px
     }
 }
-@media (max-width: 1024px) and (orientation: landscape) and (max-height: 360px){
+
+@media (max-width: 1024px) and (orientation: landscape) and (max-height: 360px) {
     .wrap {
         padding-left: 50px;
         padding-right: 50px;
