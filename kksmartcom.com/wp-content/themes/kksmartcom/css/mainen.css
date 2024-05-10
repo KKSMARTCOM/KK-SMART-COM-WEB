@@ -64,8 +64,7 @@ input[type="tel"] {
 body {
     -ms-overflow-style: none;
     scrollbar-width: none;
-    font-family: Bodoni;
-  /* font-family: Montserrat Light; */
+    font-family: Montserrat Light;
     font-weight: 400;
     font-feature-settings: 'pnum' on, 'lnum' on
 }
@@ -296,8 +295,7 @@ body.loading:after {
     font-weight: 700;
     line-height: 90%;
     margin-top: 20px;
-    font-family: Bodoni;
-  /* font-family: Montserrat Light; */
+    font-family: Montserrat Light;
 }
 
 .awards-details .row .h+.p {
@@ -316,8 +314,7 @@ body.loading:after {
     font-size: 34px;
     font-weight: 700;
     line-height: 125%;
-    font-family: Bodoni;
-  /* font-family: Montserrat Light; */
+    font-family: Montserrat Light;
     color: white;
 }
 
@@ -593,8 +590,7 @@ body.loading:after {
     font-size: 24px;
     color: #1F2122;
     font-weight: 700;
-    font-family: Bodoni
-  /* font-family: Montserrat Light; */
+    font-family: Montserrat Light;
 }
 
 .post-text p {
@@ -3675,12 +3671,12 @@ a, button {
     line-height: 85%;
     font-feature-settings: 'pnum' on, 'lnum' on;
     pointer-events: none;
-    font-family: Montserrat;
+    font-family: Montserrat Light;
 }
 
 
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Light', sans-serif;
 }
 
 .screen1 h1 span.line,
