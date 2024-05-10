@@ -437,7 +437,8 @@ html[lang=it] .dec1::before {
   max-width: 520px;
   font-size: 18px;
   line-height: 170%;
-  font-family: Montserrat Medium;
+  font-family: Bodoni;
+  /* font-family: Montserrat Medium; */
 }
 
 .achivement-block .flex-row .col p:not(:last-of-type) {
@@ -508,7 +509,8 @@ html[lang=it] .dec1::before {
   text-align: center;
   font-size: 28px;
   font-weight: 700;
-  font-family: Montserrat Medium;
+  font-family: Bodoni;
+  /* font-family: Montserrat Medium; */
   position: relative;
   margin-top: -8px;
   padding-left: 8px;
