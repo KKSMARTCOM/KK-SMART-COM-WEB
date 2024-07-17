@@ -9,13 +9,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-	<link rel="preload"
-		href="https://fonts.googleapis.com/css2?family=Montserrat Light:wght@400;500;600;700&amp;display=swap"
+	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap"
 		as="style" onload="this.onload=null;this.rel='stylesheet'" />
-	<noscript>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat Light:wght@400;500;600;700&amp;display=swap"
+	<!-- <noscript>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap"
 			rel="stylesheet" type="text/css" />
-	</noscript>
+	</noscript> -->
 
 	<title>KK SMART COM</title>
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
@@ -79,9 +78,26 @@
 
 	</script>
 	<style>
-		body * {
-			font-family: Montserrat Light;
-			font-feature-settings: 'pnum' on, 'lnum' on;
+		body {
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		@font-face {
+			font-family: 'Montserrat';
+			src: url('wp-content/themes/kksmartcom/fonts/Montserrat-Regular.woff2') format('woff2'),
+				url('wp-content/themes/kksmartcom/fonts/Montserrat-Regular.woff') format('woff'),
+				url('wp-content/themes/kksmartcom/fonts/Montserrat-Regular.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Montserrat';
+			src: url('wp-content/themes/kksmartcom/fonts/Montserrat-Bold.woff2') format('woff2'),
+				url('wp-content/themes/kksmartcom/fonts/Montserrat-Bold.woff') format('woff'),
+				url('wp-content/themes/kksmartcom/fonts/Montserrat-Bold.ttf') format('truetype');
+			font-weight: bold;
+			font-style: normal;
 		}
 
 		.wrap {
