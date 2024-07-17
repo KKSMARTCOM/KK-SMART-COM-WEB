@@ -1,20 +1,2 @@
-# Convertir les fins de ligne LF en CRLF lors du checkout
 * text=auto
-
-# Assurer que les fichiers source spécifiques utilisent des fins de ligne LF
-*.sh text eol=CRLF
-*.yml text eol=CRLF
-*.yaml text eol=CRLF
-*.md text eol=CRLF
-
-# Assurer que les fichiers CSS utilisent des fins de ligne LF
-*.css text eol=CRLF
-
-# Assurer que les fichiers JS utilisent des fins de ligne LF
-*.js text eol=CRLF
-
-# Assurer que les fichiers HTML utilisent des fins de ligne LF
-*.html text eol=CRLF
-
-# Assurer que les fichiers JSON utilisent des fins de ligne LF
-*.json text eol=CRLF
+*.css text eol=lf
