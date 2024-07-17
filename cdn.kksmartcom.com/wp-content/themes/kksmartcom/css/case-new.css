@@ -154,8 +154,8 @@
   font-weight: 700;
   font-size: 34px;
   line-height: 125%;
-  /* /* font-feature-settings: "pnum" on, "lnum" on; */ */
-  color: #1F2122;
+  /* /* font-feature-settings: "pnum" on, "lnum" on; */
+  /* color: #1F2122; */
 }
 
 .awards-lines:not(:first-of-type) {
