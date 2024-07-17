@@ -1,2 +1,20 @@
-# Auto detect text files and perform LF normalization
+# Convertir les fins de ligne LF en CRLF lors du checkout
 * text=auto
+
+# Assurer que les fichiers source spécifiques utilisent des fins de ligne LF
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+
+# Assurer que les fichiers CSS utilisent des fins de ligne LF
+*.css text eol=lf
+
+# Assurer que les fichiers JS utilisent des fins de ligne LF
+*.js text eol=lf
+
+# Assurer que les fichiers HTML utilisent des fins de ligne LF
+*.html text eol=lf
+
+# Assurer que les fichiers JSON utilisent des fins de ligne LF
+*.json text eol=lf
