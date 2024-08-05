@@ -1681,7 +1681,7 @@
     <!-- end header -->
 
     <div class="screen2 white-background section is_view"
-        style="margin-top:20px; gap:80px; display: flex; flex-direction:column; justify-content:center; align-items:center;">
+        style="height:100%; gap:30px; display: flex; flex-direction:column; justify-content:center; align-items:center;">
 
         <div style="height: 100px; width:100px; overflow:hidden">
             <img src="/kksmartcom.com/wp-content/themes/kksmartcom/img/calendar.png" alt="calendrier"
@@ -1693,13 +1693,110 @@
             <p>For your appointment! Please visit our website for more information about the company.
             </p>
             <p><a href="indexen.html"
-                    class="main-btn arrow"><span><svg fill="none" height="10" viewBox="0 0 9 10" width="9"
+                    class="main-btn arrow" style="height: 60px; width:160px; border-radius:50px; font-size:20px" ><span><svg fill="none" height="10" viewBox="0 0 9 10" width="9"
                             xmlns="https://www.w3.org/2000/svg">
                             <path clip-rule="evenodd"
                                 d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
                                 fill="#fffefd" fill-rule="evenodd" />
                         </svg>Visit</span></a></p>
         </div>
+    </div>
+
+    <!-- contact form -->
+    <div class="contacts-screen1 main_contacs_screen black-background section is_view na6 special" id="contact-form">
+        <div class="wrap view fadein"> <br>
+            <div class="flex-row centered">
+                <div class="left">
+                    <div class="top-block">
+                        <div class="section-subheading view textslide">Have an idea?</div>
+                        <div>
+                            <h1 class="section-heading">Drop us a line !</h1>
+                        </div>
+                        <div class="socs-wrap view textslide cwfl">
+                            <a href="mailto:hello@kksmartcom.com"
+                                class="line-animation email">hello@kksmartcom.com<!--<img src="https://kksmartcom.com/wp-content/themes/kksmartcom/img/45degarrow.svg" alt="">--></a>
+                            <img src="wp-content/themes/kksmartcom/img/copy.svg" data-text="hello@kksmartcom.com"
+                                class="email_to_copy2 copyme" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="socs-wrap view textslide">
+                        <div class="to-copy-email">
+                            <a href="mailto:hello@kksmartcom.com"
+                                class="line-animation email">hello@kksmartcom.com<!--<img src="https://kksmartcom.com/wp-content/themes/kksmartcom/img/45degarrow.svg" alt="">--></a>
+                            <img src="wp-content/themes/kksmartcom/img/copy.svg" data-text="hello@kksmartcom.com"
+                                class="email_to_copy pc-visible copyme" alt="">
+                        </div>
+    
+                        <div class="socs view textslide">
+                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://wa.me/22956141438"
+                                class="whatsapp wide"><img width="20" height="20" loading="lazy"
+                                    src="wp-content/themes/kksmartcom/img/s8.svg" alt=""> <span>Whatsapp</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+    
+    
+                    <form class="main_contact_form2" action="https://formspree.io/f/mkndvwgg" method="post">
+                        <div class="inps-wrap">
+                            <label for="inpname_2" class="inp-wrap view textslide active viewed">
+                                <input type="text" id="inpname_2" placeholder=" " name="Name" required="" autocomplete="off"
+                                    data-max-length="40" class="required max-length pattern" data-pattern="[A-Za-z]">
+                                <span>Your name<sup>*</sup></span>
+                            </label>
+                            <label for="inpemail_2" class="inp-wrap view textslide active viewed">
+                                <input type="email" id="inpemail_2" placeholder=" " name="Email" required=""
+                                    autocomplete="off" data-max-length="40" class="required max-length pattern"
+                                    data-pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                    data-message-error="Your Email is invalid">
+                                <span>Your email<sup>*</sup></span>
+                            </label>
+                        </div>
+    
+                        <label for="inptext_2" class="inp-wrap view textslide">
+                            <textarea placeholder=" " id="inptext_2" name="Message"
+                                data-message-error="Max length 1000 characters" class="max-length" data-max-length="1000"
+                                required></textarea>
+                            <span>Tell us about your project<sup>*</sup></span> <span class="counter" data-max="250">
+                                <b>0</b>/1000 </span> </label>
+    
+    
+                        <button type="submit" class="main-btn arrow white">
+                            <span>
+                                <svg fill="none" height="10" viewBox="0 0 9 10" width="9"
+                                    xmlns="https://www.w3.org/2000/svg">
+                                    <path clip-rule="evenodd"
+                                        d="m.455752.5h8.544248v8.54425h-1.28906v-6.34368l-6.799434 6.79943-.911506-.91151 6.79943-6.79943h-6.343678z"
+                                        fill="black" fill-rule="evenodd"></path>
+                                </svg>Submit
+                            </span>
+                        </button>
+                    </form>
+    
+    
+                    <script>
+                        document.getElementById("myForm").addEventListener("submit", function (event) {
+                            event.preventDefault();
+
+                            // Récupérer les valeurs des champs du formulaire
+                            var name = document.getElementById("name").value;
+                            var email = document.getElementById("email").value;
+                            var message = document.getElementById("message").value;
+
+                            // Générer le lien vers WhatsApp avec un message personnalisé
+                            var whatsappLink = "https://wa.me/22956141438?text=Bonjour,%20je%20suis%20" + name + ".%20Mon%20adresse%20e-mail%20est%20" + email + ".%20Voici%20mon%20message%20:%20" + message;
+
+                            // Rediriger vers le lien généré
+                            window.location.href = whatsappLink;
+                        });
+                    </script>
+    
+    
+                </div>
+            </div>
+        </div>
+    
     </div>
 
 
