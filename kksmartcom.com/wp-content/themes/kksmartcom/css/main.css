@@ -6455,7 +6455,7 @@ a.tag span {
     }
 
     .contacts-screen1 .flex-row .left .section-heading {
-        font-size: 56px;
+        font-size: 59px;
         margin-top: 0;
         margin-bottom: 0
     }
@@ -8143,7 +8143,7 @@ a.tag span {
 
 @media (max-width: 365px) {
     .section-heading {
-        font-size: 28px
+        font-size: 30px;
     }
 }
 
