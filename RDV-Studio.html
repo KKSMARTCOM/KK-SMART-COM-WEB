@@ -2374,15 +2374,15 @@
                 p(cal, ar);
               };
           })(window, "https://app.cal.com/embed/embed.js", "init");
-          Cal("init", "dg", { origin: "https://cal.com" });
+          Cal("init", "rdv-studio", { origin: "https://cal.com" });
 
-          Cal.ns.dg("inline", {
+          Cal.ns["rdv-studio"]("inline", {
             elementOrSelector: "#my-cal-inline",
-            calLink: "kksmartcom/dg",
-            layout: "month_view",
+            config: { layout: "month_view" },
+            calLink: "kksmartcom/rdv-studio",
           });
 
-          Cal.ns.dg("ui", {
+          Cal.ns["rdv-studio"]("ui", {
             theme: "light",
             styles: { branding: { brandColor: "#000000" } },
             hideEventTypeDetails: false,
